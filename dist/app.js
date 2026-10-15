@@ -53,6 +53,20 @@
   function contains(f,p){const g=f.geometry,ps=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];return ps.some(poly=>inRing(p,poly[0])&&!poly.slice(1).some(r=>inRing(p,r)));}
   function anchorsFor(l){if(anchors[l.id])return anchors[l.id];const f=featureById.get(l.id)?.[0];if(f?.properties.label)return f.properties.label;const land=lands.find(f=>idOf(f)===l.id);return land?d3.geoCentroid(land):null;}
   function addText(parent,text,x,y,size=16,attrs={}){return node(parent,'text',{x,y,'font-family':'Georgia, Times New Roman, serif','font-size':size,fill:'#203b40',...attrs},text);}
+  function legendShape(text,weight=400){
+    const shape=legendTitles.texts[text]?.[weight>=600?'bold':'regular'];
+    if(!shape)throw new Error(`Missing legend typography: ${text}`);
+    return shape;
+  }
+  function legendWidth(text,size){return legendShape(text).width*size/legendTitles.unitsPerEm;}
+  function legendText(parent,text,x,y,size=16,attrs={}){
+    const shape=legendShape(text,+attrs['font-weight']||400),scale=size/legendTitles.unitsPerEm;
+    const group=node(parent,'g',{'class':'legend-text','aria-label':text,'data-legend-text':text,'data-font':legendTitles.font,'data-font-size':size});
+    node(group,'title',{},text);
+    // Shaped font outlines retain accents and the chosen typeface in every export.
+    node(group,'path',{d:shape.path,transform:`translate(${x},${y}) scale(${scale},${-scale})`,fill:attrs.fill||'#203b40'});
+    return group;
+  }
   function legendShort(r){const names={'pie-winter':'Greek & Armenian','brythonic-ergh':'Brythonic','slavic-fall':'Romanian · Slavic loan','albanian-fall':'Albanian','iranian-wafra':'Iranian','ossetian-mit':'Ossetian','uralic-lome':'Finnic & Volgaic','uralic-kume':'Hungarian','sami-muotte':'Sámi','semitic-thalg':'Semitic','turkic-kar':'Turkic','kartvelian-tow':'Kartvelian','basque-erur':'Basque','berber-adfel':'Berber','nakh-lawa':'Nakh','norse-kaf':'Faroese','samoyedic-sira':'Nenets','avar-ghazu':'Avar','dargwa-dyahi':'Dargwa','lezgian-zhiv':'Lezgian','lak-markhhala':'Lak','circassian-wes':'Circassian','mongolic-casun':'Mongolic','greenlandic-aput':'Greenlandic'};return names[r.id]||r.label.replace(/ · snow.*$/,'');}
   function drawLegend(){
     legendLayer.selectAll('*').remove();
@@ -62,20 +76,15 @@
     const panelHeight=start+rows.length*rowHeight+35;
     legendLayer.attr('transform','translate(34,168)');
     node(legendLayer,'rect',{width:306,height:panelHeight,fill:'#fbfaf4','fill-opacity':.97,stroke:'#cfcfc1','stroke-width':.8});
-    const heading=legendTitles.titles[mode==='branch'?'branches':'etymology'];
-    const headingGroup=node(legendLayer,'g',{'class':'legend-heading','aria-label':heading.text});
-    node(headingGroup,'title',{},heading.text);
-    // Font outlines keep the blackletter title identical in the browser, PNG and SVG.
-    const headingScale=18/legendTitles.unitsPerEm;
-    node(headingGroup,'path',{d:heading.path,transform:`translate(17,32) scale(${headingScale},${-headingScale})`,fill:'#203b40'});
+    legendText(legendLayer,mode==='branch'?'Language branches':'Etymology',17,32,18,{'font-weight':700}).attr('class','legend-heading legend-text');
     if(mode!=='branch'){
-      addText(legendLayer,'*sneygʷʰ-',17,66,29);
-      addText(legendLayer,'Shared Proto-Indo-European root · “to snow”',18,87,11,{'font-family':'Arial, sans-serif',fill:'#63706b'});
+      legendText(legendLayer,'*sneygʷʰ-',17,66,29);
+      legendText(legendLayer,'Shared Proto-Indo-European root · “to snow”',18,87,11,{'font-family':'Arial, sans-serif',fill:'#63706b'});
       if(mode==='routes')routeDefs.forEach((r,i)=>legendRow(r,111+i*20,12.5,true));
       else legendRow({id:'pie-snow',form:'',label:'Shared snow-root descendants',color:rootColors['pie-snow']},106,12.5,true);
     }
     let y=start;
-    if(mode!=='branch'){node(legendLayer,'line',{x1:17,x2:289,y1:y-7,y2:y-7,stroke:'#d3d7ca','stroke-width':.7});addText(legendLayer,'OTHER WORD-ORIGIN SETS',17,y+10,9,{'font-family':'Arial, sans-serif','letter-spacing':1.1,'font-weight':700,fill:'#6b786e'});y+=27;}
+    if(mode!=='branch'){node(legendLayer,'line',{x1:17,x2:289,y1:y-7,y2:y-7,stroke:'#d3d7ca','stroke-width':.7});legendText(legendLayer,'OTHER WORD-ORIGIN SETS',17,y+10,9,{'font-family':'Arial, sans-serif','letter-spacing':1.1,'font-weight':700,fill:'#6b786e'});y+=27;}
     rows.forEach((r,i)=>legendRow(r,y+i*rowHeight,12.5,false));
     function legendRow(r,y,font,routeRow){
       const g=node(legendLayer,'g',{'class':'poster-legend-row',transform:`translate(17,${y})`,'data-key':r.id,role:'button',tabindex:0,'aria-label':`Highlight ${r.label}`});
@@ -86,8 +95,8 @@
       const withGloss=r.gloss?`${base} · “${r.gloss}”`:base;
       // Keep the original panel, row count, line spacing and type size. Never wrap a legend entry.
       const concise=r.id==='pie-winter'?`${base} · “winter”`:base;
-      const label=textWidth(withGloss,font)<=253?withGloss:textWidth(concise,font)<=253?concise:base;
-      addText(g,label,19,2,font,{'font-family':'Georgia, Times New Roman, serif'});
+      const label=legendWidth(withGloss,font)<=253?withGloss:legendWidth(concise,font)<=253?concise:base;
+      legendText(g,label,19,2,font,{'font-family':'Georgia, Times New Roman, serif'});
       node(g,'title',{},r.gloss?`${base}: ${r.gloss}`:base);
       g.on('click',()=>{focused=focused===r.id?null:r.id;drawLegend();paint();}).on('keydown',e=>{if(e.key==='Enter'){focused=focused===r.id?null:r.id;drawLegend();paint();}});
     }
@@ -180,7 +189,7 @@
   function status(){return `${languages.length} words · flat landscape · continuous land colour · PNG or editable SVG`;}
   async function init(){
     if(!window.d3)throw new Error('Local map library missing.');
-    [lex,metadata,coverage,lands,features,legendTitles]=await Promise.all(['data/lexicon.json','data/geometry-sources.json','data/map-coverage.json','data/land-reference.geojson','data/territories.geojson','vendor/legend-titles.json'].map(async name=>{const r=await fetch(`./${name}`);if(!r.ok)throw new Error(`Cannot load ${name}`);return r.json();}));
+    [lex,metadata,coverage,lands,features,legendTitles]=await Promise.all(['data/lexicon.json','data/geometry-sources.json','data/map-coverage.json','data/land-reference.geojson','data/territories.geojson','vendor/legend-font.json'].map(async name=>{const r=await fetch(`./${name}`);if(!r.ok)throw new Error(`Cannot load ${name}`);return r.json();}));
     languages=lex.languages;byId=new Map(languages.map(l=>[l.id,l]));byRoot=new Map(lex.roots.map(r=>[r.id,r]));
     lands=lands.features.map(normalize);features=features.features.filter(f=>byId.has(idOf(f))).map(normalize);
     features.forEach(f=>{const id=idOf(f);if(!featureById.has(id))featureById.set(id,[]);featureById.get(id).push(f);});
