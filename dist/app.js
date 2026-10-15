@@ -11,15 +11,15 @@
   const anchors={
     eng:[-1.2,52.4],sco:[-2.8,56.4],deu:[10.4,51.2],nld:[5.2,52.1],fry:[5.5,53.25],ltz:[6.1,49.8],dan:[10,56.1],swe:[16,62],nor:[8,63],isl:[-19,65],fao:[-6.9,62.1],
     spa:[-3.7,39.2],por:[-8,39.4],glg:[-7.6,42.8],cat:[1.4,41.6],oci:[2.8,44.3],fra:[2.1,47.7],ita:[12.5,42.4],ron:[25,45.7],scn:[14.2,37.5],srd:[9,40.1],vec:[12.1,45.6],fur:[13.1,46.2],roh:[9.5,46.7],ast:[-5.8,43.3],arg:[-.1,42.6],
-    rus:[40,61.6],ukr:[31,49],bel:[28.4,53.4],pol:[19.1,52],ces:[15.3,49.9],slk:[19.5,48.7],slv:[14.7,46.1],hbs:[18.7,44.3],bul:[25.2,42.7],mkd:[21.7,41.6],hsb:[14.4,51.3],dsb:[14.2,51.8],csb:[18,54.2],lit:[24,55.2],lav:[25,57],
-    gle:[-8.4,53.5],gla:[-5.6,57.8],cym:[-3.8,52.3],bre:[-3.5,48.2],glv:[-4.53,54.2],cor:[-4.9,50.3],ell:[23.2,38.9],hye:[44.9,40.3],sqi:[20,41.4],pes:[55,32.1],kmr:[42,37.7],oss:[44.2,42.9],
+    rus:[40,61.6],ukr:[31,49],bel:[28.4,53.4],pol:[19.1,52],ces:[15.3,49.9],slk:[19.5,48.7],slv:[14.7,46.1],hbs:[18.7,44.3],bul:[25.2,42.7],mkd:[22.2,41.6],hsb:[14.4,51.3],dsb:[14.2,51.8],csb:[18,54.2],lit:[24,55.2],lav:[25,57],
+    gle:[-8.4,53.5],gla:[-5.6,57.8],cym:[-3.8,52.3],bre:[-3.5,48.2],glv:[-4.53,54.2],cor:[-4.9,50.3],ell:[23.2,38.9],hye:[44.9,40.3],sqi:[19.7,41.2],pes:[55,32.1],kmr:[42,37.7],oss:[44.2,42.9],
     hun:[19.5,47.2],fin:[26,64.6],est:[25.5,58.7],sme:[23.5,69],krl:[32,64.9],vep:[34.9,61.2],mhr:[48.1,56.6],udm:[53,57.4],eus:[-1.8,43.05],
     arb:[8.8,28.9],apc:[37.3,34.7],acm:[44.1,32.6],heb:[35.1,31.7],mlt:[14.4,35.9],aeb:[9.4,34.3],arz:[29.8,27.9],tur:[33.4,39],aze:[48.2,40.3],kaz:[61,48.5],tat:[49.5,55.1],bak:[56.3,54.3],crh:[34.1,45.2],kir:[73,41.5],uzb:[64.5,40.8],
     kat:[43.1,42.1],kab:[4.8,36.4],tzm:[-4.3,32.8],shi:[-8.5,30.1],che:[45.6,43.25],tuk:[59.3,39.2],kpv:[53,64.9],yrk:[59,69],ava:[46.55,42.55],dar:[47.45,42.4],lez:[48.1,41.65],lbe:[47.05,42.05],inh:[45.05,43.15],kbd:[43.7,43.7],ady:[39.7,44.8],krc:[42.1,43.6],kum:[47.4,43.1],xal:[45.6,46.4],bal:[61,27.8],lrc:[48.6,33.5],luz:[51.1,30.9],bqi:[49.8,32.1],ckb:[45.6,35.6],kal:[-24.5,72.3]
   };
-  const offsets={eus:[-43,-5],por:[-11,0],glg:[-29,-14],ast:[-8,-32],arg:[5,-23],cat:[9,9],oci:[2,-8],bre:[-18,-3],cym:[-31,2],cor:[-28,18],gla:[-20,-2],glv:[-43,0],fry:[-15,-24],nld:[-17,8],ltz:[-18,14],hsb:[12,-1],dsb:[16,-27],csb:[19,-9],roh:[-21,6],vec:[-2,14],fur:[21,-8],slv:[15,15],sqi:[-7,14],mlt:[-13,19],heb:[-20,1],kat:[-11,-8],hye:[6,10],aze:[25,5],oss:[-9,-15],che:[18,-15],inh:[-20,-27],kbd:[-17,-34],krc:[-30,-17],ava:[29,-15],dar:[52,0],lbe:[11,26],lez:[42,21],kum:[51,-30],ady:[-31,-8]};
+  const offsets={eus:[-43,-5],por:[-11,0],glg:[-29,-14],ast:[-8,-32],arg:[5,-23],cat:[9,9],oci:[2,-8],bre:[-18,-3],cym:[-31,2],cor:[-28,18],gla:[-20,-2],glv:[-43,0],fry:[-15,-24],nld:[-17,8],ltz:[-18,14],hsb:[12,-1],dsb:[16,-27],csb:[19,-9],roh:[-21,6],vec:[-2,14],fur:[21,-8],slv:[0,-2],hbs:[0,5],sqi:[-7,10],mkd:[4,11],mlt:[-13,19],heb:[-20,1],kat:[-11,-8],hye:[6,10],aze:[25,5],oss:[-9,-15],che:[18,-15],inh:[-20,-27],kbd:[-17,-34],krc:[-30,-17],ava:[29,-15],dar:[52,0],lbe:[11,26],lez:[42,21],kum:[51,-30],ady:[-31,-8]};
   const important=['eng','spa','fra','deu','ita','rus','ukr','pol','fin','swe','nor','tur','kaz','pes','arb','arz','tuk','kpv','yrk','cat','oci','eus','hun','ron','ell','hye','kat','bal','kmr','kal'];
-  const localSizes={kat:20,hye:22,aze:20,oss:16,che:18,ava:16,dar:16,lez:18,lbe:15,inh:16,kbd:16,ady:16,krc:18,kum:17};
+  const localSizes={sqi:18,mkd:17,kat:20,hye:22,aze:20,oss:16,che:18,ava:16,dar:16,lez:18,lbe:15,inh:16,kbd:16,ady:16,krc:18,kum:17};
   const routeDefs=[
     {id:'snow-germanic',form:'*snaiwaz',label:'Germanic',color:'#96c8d4',example:'snow',gloss:'snow'},
     {id:'snow-latin',form:'nix · nivem',label:'Latin → Romance',color:'#e7b39f',example:'nieve'},
@@ -32,7 +32,13 @@
   let lex,metadata,coverage,lands,features,languages,byId,byRoot,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
   let mode='routes',opacity=.90,labelScale=1,selected=null,search='',focused=null,exportBusy=false;
   const featureById=new Map(), labelPoints=new Map();
-  function branch(l){const s=`${l.branch||''} ${l.family||''}`;return Object.keys(branchColors).find(k=>s.toLowerCase().includes(k.toLowerCase()))||l.branch||l.family;}
+  function branch(l){
+    // Prefer an exact, specific branch: "Balto-Slavic · Baltic" belongs to Baltic.
+    const names=Object.keys(branchColors),parts=(l.branch||'').split('·').map(s=>s.trim()).reverse();
+    const exact=parts.map(p=>names.find(k=>k.toLowerCase()===p.toLowerCase())).find(Boolean);
+    const s=`${l.branch||''} ${l.family||''}`.toLowerCase();
+    return exact||names.find(k=>s.includes(k.toLowerCase()))||l.branch||l.family;
+  }
   function root(l){return byRoot.get(l.root)||{id:l.root,label:l.root,form:'',color:'#c5c6bf',description:'No deeper relationship is asserted.'};}
   function route(l){
     if(l.root!=='pie-snow')return root(l).id;
@@ -89,7 +95,9 @@
     if(!$('labels-toggle').checked)return;
     const legendHeight=+legendLayer.attr('data-height')||800;
     const occupied=[[22,150,348,168+legendHeight+12],[30,17,470,143],[22,1041,1775,1090]];
-    const rank=id=>important.includes(id)?important.indexOf(id):100;
+    // Reserve the narrow Balkan placements before the automatic collision pass.
+    const balkanOrder=['slv','hbs','sqi','mkd'];
+    const rank=id=>balkanOrder.includes(id)?balkanOrder.indexOf(id)-10:important.includes(id)?important.indexOf(id):100;
     const list=languages.filter(l=>anchorsFor(l)).sort((a,b)=>rank(a.id)-rank(b.id));
     const candidates=[[0,0],[0,-20],[0,20],[-22,0],[22,0],[-29,-22],[29,-22],[-29,22],[29,22],[0,-40],[0,40],[-48,-15],[48,-15],[-48,20],[48,20],[-65,-30],[65,-30],[-65,30],[65,30],[0,-60],[0,60],[-80,0],[80,0],[-80,-50],[80,-50],[-80,50],[80,50],[0,-90],[0,90],[-105,0],[105,0]];
     for(const l of list){
