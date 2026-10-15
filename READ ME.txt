@@ -1,0 +1,67 @@
+SNOW — A WORD ATLAS
+
+Double-click "Open Snow Atlas.cmd" to open the interactive atlas.
+Node.js is required. There is no npm install or build step.
+The local server listens only on your computer (127.0.0.1).
+Keep its window open while using the atlas; close it to stop.
+
+EXPLORE
+- Click a word or language area to inspect its ancestry and source links.
+- Search by language, native word, transcription or ISO language ID.
+- Use the language dropdown to reach small areas and lexicon-only entries.
+- Scroll to zoom; drag to pan; use reset view to see the full region.
+- Toggle word labels, country outlines, and overlapping fills.
+- Click an origin set in the legend to focus it. Click again to clear.
+- Switch to language branches to compare family relationships.
+- Play the guided journey for the PIE, Germanic, Latin and other routes.
+- Use the download button to save the current map as an editable SVG.
+
+WHAT IS INCLUDED
+80 selected lexical entries and 17 word-origin sets, with modern forms,
+selected historical stages, reconstruction notes and dictionary links.
+Coverage focuses on Europe, North Africa, the Caucasus and western Central
+Asia. Some languages have lexical entries without a matching polygon.
+Languages and synonyms are selected, not exhaustive.
+
+GEOGRAPHY AND HONEST LIMITS
+Language areas come from published, digitized language atlases through
+Glottography. They cross country borders and retain available disjoint
+enclaves. They are generalized source-era footprints, not a 2026 language
+census. They omit some small communities and multilingual cities.
+Overlap does not measure speaker proportions. A filled area is not a claim
+of exclusive use, political sovereignty, or uniform language use.
+Neutral areas have no mapped lexical match; they are not uninhabited.
+Arabic has a standard-reference lexical form over mapped Arabic varieties,
+with separate vernacular entries where supplied. See each entry's notes.
+
+WORD HISTORY
+Colour means a shared word-origin set, not merely a shared language family.
+Greek and Armenian have a different PIE snow/winter root from English snow.
+Romanian zapada (zăpadă) is of Slavic origin; the alternative nea follows
+the Latin snow line. Hungarian ho (hó) and Finnish lumi belong to different
+Uralic word sets. Faroese kavi is separate from poetic snjogvur (snjógvur).
+An asterisk marks a reconstructed form. Routes are schematic and omit some
+stages; they do not represent dated human migrations. Some deeper origins
+remain unresolved. The material is an attributed educational compilation.
+
+EDITING AND REUSE
+dist/data/lexicon.json: words, ancestry chains, roots, notes and references.
+dist/data/territories.geojson: language polygons and source-specific notes.
+dist/data/geometry-sources.json: provenance, licenses and transformations.
+dist/data/countries.geojson: Natural Earth context geometry.
+dist/app.js and styles.css: interactive map logic and appearance.
+
+All libraries and map files are local. Internet access is needed only to
+follow dictionary and provenance links, or to use the hosted edition.
+
+ATTRIBUTION
+Main language atlas: Asher, R. E. & Christopher J. Moseley (eds.). 2007.
+Atlas of the World's Languages, second edition. Routledge.
+Digitized and distributed by The Glottography Consortium, CC BY 4.0:
+https://github.com/glottography/asher2007world
+Supplementary area sources are named in geometry-sources.json.
+Geography: Natural Earth 1:50m countries, public domain.
+https://www.naturalearthdata.com/about/terms-of-use/
+Lexical sources: individually linked in lexicon.json; primarily Wiktionary
+(CC BY-SA 4.0) plus linked dictionaries. Consult source revision histories.
+Visualization: D3 7.9.0, ISC license (dist/vendor/D3-LICENSE.txt).

@@ -1,0 +1,3969 @@
+{
+  "roots": [
+    {
+      "id": "pie-snow",
+      "label": "PIE · to snow",
+      "form": "*sneygʷʰ-",
+      "color": "#4c8da5",
+      "description": "English snow, Latin nix and the Baltic, Slavic and Goidelic words descend from formations of this reconstructed root. An asterisk marks an unattested reconstruction; spellings vary between reference works.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "pie-winter",
+      "label": "PIE · snow / winter",
+      "form": "*ǵʰéyōm",
+      "color": "#a99acb",
+      "description": "Greek and Armenian preserve a different Indo-European snow/winter word, distinct from *sneygʷʰ-.",
+      "sources": [
+        {
+          "title": "Wiktionary: χιόνι (Greek)",
+          "url": "https://en.wiktionary.org/wiki/%CF%87%CE%B9%CF%8C%CE%BD%CE%B9#Greek"
+        },
+        {
+          "title": "Wiktionary: ձիւն (Old Armenian)",
+          "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian"
+        }
+      ]
+    },
+    {
+      "id": "brythonic-ergh",
+      "label": "Brythonic · snow",
+      "form": "*ėrɣ",
+      "color": "#8fae74",
+      "description": "Welsh, Breton and Cornish share this Brythonic word. Its deeper origin is disputed; proposed connections to 'white' or 'scatter' are not treated as established.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Brythonic%2F%C4%97r%C9%A3"
+        }
+      ]
+    },
+    {
+      "id": "slavic-fall",
+      "label": "Slavic · fall",
+      "form": "западати",
+      "color": "#c49b69",
+      "description": "Romanian zăpadă is a back-formation from a verb borrowed from Old Church Slavonic 'to fall'; it is not a reflex of the PIE snow root.",
+      "sources": [
+        {
+          "title": "Wiktionary: zăpadă (Romanian)",
+          "url": "https://en.wiktionary.org/wiki/z%C4%83pad%C4%83#Romanian"
+        }
+      ]
+    },
+    {
+      "id": "albanian-fall",
+      "label": "Albanian · falling",
+      "form": "*diš-bērā / *diš-bārā",
+      "color": "#b48085",
+      "description": "Albanian borë comes from a prefixed derivative of the verb 'fall'. The exact Proto-Albanian reconstruction has variants.",
+      "sources": [
+        {
+          "title": "Wiktionary: borë (Albanian)",
+          "url": "https://en.wiktionary.org/wiki/bor%C3%AB#Albanian"
+        }
+      ]
+    },
+    {
+      "id": "iranian-wafra",
+      "label": "Iranian · snow",
+      "form": "*wafrah",
+      "color": "#c28d59",
+      "description": "Persian barf and Northern Kurdish berf continue Iranian *wafrah, traced to Indo-Iranian *wapras. A deeper PIE connection is not asserted here.",
+      "sources": [
+        {
+          "title": "Wiktionary: برف (Persian)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%81#Persian"
+        },
+        {
+          "title": "Wiktionary: berf (Northern Kurdish)",
+          "url": "https://en.wiktionary.org/wiki/berf#Northern_Kurdish"
+        }
+      ]
+    },
+    {
+      "id": "ossetian-mit",
+      "label": "Ossetian · snow",
+      "form": "мит",
+      "color": "#a2a1a9",
+      "description": "The word is attested; its deeper history is not established in this atlas. This color indicates a separate unresolved set, not a proposed proto-language.",
+      "sources": [
+        {
+          "title": "Wiktionary: мит (Ossetian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D1%82#Ossetian"
+        }
+      ]
+    },
+    {
+      "id": "uralic-lome",
+      "label": "Uralic · snow",
+      "form": "*lome",
+      "color": "#799d83",
+      "description": "Finnic lumi and the Mari and Udmurt forms continue the Uralic *lome set.",
+      "sources": [
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "uralic-kume",
+      "label": "Uralic · snow",
+      "form": "*kume",
+      "color": "#c6ad62",
+      "description": "Hungarian hó belongs to the *kume set. It is a different Uralic snow word from Finnish lumi.",
+      "sources": [
+        {
+          "title": "Wiktionary: hó (Hungarian)",
+          "url": "https://en.wiktionary.org/wiki/h%C3%B3#Hungarian"
+        }
+      ]
+    },
+    {
+      "id": "sami-muotte",
+      "label": "Sámi · snow",
+      "form": "*muottëk",
+      "color": "#7fb7b2",
+      "description": "Northern Sámi muohta continues Proto-Sámi *muottëk. The atlas stops at this reconstruction and does not link it to Finnic lumi.",
+      "sources": [
+        {
+          "title": "Wiktionary: muohta (Northern Sami)",
+          "url": "https://en.wiktionary.org/wiki/muohta#Northern_Sami"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Sami/muottëk",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Sami%2Fmuott%C3%ABk"
+        }
+      ]
+    },
+    {
+      "id": "semitic-thalg",
+      "label": "Semitic · snow",
+      "form": "*ṯalg-",
+      "color": "#c28b72",
+      "description": "Arabic, Hebrew and Maltese show the Semitic snow set. Maltese silġ also means ice and hail.",
+      "sources": [
+        {
+          "title": "Wiktionary: ثلج (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        },
+        {
+          "title": "Wiktionary: שלג (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew"
+        },
+        {
+          "title": "Wiktionary: silġ (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
+        }
+      ]
+    },
+    {
+      "id": "turkic-kar",
+      "label": "Turkic · snow",
+      "form": "*kār",
+      "color": "#c0aa7c",
+      "description": "Turkish kar, Kazakh қар and their relatives continue a Proto-Turkic snow word. No Indo-European relationship is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "kartvelian-tow",
+      "label": "Kartvelian · snow",
+      "form": "*tow-",
+      "color": "#b07a9b",
+      "description": "Georgian თოვლი continues a Kartvelian snow stem. The chain is independent of the Indo-European snow root.",
+      "sources": [
+        {
+          "title": "Wiktionary: თოვლი (Georgian)",
+          "url": "https://en.wiktionary.org/wiki/%E1%83%97%E1%83%9D%E1%83%95%E1%83%9A%E1%83%98#Georgian"
+        }
+      ]
+    },
+    {
+      "id": "basque-erur",
+      "label": "Basque · snow",
+      "form": "*eruR",
+      "color": "#b0765d",
+      "description": "Basque elur continues reconstructed Proto-Basque *eruR. R is a conventional reconstruction symbol. No Indo-European connection is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: elur (Basque)",
+          "url": "https://en.wiktionary.org/wiki/elur#Basque"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Basque/eruR",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Basque%2FeruR"
+        }
+      ]
+    },
+    {
+      "id": "berber-adfel",
+      "label": "Berber · snow",
+      "form": "adfel / adfl",
+      "color": "#d0a565",
+      "description": "Related snow words occur in several Berber languages. These are modern forms; no exact Proto-Berber form is reconstructed here.",
+      "sources": [
+        {
+          "title": "Wiktionary: adfl (Tashelhit)",
+          "url": "https://en.wiktionary.org/wiki/adfl#Tashelhit"
+        },
+        {
+          "title": "Dallet's Kabyle–French dictionary: adfel",
+          "url": "https://www.dictionnaire-kabyle.com/adfel.html"
+        },
+        {
+          "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)",
+          "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B4%B7%E2%B4%BC%E2%B5%8D#Central_Atlas_Tamazight"
+        }
+      ]
+    },
+    {
+      "id": "nakh-lawa",
+      "label": "Nakh · snow",
+      "form": "*lawa",
+      "color": "#a39b80",
+      "description": "Chechen ло continues a Nakh snow word. No relationship with the other displayed sets is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: ло (Chechen)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE#Chechen"
+        }
+      ]
+    },
+    {
+      "id": "norse-kaf",
+      "label": "Norse: snowdrift / submerge",
+      "form": "kaf / kafa",
+      "color": "#9b9680",
+      "description": "Faroese kavi has a separate Norse history from the poetic snjógvur. Its precise derivation is uncertain; the cited lexical source connects it with kaf (snowdrift / submersion) or kafa (submerge). A deeper proto-root is not asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: kavi (Faroese)",
+          "url": "https://en.wiktionary.org/wiki/kavi#Faroese"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "id": "eng",
+      "name": "English",
+      "native": "English",
+      "word": "snow",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "*snaiw",
+          "label": "Proto-West Germanic"
+        },
+        {
+          "form": "snāw",
+          "label": "Old English"
+        },
+        {
+          "form": "snow",
+          "label": "Middle English"
+        },
+        {
+          "form": "snow",
+          "label": "English"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: snow (English)",
+          "url": "https://en.wiktionary.org/wiki/snow#English"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "sco",
+      "name": "Scots",
+      "native": "Scots",
+      "word": "snaw",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "*snaiw",
+          "label": "Proto-West Germanic"
+        },
+        {
+          "form": "snāw",
+          "label": "Old English"
+        },
+        {
+          "form": "snaw",
+          "label": "Middle English"
+        },
+        {
+          "form": "snaw",
+          "label": "Scots"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: snaw (Scots)",
+          "url": "https://en.wiktionary.org/wiki/snaw#Scots"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "deu",
+      "name": "German",
+      "native": "Deutsch",
+      "word": "Schnee",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "*snaiw",
+          "label": "Proto-West Germanic"
+        },
+        {
+          "form": "snēo",
+          "label": "Old High German"
+        },
+        {
+          "form": "snē",
+          "label": "Middle High German"
+        },
+        {
+          "form": "Schnee",
+          "label": "German"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: Schnee (German)",
+          "url": "https://en.wiktionary.org/wiki/Schnee#German"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "nld",
+      "name": "Dutch",
+      "native": "Nederlands",
+      "word": "sneeuw",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "*snaiw",
+          "label": "Proto-West Germanic"
+        },
+        {
+          "form": "snēo",
+          "label": "Old Dutch"
+        },
+        {
+          "form": "snêe",
+          "label": "Middle Dutch"
+        },
+        {
+          "form": "sneeuw",
+          "label": "Dutch"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sneeuw (Dutch)",
+          "url": "https://en.wiktionary.org/wiki/sneeuw#Dutch"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "fry",
+      "name": "West Frisian",
+      "native": "Frysk",
+      "word": "snie",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "*snaiw",
+          "label": "Proto-West Germanic"
+        },
+        {
+          "form": "snē",
+          "label": "Old Frisian"
+        },
+        {
+          "form": "snie",
+          "label": "West Frisian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: snie (West Frisian)",
+          "url": "https://en.wiktionary.org/wiki/snie#West_Frisian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "ltz",
+      "name": "Luxembourgish",
+      "native": "Lëtzebuergesch",
+      "word": "Schnéi",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "*snaiw",
+          "label": "Proto-West Germanic"
+        },
+        {
+          "form": "snēo",
+          "label": "Old High German"
+        },
+        {
+          "form": "snē",
+          "label": "Middle High German"
+        },
+        {
+          "form": "Schnéi",
+          "label": "Luxembourgish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: Schnéi (Luxembourgish)",
+          "url": "https://en.wiktionary.org/wiki/Schn%C3%A9i#Luxembourgish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "dan",
+      "name": "Danish",
+      "native": "Dansk",
+      "word": "sne",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "snjór / snær",
+          "label": "Old Norse"
+        },
+        {
+          "form": "sniō",
+          "label": "Old Danish"
+        },
+        {
+          "form": "sne",
+          "label": "Danish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sne (Danish)",
+          "url": "https://en.wiktionary.org/wiki/sne#Danish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "swe",
+      "name": "Swedish",
+      "native": "Svenska",
+      "word": "snö",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "snjór / snær",
+          "label": "Old Norse"
+        },
+        {
+          "form": "sniōr",
+          "label": "Old Swedish"
+        },
+        {
+          "form": "snö",
+          "label": "Swedish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: snö (Swedish)",
+          "url": "https://en.wiktionary.org/wiki/sn%C3%B6#Swedish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "nor",
+      "name": "Norwegian",
+      "native": "Norsk",
+      "word": "snø",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "snjór / snær",
+          "label": "Old Norse"
+        },
+        {
+          "form": "snø",
+          "label": "Norwegian"
+        }
+      ],
+      "notes": "The displayed form is shared by modern Bokmål and Nynorsk; the atlas does not divide these writing standards.",
+      "sources": [
+        {
+          "title": "Wiktionary: snø (Norwegian)",
+          "url": "https://en.wiktionary.org/wiki/sn%C3%B8#Norwegian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "isl",
+      "name": "Icelandic",
+      "native": "Íslenska",
+      "word": "snjór",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snaiwaz",
+          "label": "Proto-Germanic"
+        },
+        {
+          "form": "snjór / snær",
+          "label": "Old Norse"
+        },
+        {
+          "form": "snjór",
+          "label": "Icelandic"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: snjór (Icelandic)",
+          "url": "https://en.wiktionary.org/wiki/snj%C3%B3r#Icelandic"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "fao",
+      "name": "Faroese",
+      "native": "Føroyskt",
+      "word": "kavi",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "group": "pie",
+      "root": "norse-kaf",
+      "chain": [
+        {
+          "form": "kaf / kafa",
+          "label": "Old Norse: snowdrift / submerge"
+        },
+        {
+          "form": "kavi",
+          "label": "Faroese"
+        }
+      ],
+      "notes": "Kavi is the unmarked snow noun used here. The poetic / archaic alternative snjógvur belongs to the PIE snow set. Kavi has a separate Norse history: the consulted source connects it with kaf (snowdrift / submersion) or kafa (submerge). The exact derivation is uncertain, so no deeper proto-root is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: kavi (Faroese)",
+          "url": "https://en.wiktionary.org/wiki/kavi#Faroese"
+        },
+        {
+          "title": "Oyggjar English-Faroese lexicon: snow / kavi",
+          "url": "https://www.oyggjar.com/faroese.php"
+        },
+        {
+          "title": "Wiktionary: snjógvur (poetic / archaic)",
+          "url": "https://en.wiktionary.org/wiki/snj%C3%B3gvur#Faroese"
+        }
+      ],
+      "alternatives": [
+        {
+          "word": "snjógvur",
+          "root": "pie-snow",
+          "register": "poetic / archaic",
+          "chain": [
+            {
+              "form": "*sneygʷʰ-",
+              "label": "Proto-Indo-European root"
+            },
+            {
+              "form": "*snóygʷʰos",
+              "label": "Proto-Indo-European noun"
+            },
+            {
+              "form": "*snaiwaz",
+              "label": "Proto-Germanic"
+            },
+            {
+              "form": "snjór / snær",
+              "label": "Old Norse"
+            },
+            {
+              "form": "snjógvur",
+              "label": "Faroese"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Wiktionary: snjógvur (Faroese)",
+              "url": "https://en.wiktionary.org/wiki/snj%C3%B3gvur#Faroese"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa",
+      "name": "Spanish",
+      "native": "Español",
+      "word": "nieve",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "nieve",
+          "label": "Old Spanish"
+        },
+        {
+          "form": "nieve",
+          "label": "Spanish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Real Academia Espanola: nieve",
+          "url": "https://dle.rae.es/nieve"
+        },
+        {
+          "title": "Wiktionary: nieve (Spanish)",
+          "url": "https://en.wiktionary.org/wiki/nieve#Spanish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "por",
+      "name": "Portuguese",
+      "native": "Português",
+      "word": "neve",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "neve",
+          "label": "Old Galician-Portuguese"
+        },
+        {
+          "form": "neve",
+          "label": "Portuguese"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: neve (Portuguese)",
+          "url": "https://en.wiktionary.org/wiki/neve#Portuguese"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "glg",
+      "name": "Galician",
+      "native": "Galego",
+      "word": "neve",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "neve",
+          "label": "Old Galician-Portuguese"
+        },
+        {
+          "form": "neve",
+          "label": "Galician"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: neve (Galician)",
+          "url": "https://en.wiktionary.org/wiki/neve#Galician"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "cat",
+      "name": "Catalan",
+      "native": "Català",
+      "word": "neu",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "neu",
+          "label": "Catalan"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "IEC: Diccionari catala-valencia-balear, neu",
+          "url": "https://dcvb.iec.cat/results.asp?Id=99850&Word=neu&search=neu"
+        },
+        {
+          "title": "Wiktionary: neu (Catalan)",
+          "url": "https://en.wiktionary.org/wiki/neu#Catalan"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "oci",
+      "name": "Occitan",
+      "native": "Occitan",
+      "word": "nèu",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "nèu",
+          "label": "Occitan"
+        }
+      ],
+      "notes": "Regional variants include Aranese nhèu, Limousin neu and deverbal neja / nevia.",
+      "sources": [
+        {
+          "title": "Wiktionary: nèu (Occitan)",
+          "url": "https://en.wiktionary.org/wiki/n%C3%A8u#Occitan"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "ita",
+      "name": "Italian",
+      "native": "Italiano",
+      "word": "neve",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "neve",
+          "label": "Italian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: neve (Italian)",
+          "url": "https://en.wiktionary.org/wiki/neve#Italian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "scn",
+      "name": "Sicilian",
+      "native": "Sicilianu",
+      "word": "nivi",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "nivi",
+          "label": "Sicilian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: nivi (Sicilian)",
+          "url": "https://en.wiktionary.org/wiki/nivi#Sicilian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "srd",
+      "name": "Sardinian",
+      "native": "Sardu",
+      "word": "nibe",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "nibe",
+          "label": "Sardinian"
+        }
+      ],
+      "notes": "A Nuorese form; other Sardinian forms include Logudorese nie and Campidanese ni / nia.",
+      "sources": [
+        {
+          "title": "Wiktionary: nibe (Sardinian)",
+          "url": "https://en.wiktionary.org/wiki/nibe#Sardinian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "vec",
+      "name": "Venetian",
+      "native": "Vèneto",
+      "word": "neve",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "neve",
+          "label": "Venetian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: neve (Venetian)",
+          "url": "https://en.wiktionary.org/wiki/neve#Venetan"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "fur",
+      "name": "Friulian",
+      "native": "Furlan",
+      "word": "nêf",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "nêf",
+          "label": "Friulian"
+        }
+      ],
+      "notes": "Other forms include nêv.",
+      "sources": [
+        {
+          "title": "Wiktionary: nêf (Friulian)",
+          "url": "https://en.wiktionary.org/wiki/n%C3%AAf#Friulian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "roh",
+      "name": "Romansh",
+      "native": "Rumantsch",
+      "word": "naiv",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "naiv",
+          "label": "Romansh"
+        }
+      ],
+      "notes": "Regional forms include nev and neif.",
+      "sources": [
+        {
+          "title": "Wiktionary: naiv (Romansh)",
+          "url": "https://en.wiktionary.org/wiki/naiv#Romansh"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "ast",
+      "name": "Asturian",
+      "native": "Asturianu",
+      "word": "ñeve",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "ñeve",
+          "label": "Asturian"
+        }
+      ],
+      "notes": "Also nieve / neve; the displayed form does not represent every dialect.",
+      "sources": [
+        {
+          "title": "Wiktionary: ñeve (Asturian)",
+          "url": "https://en.wiktionary.org/wiki/%C3%B1eve#Asturian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "arg",
+      "name": "Aragonese",
+      "native": "Aragonés",
+      "word": "nieu",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nĕvem",
+          "label": "Vulgar Latin"
+        },
+        {
+          "form": "nieu",
+          "label": "Aragonese"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: nieu (Aragonese)",
+          "url": "https://en.wiktionary.org/wiki/nieu#Aragonese"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "fra",
+      "name": "French",
+      "native": "Français",
+      "word": "neige",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*sniks",
+          "label": "Proto-Italic"
+        },
+        {
+          "form": "nix · nivem",
+          "label": "Latin (nominative · accusative)"
+        },
+        {
+          "form": "*nivicāre",
+          "label": "Vulgar Latin verb"
+        },
+        {
+          "form": "negier",
+          "label": "Old French verb"
+        },
+        {
+          "form": "nege / naige",
+          "label": "Middle French noun"
+        },
+        {
+          "form": "neige",
+          "label": "French"
+        }
+      ],
+      "notes": "Neige is a noun formed from the verb neiger; it replaced the inherited noun noif. This is a schematic derivational chain, not a sound-by-sound chronology.",
+      "sources": [
+        {
+          "title": "Wiktionary: neige (French)",
+          "url": "https://en.wiktionary.org/wiki/neige#French"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "ron",
+      "name": "Romanian",
+      "native": "Română",
+      "word": "zăpadă",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "group": "pie",
+      "root": "slavic-fall",
+      "chain": [
+        {
+          "form": "западати",
+          "label": "Old Church Slavonic · 'to fall'"
+        },
+        {
+          "form": "zăpădi",
+          "label": "Romanian verb"
+        },
+        {
+          "form": "zăpadă",
+          "label": "Romanian"
+        }
+      ],
+      "notes": "A back-formation from a Slavic-derived verb. Romanian also has inherited nea, from Latin nix / nivem, which belongs to the PIE snow set.",
+      "sources": [
+        {
+          "title": "Wiktionary: zăpadă (Romanian)",
+          "url": "https://en.wiktionary.org/wiki/z%C4%83pad%C4%83#Romanian"
+        }
+      ]
+    },
+    {
+      "id": "rus",
+      "name": "Russian",
+      "native": "Русский",
+      "word": "снег",
+      "romanization": "sneg",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "снег",
+          "label": "Russian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: снег (Russian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D0%B5%D0%B3#Russian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "ukr",
+      "name": "Ukrainian",
+      "native": "Українська",
+      "word": "сніг",
+      "romanization": "snih",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "сніг",
+          "label": "Ukrainian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: сніг (Ukrainian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D1%96%D0%B3#Ukrainian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "bel",
+      "name": "Belarusian",
+      "native": "Беларуская",
+      "word": "снег",
+      "romanization": "snieh",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "снег",
+          "label": "Belarusian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: снег (Belarusian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D0%B5%D0%B3#Belarusian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "pol",
+      "name": "Polish",
+      "native": "Polski",
+      "word": "śnieg",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "śnieg",
+          "label": "Polish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: śnieg (Polish)",
+          "url": "https://en.wiktionary.org/wiki/%C5%9Bnieg#Polish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "ces",
+      "name": "Czech",
+      "native": "Čeština",
+      "word": "sníh",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "sníh",
+          "label": "Czech"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sníh (Czech)",
+          "url": "https://en.wiktionary.org/wiki/sn%C3%ADh#Czech"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "slk",
+      "name": "Slovak",
+      "native": "Slovenčina",
+      "word": "sneh",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "sneh",
+          "label": "Slovak"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sneh (Slovak)",
+          "url": "https://en.wiktionary.org/wiki/sneh#Slovak"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "slv",
+      "name": "Slovenian",
+      "native": "Slovenščina",
+      "word": "sneg",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "sneg",
+          "label": "Slovenian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sneg (Slovenian)",
+          "url": "https://en.wiktionary.org/wiki/sneg#Slovenian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "hbs",
+      "name": "Serbian–Croatian–Bosnian",
+      "native": "Srpski / hrvatski / bosanski",
+      "word": "snijeg / снег",
+      "romanization": "snijeg / sneg",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "snijeg / снег",
+          "label": "Serbian–Croatian–Bosnian"
+        }
+      ],
+      "notes": "The single source footprint combines closely related standards. Ijekavian snijeg (снијег), Ekavian sneg (снег), and Ikavian snig vary by dialect; these are not separate country-sized etymologies.",
+      "sources": [
+        {
+          "title": "Wiktionary: snijeg (Serbo-Croatian)",
+          "url": "https://en.wiktionary.org/wiki/snijeg#Serbo-Croatian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "bul",
+      "name": "Bulgarian",
+      "native": "Български",
+      "word": "сняг",
+      "romanization": "snyag",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "сняг",
+          "label": "Bulgarian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: сняг (Bulgarian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D1%8F%D0%B3#Bulgarian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "mkd",
+      "name": "Macedonian",
+      "native": "Македонски",
+      "word": "снег",
+      "romanization": "sneg",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "снег",
+          "label": "Macedonian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: снег (Macedonian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D0%B5%D0%B3#Macedonian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "hsb",
+      "name": "Upper Sorbian",
+      "native": "Hornjoserbšćina",
+      "word": "sněh",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "sněh",
+          "label": "Upper Sorbian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sněh (Upper Sorbian)",
+          "url": "https://en.wiktionary.org/wiki/sn%C4%9Bh#Upper_Sorbian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "dsb",
+      "name": "Lower Sorbian",
+      "native": "Dolnoserbšćina",
+      "word": "sněg",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "sněg",
+          "label": "Lower Sorbian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sněg (Lower Sorbian)",
+          "url": "https://en.wiktionary.org/wiki/sn%C4%9Bg#Lower_Sorbian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "csb",
+      "name": "Kashubian",
+      "native": "Kaszëbsczi",
+      "word": "sniég",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "*sně̑gъ",
+          "label": "Proto-Slavic"
+        },
+        {
+          "form": "sniég",
+          "label": "Kashubian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sniég (Kashubian)",
+          "url": "https://en.wiktionary.org/wiki/sni%C3%A9g#Kashubian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "lit",
+      "name": "Lithuanian",
+      "native": "Lietuvių",
+      "word": "sniegas",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Baltic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "sniegas",
+          "label": "Lithuanian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sniegas (Lithuanian)",
+          "url": "https://en.wiktionary.org/wiki/sniegas#Lithuanian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "lav",
+      "name": "Latvian",
+      "native": "Latviešu",
+      "word": "sniegs",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Baltic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snóygʷʰos",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "*snáigas",
+          "label": "Proto-Balto-Slavic"
+        },
+        {
+          "form": "sniegs",
+          "label": "Latvian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sniegs (Latvian)",
+          "url": "https://en.wiktionary.org/wiki/sniegs#Latvian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        }
+      ]
+    },
+    {
+      "id": "gle",
+      "name": "Irish",
+      "native": "Gaeilge",
+      "word": "sneachta",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Celtic · Goidelic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "snechtae",
+          "label": "Old Irish"
+        },
+        {
+          "form": "sneachta",
+          "label": "Irish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sneachta (Irish)",
+          "url": "https://en.wiktionary.org/wiki/sneachta#Irish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        },
+        {
+          "title": "Wiktionary: snechtae (Old Irish)",
+          "url": "https://en.wiktionary.org/wiki/snechtae#Old_Irish"
+        }
+      ]
+    },
+    {
+      "id": "gla",
+      "name": "Scottish Gaelic",
+      "native": "Gàidhlig",
+      "word": "sneachd",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Celtic · Goidelic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "snechtae",
+          "label": "Old Irish"
+        },
+        {
+          "form": "sneachd",
+          "label": "Scottish Gaelic"
+        }
+      ],
+      "notes": "Also sneachda; both forms occur. The displayed shorter form is retained for comparison.",
+      "sources": [
+        {
+          "title": "Wiktionary: sneachd (Scottish Gaelic)",
+          "url": "https://en.wiktionary.org/wiki/sneachd#Scottish_Gaelic"
+        },
+        {
+          "title": "Wiktionary: sneachda (Scottish Gaelic)",
+          "url": "https://en.wiktionary.org/wiki/sneachda#Scottish_Gaelic"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        },
+        {
+          "title": "Wiktionary: snechtae (Old Irish)",
+          "url": "https://en.wiktionary.org/wiki/snechtae#Old_Irish"
+        }
+      ]
+    },
+    {
+      "id": "glv",
+      "name": "Manx",
+      "native": "Gaelg",
+      "word": "sniaghtey",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Celtic · Goidelic",
+      "group": "pie",
+      "root": "pie-snow",
+      "chain": [
+        {
+          "form": "*sneygʷʰ-",
+          "label": "Proto-Indo-European root"
+        },
+        {
+          "form": "*snígʷʰs",
+          "label": "Proto-Indo-European noun"
+        },
+        {
+          "form": "snechtae",
+          "label": "Old Irish"
+        },
+        {
+          "form": "sniaghtey",
+          "label": "Manx"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: sniaghtey (Manx)",
+          "url": "https://en.wiktionary.org/wiki/sniaghtey#Manx"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsneyg%CA%B7%CA%B0-"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%ADg%CA%B7%CA%B0s"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
+        },
+        {
+          "title": "Wiktionary: snechtae (Old Irish)",
+          "url": "https://en.wiktionary.org/wiki/snechtae#Old_Irish"
+        }
+      ]
+    },
+    {
+      "id": "cym",
+      "name": "Welsh",
+      "native": "Cymraeg",
+      "word": "eira",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Celtic · Brythonic",
+      "group": "pie",
+      "root": "brythonic-ergh",
+      "chain": [
+        {
+          "form": "*ėrɣ",
+          "label": "Proto-Brythonic"
+        },
+        {
+          "form": "eira",
+          "label": "Welsh"
+        }
+      ],
+      "notes": "Deeper origin is uncertain; the map does not force a link with the PIE snow root.",
+      "sources": [
+        {
+          "title": "Wiktionary: eira (Welsh)",
+          "url": "https://en.wiktionary.org/wiki/eira#Welsh"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Brythonic%2F%C4%97r%C9%A3"
+        }
+      ]
+    },
+    {
+      "id": "bre",
+      "name": "Breton",
+      "native": "Brezhoneg",
+      "word": "erc'h",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Celtic · Brythonic",
+      "group": "pie",
+      "root": "brythonic-ergh",
+      "chain": [
+        {
+          "form": "*ėrɣ",
+          "label": "Proto-Brythonic"
+        },
+        {
+          "form": "erc'h",
+          "label": "Breton"
+        }
+      ],
+      "notes": "Deeper origin is uncertain; the map does not force a link with the PIE snow root.",
+      "sources": [
+        {
+          "title": "Wiktionary: erc'h (Breton)",
+          "url": "https://en.wiktionary.org/wiki/erc'h#Breton"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Brythonic%2F%C4%97r%C9%A3"
+        }
+      ]
+    },
+    {
+      "id": "cor",
+      "name": "Cornish",
+      "native": "Kernewek",
+      "word": "ergh",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Celtic · Brythonic",
+      "group": "pie",
+      "root": "brythonic-ergh",
+      "chain": [
+        {
+          "form": "*ėrɣ",
+          "label": "Proto-Brythonic"
+        },
+        {
+          "form": "ergh",
+          "label": "Cornish"
+        }
+      ],
+      "notes": "Deeper origin is uncertain; the map does not force a link with the PIE snow root.",
+      "sources": [
+        {
+          "title": "Wiktionary: ergh (Cornish)",
+          "url": "https://en.wiktionary.org/wiki/ergh#Cornish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Brythonic%2F%C4%97r%C9%A3"
+        }
+      ]
+    },
+    {
+      "id": "ell",
+      "name": "Greek",
+      "native": "Ελληνικά",
+      "word": "χιόνι",
+      "romanization": "chióni",
+      "family": "Indo-European",
+      "branch": "Hellenic",
+      "group": "pie",
+      "root": "pie-winter",
+      "chain": [
+        {
+          "form": "*ǵʰéyōm",
+          "label": "Proto-Indo-European · snow / winter"
+        },
+        {
+          "form": "χιών",
+          "label": "Ancient Greek"
+        },
+        {
+          "form": "χιόνιον",
+          "label": "Koine Greek diminutive"
+        },
+        {
+          "form": "χιόνι",
+          "label": "Greek"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: χιόνι (Greek)",
+          "url": "https://en.wiktionary.org/wiki/%CF%87%CE%B9%CF%8C%CE%BD%CE%B9#Greek"
+        },
+        {
+          "title": "Wiktionary: ձիւն (Old Armenian)",
+          "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian"
+        }
+      ]
+    },
+    {
+      "id": "hye",
+      "name": "Armenian",
+      "native": "Հայերեն",
+      "word": "ձյուն",
+      "romanization": "jyun",
+      "family": "Indo-European",
+      "branch": "Armenian",
+      "group": "pie",
+      "root": "pie-winter",
+      "chain": [
+        {
+          "form": "*ǵʰéyōm",
+          "label": "Proto-Indo-European · snow / winter"
+        },
+        {
+          "form": "ձիւն",
+          "label": "Old Armenian"
+        },
+        {
+          "form": "ձյուն",
+          "label": "Armenian"
+        }
+      ],
+      "notes": "Eastern Armenian spelling and transliteration shown; traditional orthography ձիւն is also used. The source geometry may combine Eastern and Western Armenian varieties, whose pronunciations differ.",
+      "sources": [
+        {
+          "title": "Wiktionary: ձյուն (Armenian)",
+          "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%B5%D5%B8%D6%82%D5%B6#Armenian"
+        },
+        {
+          "title": "Wiktionary: χιόνι (Greek)",
+          "url": "https://en.wiktionary.org/wiki/%CF%87%CE%B9%CF%8C%CE%BD%CE%B9#Greek"
+        },
+        {
+          "title": "Wiktionary: ձիւն (Old Armenian)",
+          "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian"
+        }
+      ]
+    },
+    {
+      "id": "sqi",
+      "name": "Albanian",
+      "native": "Shqip",
+      "word": "borë",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Albanian",
+      "group": "pie",
+      "root": "albanian-fall",
+      "chain": [
+        {
+          "form": "*diš-bērā / *diš-bārā",
+          "label": "Proto-Albanian · derivative of 'fall'"
+        },
+        {
+          "form": "dëborë",
+          "label": "Albanian prefixed form"
+        },
+        {
+          "form": "borë",
+          "label": "Albanian"
+        }
+      ],
+      "notes": "Borë is a shortened form of dëborë; further root identification is not asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: borë (Albanian)",
+          "url": "https://en.wiktionary.org/wiki/bor%C3%AB#Albanian"
+        }
+      ]
+    },
+    {
+      "id": "pes",
+      "name": "Persian",
+      "native": "فارسی",
+      "word": "برف",
+      "romanization": "barf",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "wafr",
+          "label": "Middle Persian"
+        },
+        {
+          "form": "برف",
+          "label": "Persian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: برف (Persian)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%81#Persian"
+        },
+        {
+          "title": "Wiktionary: berf (Northern Kurdish)",
+          "url": "https://en.wiktionary.org/wiki/berf#Northern_Kurdish"
+        }
+      ]
+    },
+    {
+      "id": "kmr",
+      "name": "Northern Kurdish",
+      "native": "Kurmancî",
+      "word": "berf",
+      "romanization": "",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "berf",
+          "label": "Northern Kurdish"
+        }
+      ],
+      "notes": "The atlas uses Northern Kurdish (Kurmanji); Kurdish varieties are not identical.",
+      "sources": [
+        {
+          "title": "Wiktionary: berf (Northern Kurdish)",
+          "url": "https://en.wiktionary.org/wiki/berf#Northern_Kurdish"
+        },
+        {
+          "title": "Wiktionary: برف (Persian)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%81#Persian"
+        }
+      ]
+    },
+    {
+      "id": "oss",
+      "name": "Ossetian",
+      "native": "Ирон",
+      "word": "мит",
+      "romanization": "mit",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "group": "other",
+      "root": "ossetian-mit",
+      "chain": [
+        {
+          "form": "мит",
+          "label": "Ossetian"
+        }
+      ],
+      "notes": "Lexical form verified. The consulted entry gives no etymology, so the deeper chain is deliberately left open.",
+      "sources": [
+        {
+          "title": "Wiktionary: мит (Ossetian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D1%82#Ossetian"
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "name": "Finnish",
+      "native": "Suomi",
+      "word": "lumi",
+      "romanization": "",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lumi",
+          "label": "Proto-Finnic"
+        },
+        {
+          "form": "lumi",
+          "label": "Finnish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "est",
+      "name": "Estonian",
+      "native": "Eesti",
+      "word": "lumi",
+      "romanization": "",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lumi",
+          "label": "Proto-Finnic"
+        },
+        {
+          "form": "lumi",
+          "label": "Estonian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: lumi (Estonian)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Estonian"
+        },
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "krl",
+      "name": "Karelian",
+      "native": "Karjala",
+      "word": "lumi",
+      "romanization": "",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lumi",
+          "label": "Proto-Finnic"
+        },
+        {
+          "form": "lumi",
+          "label": "Karelian"
+        }
+      ],
+      "notes": "Karelian varieties have local variation; one dictionary citation form is shown.",
+      "sources": [
+        {
+          "title": "Wiktionary: lumi (Karelian)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Karelian"
+        },
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "vep",
+      "name": "Veps",
+      "native": "Vepsän kel'",
+      "word": "lumi",
+      "romanization": "",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lumi",
+          "label": "Proto-Finnic"
+        },
+        {
+          "form": "lumi",
+          "label": "Veps"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: lumi (Veps)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Veps"
+        },
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "hun",
+      "name": "Hungarian",
+      "native": "Magyar",
+      "word": "hó",
+      "romanization": "",
+      "family": "Uralic",
+      "branch": "Ugric",
+      "group": "uralic",
+      "root": "uralic-kume",
+      "chain": [
+        {
+          "form": "*kume",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "hó",
+          "label": "Hungarian"
+        }
+      ],
+      "notes": "This is distinct from the Uralic *lome set represented by Finnish lumi.",
+      "sources": [
+        {
+          "title": "Wiktionary: hó (Hungarian)",
+          "url": "https://en.wiktionary.org/wiki/h%C3%B3#Hungarian"
+        }
+      ]
+    },
+    {
+      "id": "sme",
+      "name": "Northern Sámi",
+      "native": "Davvisámegiella",
+      "word": "muohta",
+      "romanization": "",
+      "family": "Uralic",
+      "branch": "Sámi",
+      "group": "uralic",
+      "root": "sami-muotte",
+      "chain": [
+        {
+          "form": "*muottëk",
+          "label": "Proto-Sámi"
+        },
+        {
+          "form": "muohta",
+          "label": "Northern Sámi"
+        }
+      ],
+      "notes": "This is one general snow word. Sámi has numerous terms for snow conditions; it is not interchangeable with every one of them.",
+      "sources": [
+        {
+          "title": "Wiktionary: muohta (Northern Sami)",
+          "url": "https://en.wiktionary.org/wiki/muohta#Northern_Sami"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Sami/muottëk",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Sami%2Fmuott%C3%ABk"
+        }
+      ]
+    },
+    {
+      "id": "mhr",
+      "name": "Meadow Mari",
+      "native": "Олык марий",
+      "word": "лум",
+      "romanization": "lum",
+      "family": "Uralic",
+      "branch": "Mari",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lŭm",
+          "label": "Proto-Mari"
+        },
+        {
+          "form": "лум",
+          "label": "Meadow Mari"
+        }
+      ],
+      "notes": "Eastern / Meadow Mari form shown. If the source geometry combines Mari varieties, Hill Mari лым (lym) differs in form but belongs to the same root set.",
+      "sources": [
+        {
+          "title": "Wiktionary: лум (Eastern Mari)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D1%83%D0%BC#Eastern_Mari"
+        },
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "udm",
+      "name": "Udmurt",
+      "native": "Удмурт",
+      "word": "лымы",
+      "romanization": "lymy",
+      "family": "Uralic",
+      "branch": "Permic",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lu̇m",
+          "label": "Proto-Permic"
+        },
+        {
+          "form": "лымы",
+          "label": "Udmurt"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: лымы (Udmurt)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D1%8B%D0%BC%D1%8B#Udmurt"
+        },
+        {
+          "title": "Wiktionary: lumi (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/lumi#Finnish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
+        }
+      ]
+    },
+    {
+      "id": "eus",
+      "name": "Basque",
+      "native": "Euskara",
+      "word": "elur",
+      "romanization": "",
+      "family": "Language isolate",
+      "branch": "Basque",
+      "group": "basque",
+      "root": "basque-erur",
+      "chain": [
+        {
+          "form": "*eruR",
+          "label": "Proto-Basque"
+        },
+        {
+          "form": "elur",
+          "label": "Basque"
+        }
+      ],
+      "notes": "Dialectal forms include edur, elhur and erur.",
+      "sources": [
+        {
+          "title": "Euskaltzaindia: elur, dictionary entry (PDF)",
+          "url": "https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/67699.pdf"
+        },
+        {
+          "title": "Wiktionary: elur (Basque)",
+          "url": "https://en.wiktionary.org/wiki/elur#Basque"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Basque/eruR",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Basque%2FeruR"
+        }
+      ]
+    },
+    {
+      "id": "arb",
+      "name": "Arabic (standard reference)",
+      "native": "العربية",
+      "word": "ثَلْج",
+      "romanization": "thalj · ṯalj",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "ثَلْج",
+          "label": "Arabic (standard reference)"
+        }
+      ],
+      "notes": "Modern Standard Arabic reference form. Local Arabic varieties differ; a standard form must not be read as the only vernacular word throughout North Africa.",
+      "sources": [
+        {
+          "title": "Wiktionary: ثلج (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        },
+        {
+          "title": "Wiktionary: שלג (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew"
+        },
+        {
+          "title": "Wiktionary: silġ (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
+        }
+      ]
+    },
+    {
+      "id": "heb",
+      "name": "Hebrew",
+      "native": "עברית",
+      "word": "שֶׁלֶג",
+      "romanization": "sheleg",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Northwest Semitic",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "שֶׁלֶג",
+          "label": "Hebrew"
+        }
+      ],
+      "notes": "Vowel points are included for reading; ordinary Hebrew generally writes שלג.",
+      "sources": [
+        {
+          "title": "Wiktionary: שלג (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew"
+        },
+        {
+          "title": "Wiktionary: ثلج (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        },
+        {
+          "title": "Wiktionary: silġ (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
+        }
+      ]
+    },
+    {
+      "id": "mlt",
+      "name": "Maltese",
+      "native": "Malti",
+      "word": "silġ",
+      "romanization": "",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Maltese",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "ثَلْج",
+          "label": "Arabic"
+        },
+        {
+          "form": "silġ",
+          "label": "Maltese"
+        }
+      ],
+      "notes": "Silġ can mean snow, ice or hail. Borra is another word for snow / sleet, with a separate Sicilian-derived history.",
+      "sources": [
+        {
+          "title": "Wiktionary: silġ (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
+        },
+        {
+          "title": "Wiktionary: ثلج (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        },
+        {
+          "title": "Wiktionary: שלג (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew"
+        }
+      ]
+    },
+    {
+      "id": "aeb",
+      "name": "Tunisian Arabic",
+      "native": "تونسي",
+      "word": "ثِلْج",
+      "romanization": "thelj · ṯelj",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "ثَلْج",
+          "label": "Arabic"
+        },
+        {
+          "form": "ثِلْج",
+          "label": "Tunisian Arabic"
+        }
+      ],
+      "notes": "Tunisian citation form; local pronunciation and spelling vary.",
+      "sources": [
+        {
+          "title": "Wiktionary: ثلج (Tunisian Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Tunisian_Arabic"
+        },
+        {
+          "title": "Wiktionary: ثلج (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        },
+        {
+          "title": "Wiktionary: שלג (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew"
+        },
+        {
+          "title": "Wiktionary: silġ (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
+        }
+      ]
+    },
+    {
+      "id": "arz",
+      "name": "Egyptian Arabic",
+      "native": "مصري",
+      "word": "تَلْج",
+      "romanization": "talg",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "ثَلْج",
+          "label": "Arabic"
+        },
+        {
+          "form": "تَلْج",
+          "label": "Egyptian Arabic"
+        }
+      ],
+      "notes": "Also used for ice; the displayed Egyptian form reflects t- and g- rather than Standard Arabic th- and j-.",
+      "sources": [
+        {
+          "title": "Wiktionary: تلج (Egyptian Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%84%D8%AC#Egyptian_Arabic"
+        },
+        {
+          "title": "Wiktionary: ثلج (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        },
+        {
+          "title": "Wiktionary: שלג (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew"
+        },
+        {
+          "title": "Wiktionary: silġ (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
+        }
+      ]
+    },
+    {
+      "id": "tur",
+      "name": "Turkish",
+      "native": "Türkçe",
+      "word": "kar",
+      "romanization": "",
+      "family": "Turkic",
+      "branch": "Common Turkic · Oghuz",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "قار",
+          "label": "Ottoman Turkish"
+        },
+        {
+          "form": "kar",
+          "label": "Turkish"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "aze",
+      "name": "Azerbaijani",
+      "native": "Azərbaycanca",
+      "word": "qar",
+      "romanization": "",
+      "family": "Turkic",
+      "branch": "Common Turkic · Oghuz",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "qar",
+          "label": "Azerbaijani"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: qar (Azerbaijani)",
+          "url": "https://en.wiktionary.org/wiki/qar#Azerbaijani"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "kaz",
+      "name": "Kazakh",
+      "native": "Қазақша",
+      "word": "қар",
+      "romanization": "qar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "қар",
+          "label": "Kazakh"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        }
+      ]
+    },
+    {
+      "id": "tat",
+      "name": "Tatar",
+      "native": "Татарча",
+      "word": "кар",
+      "romanization": "qar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "кар",
+          "label": "Tatar"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: Tatar Swadesh list",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Tatar_Swadesh_list"
+        },
+        {
+          "title": "Wiktionary: кар (Tatar)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D1%80#Tatar"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "bak",
+      "name": "Bashkir",
+      "native": "Башҡортса",
+      "word": "ҡар",
+      "romanization": "qar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "ҡар",
+          "label": "Bashkir"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: ҡар (Bashkir)",
+          "url": "https://en.wiktionary.org/wiki/%D2%A1%D0%B0%D1%80#Bashkir"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "crh",
+      "name": "Crimean Tatar",
+      "native": "Qırımtatarca",
+      "word": "qar",
+      "romanization": "",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "qar",
+          "label": "Crimean Tatar"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: qar (Crimean Tatar)",
+          "url": "https://en.wiktionary.org/wiki/qar#Crimean_Tatar"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "kir",
+      "name": "Kyrgyz",
+      "native": "Кыргызча",
+      "word": "кар",
+      "romanization": "kar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "кар",
+          "label": "Kyrgyz"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: кар (Kyrgyz)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D1%80#Kyrgyz"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "uzb",
+      "name": "Uzbek",
+      "native": "Oʻzbekcha",
+      "word": "qor",
+      "romanization": "",
+      "family": "Turkic",
+      "branch": "Common Turkic · Karluk",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "qor",
+          "label": "Uzbek"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: qor (Uzbek)",
+          "url": "https://en.wiktionary.org/wiki/qor#Uzbek"
+        },
+        {
+          "title": "Wiktionary: kar (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/kar#Turkish"
+        },
+        {
+          "title": "Wiktionary: қар (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
+        }
+      ]
+    },
+    {
+      "id": "kat",
+      "name": "Georgian",
+      "native": "ქართული",
+      "word": "თოვლი",
+      "romanization": "tovli",
+      "family": "Kartvelian",
+      "branch": "Georgian",
+      "group": "kartvelian",
+      "root": "kartvelian-tow",
+      "chain": [
+        {
+          "form": "*tow-",
+          "label": "Proto-Kartvelian"
+        },
+        {
+          "form": "თოვლი",
+          "label": "Old Georgian"
+        },
+        {
+          "form": "თოვლი",
+          "label": "Georgian"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: თოვლი (Georgian)",
+          "url": "https://en.wiktionary.org/wiki/%E1%83%97%E1%83%9D%E1%83%95%E1%83%9A%E1%83%98#Georgian"
+        }
+      ]
+    },
+    {
+      "id": "kab",
+      "name": "Kabyle",
+      "native": "Taqbaylit",
+      "word": "adfel",
+      "romanization": "",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Kabyle",
+      "group": "berber",
+      "root": "berber-adfel",
+      "chain": [
+        {
+          "form": "adfel",
+          "label": "Kabyle"
+        }
+      ],
+      "notes": "Related to Berber adfl / adfeř forms. No exact Proto-Berber reconstruction is asserted.",
+      "sources": [
+        {
+          "title": "Dallet's Kabyle–French dictionary: adfel",
+          "url": "https://www.dictionnaire-kabyle.com/adfel.html"
+        },
+        {
+          "title": "Wiktionary: Appendix:Kabyle Swadesh list",
+          "url": "https://en.wiktionary.org/wiki/Appendix%3AKabyle%20Swadesh%20list"
+        },
+        {
+          "title": "Wiktionary: adfl (Tashelhit)",
+          "url": "https://en.wiktionary.org/wiki/adfl#Tashelhit"
+        },
+        {
+          "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)",
+          "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B4%B7%E2%B4%BC%E2%B5%8D#Central_Atlas_Tamazight"
+        }
+      ]
+    },
+    {
+      "id": "tzm",
+      "name": "Central Atlas Tamazight",
+      "native": "Tamaziɣt",
+      "word": "ⴰⴷⴼⵍ",
+      "romanization": "adfl",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Atlas",
+      "group": "berber",
+      "root": "berber-adfel",
+      "chain": [
+        {
+          "form": "ⴰⴷⴼⵍ",
+          "label": "Central Atlas Tamazight"
+        }
+      ],
+      "notes": "A Central Atlas Tamazight form, not an assertion that all Berber languages use the same spelling.",
+      "sources": [
+        {
+          "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)",
+          "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B4%B7%E2%B4%BC%E2%B5%8D#Central_Atlas_Tamazight"
+        },
+        {
+          "title": "Wiktionary: adfl (Tashelhit)",
+          "url": "https://en.wiktionary.org/wiki/adfl#Tashelhit"
+        },
+        {
+          "title": "Dallet's Kabyle–French dictionary: adfel",
+          "url": "https://www.dictionnaire-kabyle.com/adfel.html"
+        }
+      ]
+    },
+    {
+      "id": "shi",
+      "name": "Tachelhit",
+      "native": "Tašlḥiyt",
+      "word": "adfl",
+      "romanization": "",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Atlas",
+      "group": "berber",
+      "root": "berber-adfel",
+      "chain": [
+        {
+          "form": "adfl",
+          "label": "Tachelhit"
+        }
+      ],
+      "notes": "Also atfl; Tifinagh ⴰⴷⴼⵍ. Cognate with the Central Atlas Tamazight and Kabyle snow set.",
+      "sources": [
+        {
+          "title": "Wiktionary: adfl (Tashelhit)",
+          "url": "https://en.wiktionary.org/wiki/adfl#Tashelhit"
+        },
+        {
+          "title": "Dallet's Kabyle–French dictionary: adfel",
+          "url": "https://www.dictionnaire-kabyle.com/adfel.html"
+        },
+        {
+          "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)",
+          "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B4%B7%E2%B4%BC%E2%B5%8D#Central_Atlas_Tamazight"
+        }
+      ]
+    },
+    {
+      "id": "che",
+      "name": "Chechen",
+      "native": "Нохчийн",
+      "word": "ло",
+      "romanization": "lo · loo",
+      "family": "Northeast Caucasian",
+      "branch": "Nakh",
+      "group": "other",
+      "root": "nakh-lawa",
+      "chain": [
+        {
+          "form": "*lawa",
+          "label": "Proto-Nakh"
+        },
+        {
+          "form": "ло",
+          "label": "Chechen"
+        }
+      ],
+      "notes": "Vowel length may be indicated as ло̄ in dictionary notation.",
+      "sources": [
+        {
+          "title": "Wiktionary: ло (Chechen)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE#Chechen"
+        }
+      ]
+    }
+  ],
+  "methodology": {
+    "title": "Lexical and etymological method",
+    "asOf": "2026-10-14",
+    "scope": "80 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
+    "comparison": "Colors encode etymological word sets using root, not national borders or general language families. Family and branch remain separate metadata. Membership in Indo-European does not make every word for snow a descendant of *sneygʷʰ-.",
+    "chains": "Chains are schematic selections of attested or reconstructed stages, not complete sound histories, exact dates, or claims that all forms coexisted. Intermediate stages may be omitted. Asterisked forms are reconstructed and unattested. Arrows include derivation and, where stated, borrowing; they do not always mean direct inheritance.",
+    "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative.",
+    "standards": "Some ISO entries are macrolanguages or combined mapping units. A citation form may belong to one variety; notes state material variation. Orthography and romanization are reading aids, not a substitute for IPA. Arabic, Hebrew, Georgian, Armenian and Cyrillic scripts are retained.",
+    "sources": "Lexical entries are primarily cross-checked against Wiktionary lemma and reconstruction pages, which in turn cite dictionaries and etymological reference works. These are accessible secondary lexical sources, not independent fieldwork or a peer-reviewed atlas. Kabyle uses an online Dallet dictionary transcription. Every entry links its lexical source; root descriptions link supporting reconstruction sources. Ambiguous or missing etymologies are not filled by visual similarity. Spanish nieve was additionally checked directly in the RAE dictionary, Catalan neu in the IEC Catalan-Valencian-Balearic dictionary, and Basque elur in an Euskaltzaindia dictionary PDF.",
+    "license": "Original explanatory prose and data organization; brief lexical facts and forms compiled with attribution to linked sources. Wiktionary is licensed CC BY-SA 4.0; consult each page for revision history and third-party references."
+  }
+}

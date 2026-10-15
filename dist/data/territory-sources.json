@@ -1,0 +1,86 @@
+{
+  "title": "Snow Atlas speaker-area geometries",
+  "bbox": [
+    -25,
+    26,
+    68,
+    72.5
+  ],
+  "source": "The Glottography Consortium (2026), asher2007world v2.0",
+  "sourcePublication": "Asher, R. E. & Christopher J. Moseley (eds.) 2007. Atlas of the World's Languages. 2nd edn. Routledge.",
+  "datasetUrl": "https://github.com/Glottography/asher2007world",
+  "datasetDoi": "https://doi.org/10.5281/zenodo.18613195",
+  "sourceCommit": "5590fcc8870d8883a323ff0defd5a1a6a03e9611",
+  "inputUrl": "https://raw.githubusercontent.com/Glottography/asher2007world/5590fcc8870d8883a323ff0defd5a1a6a03e9611/cldf/contemporary/features.geojson",
+  "inputSha256": "84af615ffda56da1f5d754f73a6f5db4e42e46bc36dff5245bb2382724b96fa7",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessed": "2026-10-14",
+  "transformations": [
+    "Selected contemporary source speaker areas intersecting the map window.",
+    "Clipped to [-25,26,68,72.5] longitude/latitude; repaired invalid geometries.",
+    "Aggregated by source Glottocode and explicit lexical joins, retaining disjoint polygons.",
+    "Simplified at 0.008 degrees with topology preserved within each area; coordinates rounded to four decimals."
+  ],
+  "limitations": [
+    "Speaker areas reflect an atlas published in 2007, not a current census, majority-language estimate or official boundary.",
+    "Polygons overlap: multiple languages can be used in one place. Atlas omissions and unmapped minority languages remain gaps.",
+    "Area fill does not assert that all residents speak the language or that the language is absent elsewhere.",
+    "Some source areas combine related varieties. No new territory boundaries have been inferred to split them.",
+    "Small enclaves present in the source are retained, subject to source resolution and display simplification.",
+    "Country borders, if displayed elsewhere, are context and are not used to construct these language areas.",
+    "Occitan, Catalan, Cornish, Crimean Tatar, North Sami and Veps include explicitly marked traditional-area supplements. They must not be interpreted as contemporary majority-speaker distributions."
+  ],
+  "featureCount": 179,
+  "lexicalJoinCount": 69,
+  "supplements": [
+    {
+      "id": "glottography-carling2025diacl",
+      "citation": "Carling, Gerd & Jost Gippert (eds.) 2025. DiACL/TITUS Polygon Archive. Frankfurt am Main: Goethe University.",
+      "url": "https://github.com/Glottography/carling2025diacl",
+      "primaryUrl": "https://diacl.uni-frankfurt.de/GeographicalPresence/Index",
+      "derivedDatasetDoi": "https://doi.org/10.5281/zenodo.18614010",
+      "derivedVersion": "v2.0",
+      "commit": "7a8588553d69799de95efe1787a3fc87d03aa1f2",
+      "license": "CC BY 4.0",
+      "inputSha256": "ca973888a535ab42ed5f64cdc1a69b4887346a075fdc1e9e890bd4fb2dc7d316",
+      "features": [
+        "cat",
+        "oci",
+        "cor",
+        "crh"
+      ],
+      "epoch": "Traditional linguistic area; reference year 1750. Source timeframes usually 1750-2000."
+    },
+    {
+      "id": "glottography-rantanen2021uralic",
+      "citation": "Rantanen, T., Vesakoski, O., Ylikoski, J., & Tolvanen, H. (2021). Geographical database of the Uralic languages (v1.0). Zenodo.",
+      "url": "https://github.com/Glottography/rantanen2021uralic",
+      "doi": "https://doi.org/10.5281/zenodo.4784188",
+      "derivedDatasetDoi": "https://doi.org/10.5281/zenodo.18643660",
+      "derivedVersion": "v2.0",
+      "methodPaper": "https://doi.org/10.1371/journal.pone.0269648",
+      "commit": "bac771be7f659544458217e2a32b4f8256b5832b",
+      "license": "CC BY 4.0",
+      "inputSha256": "b760140ff7056a156965d01b37cbb18417cab5be97845a2612d43329ddb6b28e",
+      "features": [
+        "sme",
+        "vep"
+      ],
+      "epoch": "Traditional distribution, approximately the widest known at the beginning of the 20th century."
+    }
+  ],
+  "lexiconWithoutTerritory": [
+    "arg",
+    "ast",
+    "csb",
+    "dsb",
+    "glg",
+    "glv",
+    "hsb",
+    "kir",
+    "scn",
+    "sco",
+    "vec"
+  ]
+}
