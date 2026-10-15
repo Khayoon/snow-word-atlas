@@ -6,8 +6,9 @@ The server stays on your computer (127.0.0.1). Close its window to stop.
 
 MAKE AN IMAGE
 The image is the main deliverable: a flat 1800:1100 landscape composition,
-continuous colour on land, words-only labels, and a legend in the upper left.
+continuous colour on land, native words, and a legend in the upper left.
 There is no sidebar in the artwork.
+Non-Latin words have a parenthesized romanized reading beneath them.
 
 Choose PNG at 6,000, 9,000 or 12,000 pixels wide, or editable SVG.
 The default PNG is 6000 x 3667 pixels. Controls and dialogs are excluded.
@@ -42,7 +43,7 @@ Some selected varieties have point labels without a separate area polygon.
 Leader lines connect crowded labels to their anchors.
 
 The lexicon has 99 selected entries and 25 deeper word-origin sets.
-The default composition places 96 word labels; not every selected variety
+The default composition places 97 word labels; not every selected variety
 has a separate territory or fits inside the crop. These are selected words
 and varieties, not an exhaustive dictionary of every dialect or synonym.
 

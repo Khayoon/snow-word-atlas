@@ -19,7 +19,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "gloss": "to snow"
     },
     {
       "id": "pie-winter",
@@ -36,7 +37,8 @@
           "title": "Wiktionary: ձիւն (Old Armenian)",
           "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian"
         }
-      ]
+      ],
+      "gloss": "snow / winter"
     },
     {
       "id": "brythonic-ergh",
@@ -49,7 +51,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Brythonic%2F%C4%97r%C9%A3"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "slavic-fall",
@@ -62,7 +65,8 @@
           "title": "Wiktionary: zăpadă (Romanian)",
           "url": "https://en.wiktionary.org/wiki/z%C4%83pad%C4%83#Romanian"
         }
-      ]
+      ],
+      "gloss": "to fall"
     },
     {
       "id": "albanian-fall",
@@ -75,7 +79,8 @@
           "title": "Wiktionary: borë (Albanian)",
           "url": "https://en.wiktionary.org/wiki/bor%C3%AB#Albanian"
         }
-      ]
+      ],
+      "gloss": "falling"
     },
     {
       "id": "iranian-wafra",
@@ -92,7 +97,8 @@
           "title": "Wiktionary: berf (Northern Kurdish)",
           "url": "https://en.wiktionary.org/wiki/berf#Northern_Kurdish"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "ossetian-mit",
@@ -105,7 +111,8 @@
           "title": "Wiktionary: мит (Ossetian)",
           "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D1%82#Ossetian"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "uralic-lome",
@@ -122,7 +129,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "uralic-kume",
@@ -135,7 +143,8 @@
           "title": "Wiktionary: hó (Hungarian)",
           "url": "https://en.wiktionary.org/wiki/h%C3%B3#Hungarian"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "sami-muotte",
@@ -152,7 +161,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Sami/muottëk",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Sami%2Fmuott%C3%ABk"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "semitic-thalg",
@@ -173,7 +183,8 @@
           "title": "Wiktionary: silġ (Maltese)",
           "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "turkic-kar",
@@ -190,7 +201,8 @@
           "title": "Wiktionary: қар (Kazakh)",
           "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "kartvelian-tow",
@@ -203,7 +215,8 @@
           "title": "Wiktionary: თოვლი (Georgian)",
           "url": "https://en.wiktionary.org/wiki/%E1%83%97%E1%83%9D%E1%83%95%E1%83%9A%E1%83%98#Georgian"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "basque-erur",
@@ -220,7 +233,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Basque/eruR",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Basque%2FeruR"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "berber-adfel",
@@ -241,7 +255,8 @@
           "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)",
           "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B4%B7%E2%B4%BC%E2%B5%8D#Central_Atlas_Tamazight"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "nakh-lawa",
@@ -254,7 +269,8 @@
           "title": "Wiktionary: ло (Chechen)",
           "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE#Chechen"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "norse-kaf",
@@ -267,7 +283,8 @@
           "title": "Wiktionary: kavi (Faroese)",
           "url": "https://en.wiktionary.org/wiki/kavi#Faroese"
         }
-      ]
+      ],
+      "gloss": "snowdrift / submerge"
     },
     {
       "id": "samoyedic-sira",
@@ -280,7 +297,8 @@
           "title": "Wiktionary: сыра (Tundra Nenets)",
           "url": "https://en.wiktionary.org/wiki/%D1%81%D1%8B%D1%80%D0%B0#Tundra_Nenets"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "avar-ghazu",
@@ -297,7 +315,8 @@
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "dargwa-dyahi",
@@ -310,7 +329,8 @@
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "lezgian-zhiv",
@@ -327,7 +347,8 @@
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "lak-markhhala",
@@ -344,7 +365,8 @@
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "circassian-wes",
@@ -361,7 +383,8 @@
           "title": "Wiktionary: осы (West Circassian)",
           "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%8B#West_Circassian"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "mongolic-casun",
@@ -374,7 +397,8 @@
           "title": "Wiktionary: цасн (Kalmyk)",
           "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%81%D0%BD#Kalmyk"
         }
-      ]
+      ],
+      "gloss": "snow"
     },
     {
       "id": "greenlandic-aput",
@@ -391,7 +415,8 @@
           "title": "Oqaasileriffik, Language Secretariat of Greenland: terms for snow and ice",
           "url": "https://oqaasileriffik.gl/en/terms-for-snow-and-ice/"
         }
-      ]
+      ],
+      "gloss": "snow on the ground"
     }
   ],
   "languages": [
@@ -1908,7 +1933,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "mapRomanization": "sneg"
     },
     {
       "id": "ukr",
@@ -1960,7 +1986,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "mapRomanization": "snih"
     },
     {
       "id": "bel",
@@ -2012,7 +2039,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "mapRomanization": "snieh"
     },
     {
       "id": "pol",
@@ -2272,7 +2300,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "mapRomanization": "snijeg / sneg"
     },
     {
       "id": "bul",
@@ -2324,7 +2353,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "mapRomanization": "snyag"
     },
     {
       "id": "mkd",
@@ -2376,7 +2406,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fsn%C3%B3yg%CA%B7%CA%B0os"
         }
-      ]
+      ],
+      "mapRomanization": "sneg"
     },
     {
       "id": "hsb",
@@ -2924,7 +2955,8 @@
           "title": "Wiktionary: ձիւն (Old Armenian)",
           "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian"
         }
-      ]
+      ],
+      "mapRomanization": "chióni"
     },
     {
       "id": "hye",
@@ -2950,7 +2982,7 @@
           "label": "Armenian"
         }
       ],
-      "notes": "Eastern Armenian spelling and transliteration shown; traditional orthography ձիւն is also used. The source geometry may combine Eastern and Western Armenian varieties, whose pronunciations differ.",
+      "notes": "Eastern Armenian spelling and transliteration shown; traditional orthography ձիւն is also used. The source geometry may combine Eastern and Western Armenian varieties, whose pronunciations differ. The poster reading dzyun is explicitly used by the Bararan Armenian dictionary; the full lexical entry retains scholarly jyun.",
       "sources": [
         {
           "title": "Wiktionary: ձյուն (Armenian)",
@@ -2963,8 +2995,13 @@
         {
           "title": "Wiktionary: ձիւն (Old Armenian)",
           "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian"
+        },
+        {
+          "title": "Bararan Armenian dictionary: ձյուն / dzyun",
+          "url": "https://bararan.am/%D5%B1%D5%B5%D5%B8%D6%82%D5%B6"
         }
-      ]
+      ],
+      "mapRomanization": "dzyun"
     },
     {
       "id": "sqi",
@@ -3036,7 +3073,8 @@
           "title": "Wiktionary: berf (Northern Kurdish)",
           "url": "https://en.wiktionary.org/wiki/berf#Northern_Kurdish"
         }
-      ]
+      ],
+      "mapRomanization": "barf"
     },
     {
       "id": "kmr",
@@ -3096,7 +3134,8 @@
           "title": "Wiktionary: мит (Ossetian)",
           "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D1%82#Ossetian"
         }
-      ]
+      ],
+      "mapRomanization": "mit"
     },
     {
       "id": "fin",
@@ -3352,7 +3391,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
         }
-      ]
+      ],
+      "mapRomanization": "lum"
     },
     {
       "id": "udm",
@@ -3392,7 +3432,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Uralic%2Flome"
         }
-      ]
+      ],
+      "mapRomanization": "lymy"
     },
     {
       "id": "eus",
@@ -3464,7 +3505,8 @@
           "title": "Wiktionary: silġ (Maltese)",
           "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
         }
-      ]
+      ],
+      "mapRomanization": "thalj"
     },
     {
       "id": "heb",
@@ -3500,7 +3542,8 @@
           "title": "Wiktionary: silġ (Maltese)",
           "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
         }
-      ]
+      ],
+      "mapRomanization": "sheleg"
     },
     {
       "id": "mlt",
@@ -3584,7 +3627,8 @@
           "title": "Wiktionary: silġ (Maltese)",
           "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
         }
-      ]
+      ],
+      "mapRomanization": "thelj"
     },
     {
       "id": "arz",
@@ -3628,7 +3672,8 @@
           "title": "Wiktionary: silġ (Maltese)",
           "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese"
         }
-      ]
+      ],
+      "mapRomanization": "talg"
     },
     {
       "id": "tur",
@@ -3732,7 +3777,8 @@
           "title": "Wiktionary: kar (Turkish)",
           "url": "https://en.wiktionary.org/wiki/kar#Turkish"
         }
-      ]
+      ],
+      "mapRomanization": "qar"
     },
     {
       "id": "tat",
@@ -3772,7 +3818,8 @@
           "title": "Wiktionary: қар (Kazakh)",
           "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
         }
-      ]
+      ],
+      "mapRomanization": "qar"
     },
     {
       "id": "bak",
@@ -3808,7 +3855,8 @@
           "title": "Wiktionary: қар (Kazakh)",
           "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
         }
-      ]
+      ],
+      "mapRomanization": "qar"
     },
     {
       "id": "crh",
@@ -3880,7 +3928,8 @@
           "title": "Wiktionary: қар (Kazakh)",
           "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh"
         }
-      ]
+      ],
+      "mapRomanization": "kar"
     },
     {
       "id": "uzb",
@@ -3948,7 +3997,8 @@
           "title": "Wiktionary: თოვლი (Georgian)",
           "url": "https://en.wiktionary.org/wiki/%E1%83%97%E1%83%9D%E1%83%95%E1%83%9A%E1%83%98#Georgian"
         }
-      ]
+      ],
+      "mapRomanization": "tovli"
     },
     {
       "id": "kab",
@@ -4016,7 +4066,8 @@
           "title": "Dallet's Kabyle–French dictionary: adfel",
           "url": "https://www.dictionnaire-kabyle.com/adfel.html"
         }
-      ]
+      ],
+      "mapRomanization": "adfl"
     },
     {
       "id": "shi",
@@ -4070,13 +4121,14 @@
           "label": "Chechen"
         }
       ],
-      "notes": "Vowel length may be indicated as ло̄ in dictionary notation.",
+      "notes": "Vowel length may be indicated as ло̄ in dictionary notation. The poster uses the lemma’s romanization loo to retain this length indication.",
       "sources": [
         {
           "title": "Wiktionary: ло (Chechen)",
           "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE#Chechen"
         }
-      ]
+      ],
+      "mapRomanization": "loo"
     },
     {
       "id": "tuk",
@@ -4144,7 +4196,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
           "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/lome"
         }
-      ]
+      ],
+      "mapRomanization": "lym"
     },
     {
       "id": "yrk",
@@ -4172,7 +4225,8 @@
           "title": "Wiktionary: сыра (Tundra Nenets)",
           "url": "https://en.wiktionary.org/wiki/%D1%81%D1%8B%D1%80%D0%B0#Tundra_Nenets"
         }
-      ]
+      ],
+      "mapRomanization": "sira"
     },
     {
       "id": "ava",
@@ -4190,7 +4244,7 @@
           "label": "Avar"
         }
       ],
-      "notes": "Attested modern word; the deeper lexical history is left unresolved. The first consonant uses Cyrillic palochka Ӏ.",
+      "notes": "Attested modern word; the deeper lexical history is left unresolved. The first consonant uses Cyrillic palochka Ӏ. The poster reading ghazu is the source dictionary’s explicitly supplied plain-keyboard spelling, alongside its scholarly ʕazu.",
       "sources": [
         {
           "title": "Avar Dictionary, Universitat Pompeu Fabra: гӀазу",
@@ -4200,14 +4254,15 @@
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
         }
-      ]
+      ],
+      "mapRomanization": "ghazu"
     },
     {
       "id": "dar",
       "name": "Dargwa",
       "native": "Dargwa",
       "word": "дяхӏи",
-      "romanization": "",
+      "romanization": "dəḥi",
       "family": "Northeast Caucasian",
       "branch": "Dargwa",
       "group": "other",
@@ -4218,13 +4273,22 @@
           "label": "Dargwa citation form"
         }
       ],
-      "notes": "Representative citation form from the comparative list. Dargwa varieties have substantial lexical and phonological variation. No romanization or deep ancestor is supplied without a checked lemma source.",
+      "notes": "Representative citation form from the comparative list. Dargwa varieties have substantial lexical and phonological variation. The scholarly romanization dəḥi follows the checked Dargwa transliteration table (я → ə, хӏ → ḥ); it is a reading aid rather than an English phonetic respelling. No deeper reconstruction is asserted.",
       "sources": [
         {
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        },
+        {
+          "title": "Wiktionary: Dargwa transliteration (following Gippert / TITUS)",
+          "url": "https://en.wiktionary.org/wiki/Wiktionary:Dargwa_transliteration"
+        },
+        {
+          "title": "Institute of the Estonian Language: Transliteration of Dargwa, TITUS column",
+          "url": "https://transliteration.eki.ee/pdf/Dargwa.pdf"
         }
-      ]
+      ],
+      "mapRomanization": "dəḥi"
     },
     {
       "id": "lez",
@@ -4252,14 +4316,15 @@
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
         }
-      ]
+      ],
+      "mapRomanization": "živ"
     },
     {
       "id": "lbe",
       "name": "Lak",
       "native": "Lak",
       "word": "марххала",
-      "romanization": "",
+      "romanization": "markhkhala",
       "family": "Northeast Caucasian",
       "branch": "Lak",
       "group": "other",
@@ -4270,7 +4335,7 @@
           "label": "Lak"
         }
       ],
-      "notes": "Checked in the Russian–Lak dictionary at p. 327. No romanization or deeper root is asserted.",
+      "notes": "Checked in the Russian–Lak dictionary at p. 327. Romanization markhkhala follows the checked ALA-LC column of the Lak transliteration table (хх → khkh); the doubled consonant is retained. No deeper root is asserted.",
       "sources": [
         {
           "title": "Russian–Lak dictionary, Dagestan State University: снег / марххала, p. 327",
@@ -4279,8 +4344,13 @@
         {
           "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        },
+        {
+          "title": "Institute of the Estonian Language: Transliteration of Lak, ALA-LC column",
+          "url": "https://transliteration.eki.ee/pdf/Lakh.pdf"
         }
-      ]
+      ],
+      "mapRomanization": "markhkhala"
     },
     {
       "id": "inh",
@@ -4312,7 +4382,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Nakh/lawa",
           "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Nakh/lawa"
         }
-      ]
+      ],
+      "mapRomanization": "loa"
     },
     {
       "id": "kbd",
@@ -4340,7 +4411,8 @@
           "title": "Wiktionary: осы (West Circassian)",
           "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%8B#West_Circassian"
         }
-      ]
+      ],
+      "mapRomanization": "wɛs"
     },
     {
       "id": "ady",
@@ -4368,7 +4440,8 @@
           "title": "Wiktionary: уэс (East Circassian)",
           "url": "https://en.wiktionary.org/wiki/%D1%83%D1%8D%D1%81#East_Circassian"
         }
-      ]
+      ],
+      "mapRomanization": "wosə"
     },
     {
       "id": "krc",
@@ -4400,7 +4473,8 @@
           "title": "Wiktionary: Appendix:Turkic Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Turkic%20Swadesh%20lists"
         }
-      ]
+      ],
+      "mapRomanization": "qar"
     },
     {
       "id": "kum",
@@ -4432,7 +4506,8 @@
           "title": "Wiktionary: Appendix:Turkic Swadesh lists",
           "url": "https://en.wiktionary.org/wiki/Appendix:Turkic%20Swadesh%20lists"
         }
-      ]
+      ],
+      "mapRomanization": "qar"
     },
     {
       "id": "xal",
@@ -4460,7 +4535,8 @@
           "title": "Wiktionary: цасн (Kalmyk)",
           "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%81%D0%BD#Kalmyk"
         }
-      ]
+      ],
+      "mapRomanization": "tsasn"
     },
     {
       "id": "bal",
@@ -4496,7 +4572,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
           "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
         }
-      ]
+      ],
+      "mapRomanization": "barp"
     },
     {
       "id": "lrc",
@@ -4528,7 +4605,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
           "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
         }
-      ]
+      ],
+      "mapRomanization": "barf"
     },
     {
       "id": "luz",
@@ -4560,7 +4638,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
           "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
         }
-      ]
+      ],
+      "mapRomanization": "barf"
     },
     {
       "id": "bqi",
@@ -4596,7 +4675,8 @@
           "title": "Wiktionary: snow",
           "url": "https://en.wiktionary.org/wiki/snow"
         }
-      ]
+      ],
+      "mapRomanization": "barf"
     },
     {
       "id": "ckb",
@@ -4632,7 +4712,8 @@
           "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
           "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
         }
-      ]
+      ],
+      "mapRomanization": "befr"
     },
     {
       "id": "kal",
@@ -4670,7 +4751,7 @@
     "comparison": "Colors encode etymological word sets using root, not national borders or general language families. Family and branch remain separate metadata. Membership in Indo-European does not make every word for snow a descendant of *sneygʷʰ-.",
     "chains": "Chains are schematic selections of attested or reconstructed stages, not complete sound histories, exact dates, or claims that all forms coexisted. Intermediate stages may be omitted. Asterisked forms are reconstructed and unattested. Arrows include derivation and, where stated, borrowing; they do not always mean direct inheritance.",
     "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative. Avar, Dargwa, Lak and Lezgian are separate attested word sets without a claimed common deep ancestor. Circassian is shown as a local comparison without an invented proto-form. Luri and Bakhtiari membership in the Iranian snow set does not resolve direct inheritance versus Persian contact.",
-    "standards": "Some ISO entries are macrolanguages or combined mapping units. A citation form may belong to one variety; notes state material variation. Orthography and romanization are reading aids, not a substitute for IPA. Arabic, Hebrew, Georgian, Armenian and Cyrillic scripts are retained.",
+    "standards": "Some ISO entries are macrolanguages or combined mapping units. A citation form may belong to one variety; notes state material variation. Orthography and romanization are reading aids, not a substitute for IPA. Arabic, Hebrew, Georgian, Armenian and Cyrillic scripts are retained. On the poster, parentheses under non-Latin words give a single romanized reading aid; these are transliterations, not IPA or English phonetic respellings. Scholarly Latin letters and diacritics (for example ə, ɛ, ḥ and ž) are retained where used by the checked source. Arabic th and Hebrew sh are reader-friendly equivalents of scholarly ṯ and š. Dargwa follows the checked Gippert / TITUS table; Lak follows ALA-LC; Avar ghazu is the source dictionary’s plain-keyboard spelling. The mixed Serbo-Croatian label retains both snijeg and sneg rather than implying one uniform pronunciation.",
     "sources": "Lexical entries are primarily cross-checked against Wiktionary lemma and reconstruction pages, which in turn cite dictionaries and etymological reference works. These are accessible secondary lexical sources, not independent fieldwork or a peer-reviewed atlas. Kabyle uses an online Dallet dictionary transcription. Every entry links its lexical source; root descriptions link supporting reconstruction sources. Ambiguous or missing etymologies are not filled by visual similarity. Spanish nieve was additionally checked directly in the RAE dictionary, Catalan neu in the IEC Catalan-Valencian-Balearic dictionary, and Basque elur in an Euskaltzaindia dictionary PDF.",
     "license": "Original explanatory prose and data organization; brief lexical facts and forms compiled with attribution to linked sources. Wiktionary is licensed CC BY-SA 4.0; consult each page for revision history and third-party references."
   }
