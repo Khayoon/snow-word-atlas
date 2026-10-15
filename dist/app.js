@@ -1,267 +1,210 @@
-/* Snow word atlas. Geometry, lexemes and sources are kept in editable data files. */
+/* A print-first, flat linguistic poster. Data and provenance remain editable JSON. */
 (() => {
   'use strict';
-  const $ = id => document.getElementById(id);
-  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const anchors = {
-    eng:[-1.6,52.2],sco:[-3,56.4],deu:[10.4,51],nld:[5.1,52.1],fry:[5.7,53.15],ltz:[6.1,49.8],
-    dan:[10,56],swe:[15.4,61.5],nor:[7.6,61.5],isl:[-18.8,65],fao:[-6.9,62.1],
-    spa:[-4,39.3],por:[-8.1,39.6],glg:[-7.8,42.7],cat:[1.3,41.5],oci:[2.3,44.1],fra:[2.2,47.4],
-    ita:[12.7,42.6],ron:[25.1,45.8],scn:[14.2,37.6],srd:[9,40],vec:[12.2,45.6],fur:[13.1,46.2],roh:[9.6,46.7],ast:[-5.8,43.2],arg:[-.2,42.6],
-    rus:[43,57.5],ukr:[31,49.2],bel:[28.4,53.5],pol:[19.2,52.2],ces:[15.5,49.9],slk:[19.5,48.8],
-    slv:[14.6,46.1],hrv:[16,45.3],srp:[21,43.9],bos:[17.8,44],bul:[25.2,42.7],mkd:[21.7,41.6],hsb:[14.4,51.3],csb:[18,54.1],
-    lit:[24,55.2],lav:[25,57],gle:[-8.7,53.2],gla:[-5.7,57.1],cym:[-3.8,52.3],bre:[-3.5,48.1],glv:[-4.53,54.2],cor:[-4.9,50.3],
-    ell:[23.1,39],hye:[44.9,40.3],sqi:[20,41.4],pes:[53.7,32.5],kmr:[42.5,37.7],oss:[44.2,42.9],
-    hun:[19.3,47.3],fin:[26,64.6],est:[25.5,58.7],sme:[23.4,69.1],krl:[32,64],vep:[34.9,61.2],mhr:[48.1,56.6],udm:[53,57.2],
-    eus:[-1.8,43.05],arb:[2,32.8],heb:[35.1,31.7],mlt:[14.4,35.9],ary:[-6.7,32.9],arz:[30.8,30.4],
-    tur:[33.7,39],aze:[48.1,40.2],kaz:[62,48],tat:[49.5,55.2],bak:[56.3,54.3],crh:[34.1,45.2],kir:[73,41.5],uzb:[64.5,40.8],
-    kat:[43.2,42.1],kab:[4.7,36.4],zgh:[-5.3,31.6],che:[45.6,43.2],hbs:[18.6,44],dsb:[14.2,51.8],aeb:[9.5,34.5],tzm:[-4.4,32.5],shi:[-8,30.5]
+  const W=1800,H=1100, $=id=>document.getElementById(id);
+  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const NS='http://www.w3.org/2000/svg';
+  const aliases={turk1304:'tuk',komi1268:'kpv',nene1249:'yrk',avar1256:'ava',darg1241:'dar',lezg1247:'lez',lakk1252:'lbe',ingu1240:'inh',kaba1278:'kbd',adyg1241:'ady',kara1465:'krc',kumy1244:'kum',kalm1243:'xal',east2304:'bal',nort2645:'lrc',sout2647:'luz',bakh1245:'bqi'};
+  const anchors={
+    eng:[-1.2,52.4],sco:[-2.8,56.4],deu:[10.4,51.2],nld:[5.2,52.1],fry:[5.5,53.25],ltz:[6.1,49.8],dan:[10,56.1],swe:[16,62],nor:[8,63],isl:[-19,65],fao:[-6.9,62.1],
+    spa:[-3.7,39.2],por:[-8,39.4],glg:[-7.6,42.8],cat:[1.4,41.6],oci:[2.8,44.3],fra:[2.1,47.7],ita:[12.5,42.4],ron:[25,45.7],scn:[14.2,37.5],srd:[9,40.1],vec:[12.1,45.6],fur:[13.1,46.2],roh:[9.5,46.7],ast:[-5.8,43.3],arg:[-.1,42.6],
+    rus:[40,61.6],ukr:[31,49],bel:[28.4,53.4],pol:[19.1,52],ces:[15.3,49.9],slk:[19.5,48.7],slv:[14.7,46.1],hbs:[18.7,44.3],bul:[25.2,42.7],mkd:[21.7,41.6],hsb:[14.4,51.3],dsb:[14.2,51.8],csb:[18,54.2],lit:[24,55.2],lav:[25,57],
+    gle:[-8.4,53.5],gla:[-5.6,57.8],cym:[-3.8,52.3],bre:[-3.5,48.2],glv:[-4.53,54.2],cor:[-4.9,50.3],ell:[23.2,38.9],hye:[44.9,40.3],sqi:[20,41.4],pes:[55,32.1],kmr:[42,37.7],oss:[44.2,42.9],
+    hun:[19.5,47.2],fin:[26,64.6],est:[25.5,58.7],sme:[23.5,69],krl:[32,64.9],vep:[34.9,61.2],mhr:[48.1,56.6],udm:[53,57.4],eus:[-1.8,43.05],
+    arb:[8.8,28.9],heb:[35.1,31.7],mlt:[14.4,35.9],aeb:[9.4,34.3],arz:[29.8,27.9],tur:[33.4,39],aze:[48.2,40.3],kaz:[61,48.5],tat:[49.5,55.1],bak:[56.3,54.3],crh:[34.1,45.2],kir:[73,41.5],uzb:[64.5,40.8],
+    kat:[43.1,42.1],kab:[4.8,36.4],tzm:[-4.3,32.8],shi:[-8.5,30.1],che:[45.6,43.25],tuk:[59.3,39.2],kpv:[53,64.9],yrk:[59,69],ava:[46.55,42.55],dar:[47.45,42.4],lez:[48.1,41.65],lbe:[47.05,42.05],inh:[45.05,43.15],kbd:[43.7,43.7],ady:[39.7,44.8],krc:[42.1,43.6],kum:[47.4,43.1],xal:[45.6,46.4],bal:[61,27.8],lrc:[48.6,33.5],luz:[51.1,30.9],bqi:[49.8,32.1],ckb:[45.6,35.6],kal:[-24.5,72.3]
   };
-  const priority = ['eng','oci','eus','cat','spa','fra','deu','ita','pol','rus','ukr','swe','fin','nor','hun','ron','tur','kaz','ary','arz','arb','ell','hye','kat','heb','aze','por','glg','gle','gla','cym','bre','isl','dan','nld','bel','lit','lav','est','bul','sqi','srp','ces','slk','sme','kmr','kab','zgh'];
-  const labelOffsets={eus:[-62,-2],oci:[8,-5],cat:[0,6]};
-  const branchPalette = {'Germanic':'#629bb5','Romance':'#d49a72','Slavic':'#9d9ac4','Baltic':'#82a798','Celtic':'#b2b875','Uralic':'#d9bc60','Semitic':'#c492a8','Turkic':'#77acaa','Kartvelian':'#a28aab','Berber':'#c8a175','Basque':'#b57b80','Hellenic':'#abaf78','Armenian':'#b4a476','Albanian':'#c9ae6a','Iranian':'#9bafa4'};
-  let data, geoMeta, languages, roots, features, countries, byId, byRoot, areas, labels, projection, path, svg, world, borderLayer;
-  let selected='eng', activeRoot=null, searchTerm='', transform, opacity=.68, mode='root', storyIndex=-1, storyTimer=null, lastOverlaps=[];
-  const missing = new Set();
-  const stories = [
-    {id:'eng',caption:'One ancient root, many relatives. English snow, Spanish nieve and Russian снег belong to the same Indo-European snow cognate set.'},
-    {id:'eng',caption:'The Germanic route: follow reconstructed Proto-Germanic forms through Old English to snow. Asterisks mark reconstructed forms.'},
-    {id:'spa',caption:'The Latin route: Latin nix, with the stem niv-, leads to Spanish nieve. Catalan neu, Occitan nèu and French neige are relatives.'},
-    {id:'rus',caption:'The Slavic route: Russian снег, Polish śnieg and Czech sníh continue the same ancient snow root, despite different spellings and scripts.'},
-    {id:'ell',caption:'Different roots inside one family: Greek χιόνι follows the Indo-European winter/snow set, rather than the root behind English snow.'},
-    {id:'hun',caption:'Different roots inside Uralic too: Hungarian hó and Finnish lumi belong to different inherited word sets. Family membership alone does not determine colour.'},
-    {id:'arb',caption:'Beyond Indo-European: Arabic ثلج and Hebrew שלג belong to a Semitic snow set. Open each entry for its form, transcription and source.'},
-    {id:'eus',caption:'A language crosses a state boundary: Basque elur has its own mapped area on both sides of the Pyrenees. Its deeper origin is not asserted here.'}
+  const offsets={eus:[-43,-5],por:[-11,0],glg:[-29,-14],ast:[-8,-32],arg:[5,-23],cat:[9,9],oci:[2,-8],bre:[-18,-3],cym:[-31,2],cor:[-28,18],gla:[-20,-2],glv:[-43,0],fry:[-15,-24],nld:[-17,8],ltz:[-18,14],hsb:[12,-1],dsb:[16,-27],csb:[19,-9],roh:[-21,6],vec:[-2,14],fur:[21,-8],slv:[15,15],sqi:[-7,14],mlt:[-13,19],heb:[-20,1],kat:[-11,-8],hye:[6,10],aze:[25,5],oss:[-9,-15],che:[18,-15],inh:[-20,-27],kbd:[-17,-34],krc:[-30,-17],ava:[29,-15],dar:[52,0],lbe:[11,26],lez:[42,21],kum:[51,-30],ady:[-31,-8]};
+  const important=['eng','spa','fra','deu','ita','rus','ukr','pol','fin','swe','nor','tur','kaz','pes','arb','arz','tuk','kpv','yrk','cat','oci','eus','hun','ron','ell','hye','kat','bal','kmr','kal'];
+  const localSizes={kat:20,hye:22,aze:20,oss:16,che:18,ava:16,dar:16,lez:18,lbe:15,inh:16,kbd:16,ady:16,krc:18,kum:17};
+  const routeDefs=[
+    {id:'snow-germanic',form:'*snaiwaz',label:'Germanic',color:'#96c8d4',example:'snow'},
+    {id:'snow-latin',form:'nix · nivem',label:'Latin → Romance',color:'#e7b39f',example:'nieve'},
+    {id:'snow-slavic',form:'*sně̑gъ',label:'Slavic',color:'#acb6d5',example:'снег'},
+    {id:'snow-baltic',form:'*snáigas',label:'Baltic',color:'#c0ce95',example:'sniegas'},
+    {id:'snow-goidelic',form:'snechtae',label:'Old Irish → Goidelic',color:'#9fc9b0',example:'sneachta'}
   ];
-  function rootOf(l) {return byRoot.get(l.root) || byRoot.get(l.group) || {id:l.root,label:l.root || 'Unresolved',form:'',color:'#a4a9ab',description:'Deeper origin is not asserted.'};}
-  function branch(l) {
-    const value = l.branch || l.family || '';
-    return Object.keys(branchPalette).find(b=>value.toLowerCase().includes(b.toLowerCase())) || Object.keys(branchPalette).find(b=>l.family.toLowerCase().includes(b.toLowerCase())) || value;
+  const rootColors={'pie-snow':'#96c8d4','pie-winter':'#c9abd5','brythonic-ergh':'#b9cd8f','slavic-fall':'#dfc29b','albanian-fall':'#dcadaf','iranian-wafra':'#d8ad97','uralic-lome':'#e6cf87','uralic-kume':'#d9b66c','sami-muotte':'#a5c9ba','semitic-thalg':'#e8c69a','turkic-kar':'#b2d0ba','kartvelian-tow':'#bea1ca','basque-erur':'#dd9990','berber-adfel':'#e3b17f','nakh-lawa':'#bda8a0','norse-kaf':'#c6d9d8','ossetian-mit':'#c5bec9'};
+  const branchColors={Germanic:'#96c8d4',Romance:'#e7b39f',Slavic:'#acb6d5',Baltic:'#c0ce95',Celtic:'#a5c49b',Uralic:'#e6cf87',Semitic:'#e8c69a',Turkic:'#b2d0ba',Kartvelian:'#bea1ca',Berber:'#e3b17f',Basque:'#dd9990',Hellenic:'#c9abd5',Armenian:'#baa8ce',Albanian:'#dcadaf',Iranian:'#d8ad97',Nakh:'#bda8a0',Circassian:'#9eb6bb',Mongolic:'#d9c59e',Eskimo:'#cadcdb'};
+  let lex,metadata,coverage,lands,features,languages,byId,byRoot,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
+  let mode='routes',opacity=.90,labelScale=1,selected=null,search='',focused=null,exportBusy=false;
+  const featureById=new Map(), labelPoints=new Map();
+  function branch(l){const s=`${l.branch||''} ${l.family||''}`;return Object.keys(branchColors).find(k=>s.toLowerCase().includes(k.toLowerCase()))||l.branch||l.family;}
+  function root(l){return byRoot.get(l.root)||{id:l.root,label:l.root,form:'',color:'#c5c6bf',description:'No deeper relationship is asserted.'};}
+  function route(l){
+    if(l.root!=='pie-snow')return root(l).id;
+    const b=branch(l);return b==='Germanic'?'snow-germanic':b==='Romance'?'snow-latin':b==='Slavic'?'snow-slavic':b==='Baltic'?'snow-baltic':'snow-goidelic';
   }
-  function originKey(l) {return mode==='root'?rootOf(l).id:branch(l);}
-  function color(l) {return mode==='root' ? rootOf(l).color : branchPalette[branch(l)] || '#a4a9ab';}
-  function link(s) {return `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || 'Lexical source')} ↗</a>`;}
-  function inRing(point, ring) {
-    let hit=false; const [x,y]=point;
-    for(let i=0,j=ring.length-1;i<ring.length;j=i++) {
-      const [xi,yi]=ring[i], [xj,yj]=ring[j];
-      if(((yi>y)!==(yj>y)) && x < (xj-xi)*(y-yi)/(yj-yi)+xi) hit=!hit;
+  function key(l){return mode==='root'?root(l).id:mode==='branch'?branch(l):route(l);}
+  function color(l){if(!l)return '#c5c6bf';if(mode==='branch')return branchColors[branch(l)]||root(l).color;return mode==='routes'&&l.root==='pie-snow'?routeDefs.find(r=>r.id===route(l)).color:rootColors[l.root]||root(l).color;}
+  function idOf(f){return aliases[f.properties.id]||f.properties.id;}
+  function normalize(f){const g=f.geometry;if(!g)return f;const ps=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];ps.forEach(p=>p.forEach((r,i)=>{const a=d3.polygonArea(r);if((!i&&a<0)||(i&&a>0))r.reverse();}));return f;}
+  function node(parent,tag,attrs={},text=''){const el=parent.append(tag);for(const [k,v]of Object.entries(attrs))el.attr(k,v);if(text!==undefined)el.text(text);return el;}
+  function inRing([x,y],r){let inside=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const[a,b]=r[i],[c,d]=r[j];if((b>y)!==(d>y)&&x<(c-a)*(y-b)/(d-b)+a)inside=!inside;}return inside;}
+  function contains(f,p){const g=f.geometry,ps=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];return ps.some(poly=>inRing(p,poly[0])&&!poly.slice(1).some(r=>inRing(p,r)));}
+  function anchorsFor(l){if(anchors[l.id])return anchors[l.id];const f=featureById.get(l.id)?.[0];if(f?.properties.label)return f.properties.label;const land=lands.find(f=>idOf(f)===l.id);return land?d3.geoCentroid(land):null;}
+  function addText(parent,text,x,y,size=16,attrs={}){return node(parent,'text',{x,y,'font-family':'Georgia, Times New Roman, serif','font-size':size,fill:'#203b40',...attrs},text);}
+  function legendShort(r){const names={'pie-winter':'Greek & Armenian','brythonic-ergh':'Brythonic','slavic-fall':'Romanian · Slavic loan','albanian-fall':'Albanian','iranian-wafra':'Iranian','ossetian-mit':'Ossetian','uralic-lome':'Finnic & Volgaic','uralic-kume':'Hungarian','sami-muotte':'Sámi','semitic-thalg':'Semitic','turkic-kar':'Turkic','kartvelian-tow':'Kartvelian','basque-erur':'Basque','berber-adfel':'Berber','nakh-lawa':'Nakh','norse-kaf':'Faroese','samoyedic-sira':'Nenets','avar-ghazu':'Avar','dargwa-dyahi':'Dargwa','lezgian-zhiv':'Lezgian','lak-markhhala':'Lak','circassian-wes':'Circassian','mongolic-casun':'Mongolic','greenlandic-aput':'Greenlandic'};return names[r.id]||r.label.replace(/ · snow.*$/,'');}
+  function drawLegend(){
+    legendLayer.selectAll('*').remove();
+    const rows=mode==='branch'?[...new Set(languages.map(branch))].sort().map(b=>({id:b,form:'',label:b,color:branchColors[b]||'#c5c6bf'})):lex.roots.filter(r=>r.id!=='pie-snow').map(r=>({...r,label:legendShort(r),color:rootColors[r.id]||r.color}));
+    const rowHeight=mode==='branch'?29:24;
+    const start=mode==='routes'?214:mode==='root'?116:56;
+    const panelHeight=start+rows.length*rowHeight+35;
+    legendLayer.attr('transform','translate(34,168)');
+    node(legendLayer,'rect',{width:306,height:panelHeight,fill:'#fbfaf4','fill-opacity':.97,stroke:'#cfcfc1','stroke-width':.8});
+    addText(legendLayer,mode==='branch'?'LANGUAGE BRANCHES':'WORD HISTORIES',17,29,11,{'font-family':'Arial, sans-serif','letter-spacing':1.8,'font-weight':700});
+    if(mode!=='branch'){
+      addText(legendLayer,'*sneygʷʰ-',17,66,29);
+      addText(legendLayer,'Proto-Indo-European · “to snow”',18,87,11,{'font-family':'Arial, sans-serif',fill:'#63706b'});
+      if(mode==='routes')routeDefs.forEach((r,i)=>legendRow(r,111+i*20,12.5,true));
+      else legendRow({id:'pie-snow',form:'',label:'Shared snow-root descendants',color:rootColors['pie-snow']},106,12.5,true);
     }
-    return hit;
-  }
-  function contains(feature, point) {
-    const g=feature.geometry; if(!g) return false;
-    const polys=g.type==='MultiPolygon'?g.coordinates:g.type==='Polygon'?[g.coordinates]:[];
-    return polys.some(p=>inRing(point,p[0]) && !p.slice(1).some(h=>inRing(point,h)));
-  }
-  function normalizeGeometry(feature) {
-    // GeoJSON uses right-hand winding; D3's spherical paths need small exteriors clockwise.
-    const geo=feature.geometry;
-    if(!geo) return feature;
-    const polys=geo.type==='Polygon'?[geo.coordinates]:geo.type==='MultiPolygon'?geo.coordinates:[];
-    polys.forEach(p=>p.forEach((ring,i)=>{
-      const a=d3.polygonArea(ring);
-      if((i===0 && a<0)||(i>0 && a>0)) ring.reverse();
-    }));
-    return feature;
-  }
-  function territoryId(f) {return f.properties.id || f.properties.iso || f.properties.iso6393;}
-  function labelAnchor(l) {
-    if(anchors[l.id]) return projection(anchors[l.id]);
-    const f=features.filter(f=>territoryId(f)===l.id).sort((a,b)=>path.area(b)-path.area(a))[0];
-    return f?.properties.label ? projection(f.properties.label) : f?path.centroid(f):null;
-  }
-  function labelPosition(l) {const p=labelAnchor(l),o=labelOffsets[l.id]||[0,0];return p?[p[0]+o[0]/transform.k,p[1]+o[1]/transform.k]:null;}
-  function updateLabels() {
-    if(!labels) return;
-    const k=transform.k, occupied=[];
-    const candidates=languages.filter(l=>!missing.has(l.id)).map(l=>({l,p:labelPosition(l)})).filter(d=>d.p && d.p.every(Number.isFinite));
-    candidates.sort((a,b)=>(a.l.id===selected?-1000:priority.indexOf(a.l.id)<0?500:priority.indexOf(a.l.id))-(b.l.id===selected?-1000:priority.indexOf(b.l.id)<0?500:priority.indexOf(b.l.id)));
-    const visible=new Set();
-    for(const {l,p} of candidates) {
-      if(activeRoot && originKey(l)!==activeRoot && l.id!==selected) continue;
-      if(searchTerm && !`${l.name} ${l.word} ${l.romanization||''} ${l.id}`.toLowerCase().includes(searchTerm) && l.id!==selected) continue;
-      const [x,y]=transform.apply(p), size=l.id===selected?26:priority.includes(l.id)?22:18;
-      if(x<18||x>1182||y<30||y>880) continue;
-      const width=Math.max(l.word.length*size*.55,l.name.length*7.5)*.94, h=34;
-      const box=[x-width/2-4,y-h/2-4,x+width/2+4,y+h/2+4];
-      if(l.id!==selected && occupied.some(b=>b[0]<box[2]&&b[2]>box[0]&&b[1]<box[3]&&b[3]>box[1])) continue;
-      occupied.push(box);visible.add(l.id);
+    let y=start;
+    if(mode!=='branch'){node(legendLayer,'line',{x1:17,x2:289,y1:y-7,y2:y-7,stroke:'#d3d7ca','stroke-width':.7});addText(legendLayer,'OTHER WORD-ORIGIN SETS',17,y+10,9,{'font-family':'Arial, sans-serif','letter-spacing':1.1,'font-weight':700,fill:'#6b786e'});y+=27;}
+    rows.forEach((r,i)=>legendRow(r,y+i*rowHeight,12.5,false));
+    function legendRow(r,y,font,routeRow){
+      const g=node(legendLayer,'g',{'class':'poster-legend-row',transform:`translate(17,${y})`,'data-key':r.id,role:'button',tabindex:0,'aria-label':`Highlight ${r.label}`});
+      node(g,'rect',{x:-4,y:-12,width:280,height:20,fill:focused===r.id?'#e8eddf':'transparent'});
+      node(g,'rect',{x:0,y:-8,width:11,height:11,fill:r.color,stroke:'#56726d','stroke-width':.2});
+      const form=r.form&&r.form.length<27?r.form:r.form?.split(' / ')[0]||'';
+      const label=routeRow?`${r.label}  ${form}`:`${r.label}  ${form}`;
+      addText(g,label,19,2,font,{'font-family':'Georgia, Times New Roman, serif'});
+      g.on('click',()=>{focused=focused===r.id?null:r.id;drawLegend();paint();}).on('keydown',e=>{if(e.key==='Enter'){focused=focused===r.id?null:r.id;drawLegend();paint();}});
     }
-    labels.attr('display',l=>visible.has(l.id)?null:'none').attr('transform',l=>{
-      const p=labelPosition(l)||[0,0]; return `translate(${p}) scale(${1/k})`;
-    }).classed('selected',l=>l.id===selected);
-    labels.select('.word-label').attr('font-size',l=>l.id===selected?26:priority.includes(l.id)?22:18);
+    // Used by collision placement, keeping every word clear of the legend.
+    legendLayer.attr('data-height',panelHeight);
   }
-  function updateMap() {
-    areas.attr('fill',f=>color(byId.get(territoryId(f))))
-      .attr('fill-opacity',f=>{
-        const l=byId.get(territoryId(f));
-        if(activeRoot && originKey(l)!==activeRoot) return .1;
-        if(searchTerm && !`${l.name} ${l.word} ${l.romanization||''} ${l.id}`.toLowerCase().includes(searchTerm)) return .12;
-        return $('overlap-toggle')?.checked?opacity:.96;
-      }).classed('selected',f=>territoryId(f)===selected)
-      .attr('stroke',f=>territoryId(f)===selected?'#193e48':'#ffffff')
-      .attr('stroke-width',f=>territoryId(f)===selected?1.6:.65);
-    if(borderLayer) borderLayer.attr('display',$('borders-toggle')?.checked?null:'none');
-    if(labels) labels.attr('visibility',$('labels-toggle')?.checked?'visible':'hidden');
-    updateLabels();
-  }
-  function renderLegend() {
-    document.querySelector('.legend-heading h2').textContent=mode==='root'?'Word-origin sets':'Language branches';
-    document.querySelector('.legend-heading > span').textContent=mode==='root'?'Same colour, shared word history':'Family relationships, independent of this word';
-    const present=mode==='root'?roots.filter(r=>languages.some(l=>rootOf(l).id===r.id)):[...new Set(languages.map(branch))].sort().map(b=>({id:b,label:b,form:'',color:branchPalette[b]||'#a4a9ab',description:'Language branch. This view groups languages, rather than word origins.'}));
-    $('legend').innerHTML=present.map(r=>{
-      const count=languages.filter(l=>mode==='root'?rootOf(l).id===r.id:branch(l)===r.id).length;
-      return `<button class="root-item${activeRoot===r.id?' active':''}" data-root="${esc(r.id)}" aria-pressed="${activeRoot===r.id}" title="${esc(r.description)}"><span class="root-swatch" style="--swatch:${esc(r.color)};background:${esc(r.color)}"></span><span class="root-copy"><strong>${esc(r.form||r.label)}</strong>${r.form?`<small>${esc(r.label)}</small>`:''}</span><span class="root-count">${count}</span></button>`;
-    }).join('');
-    $('legend').querySelectorAll('[data-root]').forEach(b=>b.addEventListener('click',()=>{
-      stopStory();const id=b.dataset.root;
-      activeRoot=activeRoot===id?null:id;renderLegend();updateMap();$('story-caption').textContent=activeRoot?`${mode==='root'?byRoot.get(activeRoot)?.label:activeRoot}. Click this legend item again to show all areas.`:'Explore a word, or play the guided journey.';
-    }));
-    $('root-filters').innerHTML=mode==='root'?'<span class="section-label">THREE ROUTES FROM THE PIE SNOW ROOT</span><button data-route="eng">Germanic · *snaiwaz → snow</button><button data-route="spa">Latin · nix / nivem → nieve</button><button data-route="rus">Slavic · *sněgъ → снег</button>':'';
-    $('root-filters').querySelectorAll('[data-route]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.route)));
-  }
-  function renderOptions() {
-    const list=languages.filter(l=>!searchTerm || `${l.name} ${l.native||''} ${l.word} ${l.romanization||''} ${l.id}`.toLowerCase().includes(searchTerm));
-    $('language-select').innerHTML=list.length?list.map(l=>`<option value="${esc(l.id)}"${l.id===selected?' selected':''}>${esc(l.name)} · ${esc(l.word)}${missing.has(l.id)?' (no footprint)':''}</option>`).join(''):'<option value="">No matching language</option>';
-  }
-  function select(id,{fly=false,overlaps=null,story=false}={}) {
-    if(!byId.has(id)) return;
-    if(!story)stopStory();
-    selected=id;const l=byId.get(id),r=rootOf(l);
-    if(activeRoot && activeRoot!==originKey(l))activeRoot=null;
-    lastOverlaps=overlaps||[];
-    const chain=l.chain||[];
-    const peers=languages.filter(p=>p.id!==id && rootOf(p).id===r.id);
-    const selectedFeatures=features.filter(f=>territoryId(f)===id);
-    const areaNotes=[...new Set(selectedFeatures.map(f=>f.properties.caveat).filter(Boolean))];
-    const coverage=[...new Set(selectedFeatures.map(f=>f.properties.coverageType).filter(Boolean))];
-    $('inspector').innerHTML=`<div class="inspector-kicker"><span style="background:${esc(r.color)}" class="tiny-swatch"></span>${esc(l.name)}${l.native && l.native!==l.name?` <span class="native-name">/ ${esc(l.native)}</span>`:''}</div>
-      <h2 class="inspector-word" dir="auto">${esc(l.word)}</h2>
-      ${l.romanization?`<p class="inspector-roman">${esc(l.romanization)}</p>`:''}
-      <p class="inspector-family">${esc(l.family)}${l.branch && l.branch!==l.family?` · ${esc(l.branch)}`:''}</p>
-      <div class="origin-summary"><span class="section-label">WORD ORIGIN</span><strong>${esc(r.form||r.label)}</strong><p>${esc(r.description||'')}</p></div>
-      <div class="etymology-chain"><span class="section-label">THE ROUTE TO ${esc(l.word.toUpperCase())}</span>${chain.map((s,i)=>`<div class="chain-step"><i class="chain-dot" style="--root-color:${esc(r.color)}"></i><div><span class="chain-label">${esc(s.label||s.language||'')}</span><strong class="chain-form" dir="auto">${esc(s.form)}</strong>${s.note?`<small>${esc(s.note)}</small>`:''}</div></div>${i<chain.length-1?'<div class="chain-arrow">↓</div>':''}`).join('')}</div>
-      ${l.notes?`<p class="inspector-note">${esc(Array.isArray(l.notes)?l.notes.join(' '):l.notes)}</p>`:''}
-      ${missing.has(id)?'<p class="notice">This word is included in the lexicon, but no matching language footprint is available in this map extract.</p>':`<div class="geometry-note"><span class="section-label">ABOUT THIS MAPPED AREA</span>${coverage.length?`<strong>${esc(coverage.join(' · '))}</strong><br>`:''}Digitized source footprint; not a claim of exclusive use.${areaNotes.map(n=>`<p>${esc(n)}</p>`).join('')}</div>`}
-      ${lastOverlaps.filter(p=>p!==id).length?`<div class="overlap-languages"><span class="section-label">ALSO MAPPED AT THIS POINT</span><div>${lastOverlaps.filter(p=>p!==id).map(p=>`<button class="chip" data-language="${esc(p)}">${esc(byId.get(p)?.name||p)}</button>`).join('')}</div></div>`:''}
-      ${peers.length?`<div class="cognates"><span class="section-label">SAME WORD-ORIGIN SET · ${peers.length} MORE</span><div>${peers.slice(0,7).map(p=>`<button class="chip" data-language="${esc(p.id)}">${esc(p.word)} <small>${esc(p.name)}</small></button>`).join('')}</div></div>`:''}
-      <div class="source-links"><span class="section-label">CHECK THE ENTRY</span>${(l.sources||[]).map(link).join('')}</div>`;
-    $('inspector').querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.language,{fly:true,overlaps:lastOverlaps})));
-    $('language-select').value=id;
-    renderLegend();updateMap();
-    if(fly && !missing.has(id)) {
-      const p=labelAnchor(l),k=priority.includes(id)?2:4;
-      if(p)svg.transition().duration(matchMedia('(prefers-reduced-motion: reduce)').matches?0:700).call(zoom.transform,d3.zoomIdentity.translate(600-p[0]*k,450-p[1]*k).scale(k));
+  function labelLayout(){
+    if(!labelsLayer)return;
+    labelsLayer.selectAll('*').remove();labelPoints.clear();
+    if(!$('labels-toggle').checked)return;
+    const legendHeight=+legendLayer.attr('data-height')||800;
+    const occupied=[[22,150,348,168+legendHeight+12],[30,17,470,143],[22,1041,1775,1090]];
+    const rank=id=>important.includes(id)?important.indexOf(id):100;
+    const list=languages.filter(l=>anchorsFor(l)).sort((a,b)=>rank(a.id)-rank(b.id));
+    const candidates=[[0,0],[0,-20],[0,20],[-22,0],[22,0],[-29,-22],[29,-22],[-29,22],[29,22],[0,-40],[0,40],[-48,-15],[48,-15],[-48,20],[48,20],[-65,-30],[65,-30],[-65,30],[65,30],[0,-60],[0,60],[-80,0],[80,0]];
+    for(const l of list){
+      const a=anchorsFor(l);if(a[0]<-27||a[0]>68||a[1]<25||a[1]>75)continue;
+      const raw=transform.apply(projection(a));
+      if(raw[0]<345||raw[0]>1780||raw[1]<28||raw[1]>1022)continue;
+      const sz=(localSizes[l.id]||(important.includes(l.id)?25:20))*labelScale;
+      const text=l.word, estimated=Math.max(23,[...text].length*sz*.57),height=sz*1.05;
+      const base=offsets[l.id]||[0,0];
+      let placed=null;
+      for(const [dx,dy]of candidates){const x=raw[0]+base[0]+dx,y=raw[1]+base[1]+dy;
+        const box=[x-estimated/2-4,y-height*.85-3,x+estimated/2+4,y+height*.25+3];
+        if(box[0]<350||box[2]>1775||box[1]<25||box[3]>1030)continue;
+        if(occupied.some(b=>b[0]<box[2]&&b[2]>box[0]&&b[1]<box[3]&&b[3]>box[1]))continue;
+        occupied.push(box);placed={x,y,raw,sz};break;
+      }
+      if(!placed)continue;
+      const {x,y,sz:size}=placed;
+      labelPoints.set(l.id,{x,y});
+      const g=node(labelsLayer,'g',{'class':'word-mark','data-language':l.id,role:'button',tabindex:0,'aria-label':`${l.name}: ${l.word}`});
+      const distance=Math.hypot(x-raw[0],y-raw[1]);
+      if(distance>15){node(g,'line',{x1:raw[0],y1:raw[1],x2:x,y2:y-5,stroke:'#516b6d','stroke-width':.7,opacity:.65,'class':'label-leader'});node(g,'circle',{cx:raw[0],cy:raw[1],r:1.5,fill:'#536a68'});}
+      addText(g,text,x,y,size,{'class':'word-label','text-anchor':'middle',direction:'ltr',style:`font-weight:${important.includes(l.id)?600:400}`,'paint-order':'stroke','stroke':'#faf9f2','stroke-width':2.1,'stroke-linejoin':'round'});
+      g.on('click',()=>showWord(l.id)).on('keydown',e=>{if(e.key==='Enter')showWord(l.id);});
+      if((focused&&key(l)!==focused)||(search&&!matches(l)))g.attr('opacity',.22);
     }
-    const url=new URL(location.href);url.hash=id;history.replaceState(null,'',url);
   }
-  function stopStory() {
-    clearTimeout(storyTimer);storyTimer=null;
-    if($('play')){$('play').textContent='▶ Play the story';$('play').setAttribute('aria-pressed','false');}
+  function matches(l){return `${l.name} ${l.native||''} ${l.word} ${l.romanization||''} ${l.id}`.toLowerCase().includes(search);}
+  function paint(){
+    basePaths.attr('fill',f=>color(byId.get(idOf(f)))).attr('stroke',f=>color(byId.get(idOf(f))));
+    areaPaths.attr('fill',f=>color(byId.get(idOf(f)))).attr('fill-opacity',f=>{
+      const l=byId.get(idOf(f));return (focused&&key(l)!==focused)||(search&&!matches(l))?.12:$('overlap-toggle').checked?opacity:1;
+    });
+    if(focused||search)basePaths.attr('fill-opacity',f=>{const l=byId.get(idOf(f));return (focused&&key(l)!==focused)||(search&&!matches(l))?.25:1;});else basePaths.attr('fill-opacity',1);
+    countryLines.attr('display',$('borders-toggle').checked?null:'none');labelLayout();
   }
-  function storyStep() {
-    const s=stories[storyIndex];
-    if(!s){stopStory();storyIndex=-1;return;}
-    searchTerm='';$('search').value='';activeRoot=rootOf(byId.get(s.id)).id;
-    select(s.id,{story:true});
-    $('story-caption').textContent=s.caption;
-    $('story-progress').firstElementChild.style.width=`${(storyIndex+1)/stories.length*100}%`;
-    $('story-progress').setAttribute('aria-valuenow',String(Math.round((storyIndex+1)/stories.length*100)));
-    $('play').textContent='Ⅱ Pause story';$('play').setAttribute('aria-pressed','true');
-    storyTimer=setTimeout(()=>{storyIndex++;storyStep();},6500);
+  function showWord(id){
+    const l=byId.get(id);if(!l)return;selected=id;
+    const r=root(l),fs=featureById.get(id)||[],isMapped=fs.length>0,caveats=[...new Set(fs.map(f=>f.properties.caveat).filter(Boolean))];
+    $('inspector').innerHTML=`<p class="inspector-kicker">${esc(l.name)}${l.native&&l.native!==l.name?` · ${esc(l.native)}`:''}</p><h2 class="inspector-word" dir="auto">${esc(l.word)}</h2>${l.romanization?`<p class="inspector-roman">${esc(l.romanization)}</p>`:''}<p class="inspector-family">${esc(l.family)} · ${esc(l.branch||'')}</p><p class="inspector-note">${esc(r.description)}</p><div class="etymology-chain">${(l.chain||[]).map(s=>`<div class="chain-step"><span class="chain-label">${esc(s.label)}</span><strong class="chain-form" dir="auto">${esc(s.form)}</strong></div>`).join('')}</div>${l.notes?`<p class="inspector-note">${esc(l.notes)}</p>`:''}<p class="geometry-note">${isMapped?'Published language-area geometry, over a continuous country reference layer.':'Word label at a representative location; no separate language-area polygon is asserted.'} ${caveats.map(esc).join(' ')}</p><div class="source-links">${(l.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a>`).join('')}</div>`;
+    $('language-select').value=id;$('word-dialog').showModal();
   }
-  function sourceModal() {
-    const meta=data.methodology;
-    $('sources-content').innerHTML=`<p>This map compares selected words for snow and their histories. It is not an exhaustive census of languages, dialects or synonyms.</p>
-      <h3>Mapped language areas</h3><p>Asher, R. E. & Christopher J. Moseley (eds.). 2007. <em>Atlas of the World's Languages</em>, second edition. Routledge. Speaker-area polygons digitized and published by <a href="https://github.com/glottography/asher2007world" target="_blank" rel="noopener">Glottography</a>, contemporary dataset, CC BY 4.0. Cropped and simplified for this atlas; attribution and extraction details are in <a href="./data/geometry-sources.json" target="_blank">geometry-sources.json</a>.</p>
-      <p>Specific omissions are supplemented by the DiACL/TITUS Polygon Archive (Carling & Gippert 2025; traditional footprints, often a 1750 reference) and Rantanen et al. (2021 dataset, 2022 methods paper; early twentieth-century traditional Uralic areas), through Glottography under CC BY 4.0. Such areas are explicitly identified in each language's detail panel. They are not contemporary language-use estimates.</p>
-      <p>Additional published language-area datasets fill specific omissions in the main atlas. The full source list and transformations are recorded in <a href="./data/geometry-sources.json" target="_blank">geometry-sources.json</a>. ${esc(geoMeta?.summary||'')}</p>
-      <p>These are generalized source-era footprints, not measured 2026 prevalence. They can overlap, omit urban communities and miss small enclaves. A filled area does not imply everyone there uses that language. Standardized words are attached to matching mapped varieties; a macrolanguage label is identified in the data. Unmatched areas remain neutral. The Arabic standard-reference word is shown over mapped Arabic varieties where no separate vernacular entry is supplied.</p>
-      <p>Natural Earth 1:50m administrative geometry supplies geographic context under its <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener">public-domain terms</a>. Country lines and names do not define the language areas.</p>
-      <h3>What the colours mean</h3><p>In word-origin mode, matching colours identify an asserted shared etymological set, not similar spelling or a shared language family. Related branches can be compared in the separate branch view. Where deeper origin is uncertain, the grouping stops at the defensible level.</p>
-      <p>An asterisk (*) marks a reconstructed form. PIE forms have several conventional spellings and inflected variants; the map uses *sneygʷʰ- for the shared snow root. Intermediate steps are selected milestones, not every sound change. The story is an explanation of word relationships, not a dated migration animation.</p>
-      <h3>Lexical sources and scope</h3><p>Entries link to the dictionaries or lexical resources used for each word and etymology. Wiktionary is a community-edited reference, not a substitute for a specialist historical dictionary. Uncertain analyses are marked in the entry notes. ${typeof meta==='string'?esc(meta):esc(meta?.description||'')}</p>
-      <p>${languages.length} lexical entries; ${languages.length-missing.size} have matching footprints in this extract. ${missing.size?`Entries without footprints: ${languages.filter(l=>missing.has(l.id)).map(l=>esc(l.name)).join(', ')}.`:''}</p>
-      <p><a href="./data/lexicon.json" download>Download editable lexical data</a> · <a href="./data/territories.geojson" download>Download language polygons</a> · <a href="./data/geometry-sources.json" download>Geometry provenance</a></p>
-      <details><summary>All lexical entries and references</summary><div class="source-index">${languages.map(l=>`<p><strong>${esc(l.name)}: ${esc(l.word)}</strong><br>${(l.sources||[]).map(link).join(' · ')}</p>`).join('')}</div></details>`;
+  function populateLanguages(){const list=languages.filter(l=>!search||matches(l));$('language-select').innerHTML='<option value="">Inspect a word…</option>'+list.map(l=>`<option value="${esc(l.id)}">${esc(l.name)} · ${esc(l.word)}</option>`).join('');}
+  function showSources(){
+    $('sources-content').innerHTML=`<h3>A poster map, with continuous land coverage</h3><p>The main image uses a flat cylindrical projection and words-only labels. Its colours follow etymological routes by default: Germanic, Latin, Slavic, Baltic and Goidelic routes are grouped beneath the same Proto-Indo-European snow root in the legend. Shared-roots mode gives them one colour.</p><p>All land is coloured. Published minority-language polygons sit above complete Natural Earth land/country geometry. Gaps between speaker footprints use a selected country reference word; this is an explicit cartographic completion, not a new ethnic-boundary estimate or a claim of uniform language use. Thus northern Russia, Sinai, the Zagros and sparsely populated deserts are not left blank.</p><p>Some small varieties have a word label but no separate polygon. Leader lines connect crowded labels to their anchor. Asterisks mark reconstructed forms. Reconstructions and uncertain deeper histories are explained in individual entries.</p><h3>Geographic sources</h3><p>Asher & Moseley (2007), <em>Atlas of the World's Languages</em>, digitized by <a href="https://github.com/Glottography/asher2007world" target="_blank" rel="noopener">Glottography</a> (CC BY 4.0). Traditional-area supplements: <a href="https://github.com/Glottography/carling2025diacl" target="_blank" rel="noopener">DiACL/TITUS, Carling & Gippert 2025</a>, and <a href="https://github.com/Glottography/rantanen2021uralic" target="_blank" rel="noopener">Rantanen et al., Uralic database 2021</a> (CC BY 4.0). Specific supplements retain their source-epoch notes. Background: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener">Natural Earth, public domain</a>.</p><p>${languages.length} selected lexical entries; ${featureById.size} lexical joins to source polygons. Source claims are not a 2026 census. Where a source combines varieties, a representative form is used with notes.</p><h3>Download and edit</h3><p><a href="./data/lexicon.json" download>Lexicon and etymologies</a> · <a href="./data/territories.geojson" download>Language footprints</a> · <a href="./data/land-reference.geojson" download>Continuous land references</a> · <a href="./data/map-coverage.json" target="_blank">Coverage method and checks</a> · <a href="./data/geometry-sources.json" target="_blank">Geometry provenance</a></p><p>Lexical facts are primarily cross-checked against Wiktionary, plus the linked dictionaries named in each entry. Wiktionary is a community-edited resource under CC BY-SA 4.0. Unresolved histories are kept separate. All exports include brief attribution; full source links stay in the editable data.</p><p>PNG exports are ${$('export-size').value} pixels wide; SVG retains editable vector geometry and text. The controls and dialogs are excluded from the artwork.</p>`;
     $('sources-dialog').showModal();
   }
-  function exportSvg() {
-    const NS='http://www.w3.org/2000/svg',out=document.createElementNS(NS,'svg');
-    out.setAttribute('xmlns',NS);out.setAttribute('width','1800');out.setAttribute('height','1880');out.setAttribute('viewBox','0 0 1500 1567');
-    const add=(tag,attrs,text)=>{const e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(text)e.textContent=text;out.append(e);return e;};
-    add('rect',{width:1500,height:1567,fill:'#f5f4ee'});
-    add('text',{x:40,y:65,fill:'#173e49','font-family':'Georgia,serif','font-size':44},'SNOW · A word across Europe');
-    add('text',{x:42,y:104,fill:'#46616b','font-family':'Arial,sans-serif','font-size':17},'Language areas and selected word histories · Europe and its neighbours');
-    const clone=$('map').cloneNode(true);clone.setAttribute('x','20');clone.setAttribute('y','130');clone.setAttribute('width','1460');clone.setAttribute('height','1095');clone.removeAttribute('role');
-    const style=document.createElementNS(NS,'style');style.textContent='.graticule{fill:none;stroke:#b7ced1;stroke-width:.5;opacity:.5}.country-line{fill:none;stroke:#768e93;stroke-width:.6;stroke-dasharray:3 3;pointer-events:none}.word-label{fill:#153d47;paint-order:stroke;stroke:#f8f7f0;stroke-width:3;stroke-linejoin:round;font-family:Georgia,serif;font-weight:600}.language-label{fill:#395962;font:9px Arial,sans-serif;paint-order:stroke;stroke:#f8f7f0;stroke-width:2}.sea-label{fill:#6e969e;font:italic 15px Georgia,serif;letter-spacing:3px}.coastline{fill:#e8e8df;stroke:#b7c6c4;stroke-width:.65}.map-pin{fill:#173e49;stroke:white;stroke-width:1.5}';clone.prepend(style);out.append(clone);
-    add('text',{x:42,y:1260,fill:'#173e49','font-family':'Arial,sans-serif','font-size':17,'font-weight':'bold'},mode==='root'?'WORD ORIGIN SETS':'LANGUAGE BRANCHES');
-    const items=mode==='root'?roots.filter(r=>languages.some(l=>rootOf(l).id===r.id)):[...new Set(languages.map(branch))].sort().map(b=>({label:b,color:branchPalette[b]||'#a4a9ab'}));
-    items.forEach((r,i)=>{const x=42+(i%4)*360,y=1290+Math.floor(i/4)*38;add('rect',{x,y:y-13,width:13,height:13,rx:3,fill:r.color});add('text',{x:x+22,y,fill:'#173e49','font-family':'Arial,sans-serif','font-size':13},`${r.form||''} ${r.label}`);});
-    add('text',{x:42,y:1500,fill:'#53676c','font-family':'Arial,sans-serif','font-size':12},'Areas: Asher & Moseley 2007, Carling & Gippert 2025, Rantanen et al. / Glottography (CC BY 4.0). Geography: Natural Earth.');
-    add('text',{x:42,y:1523,fill:'#53676c','font-family':'Arial,sans-serif','font-size':13},'Lexical sources: source-linked lexicon.json. * marks reconstruction. Overlaps and selected varieties; not a census of present-day language use.');
-    add('text',{x:42,y:1546,fill:'#53676c','font-family':'Arial,sans-serif','font-size':12},'glottography.org · github.com/glottography/asher2007world · en.wiktionary.org · Snow Word Atlas');
-    const blob=new Blob([new XMLSerializer().serializeToString(out)],{type:'image/svg+xml;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='snow-word-atlas.svg';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const exportStyle=`.word-label{font-family:Georgia,'Times New Roman',serif;font-weight:400;fill:#203b40;paint-order:stroke;stroke:#faf9f2;stroke-width:2.1;stroke-linejoin:round;dominant-baseline:alphabetic;letter-spacing:0;stroke-opacity:1}.sea-name{fill:#748e91;font-family:Georgia,serif;font-style:italic;letter-spacing:2px}.poster-legend-row{cursor:default}.graticule{fill:none;stroke:#b5c7c4;stroke-width:.5;opacity:.35}.country-line{fill:none;stroke:#405d61;stroke-width:.55;stroke-opacity:.43;stroke-dasharray:2 2}.source-note{font-family:Arial,sans-serif;fill:#74807a}.language-area{stroke:#fffef8;stroke-width:.65;stroke-linejoin:round}.land-reference{stroke-width:.5;stroke-linejoin:round}`;
+  function serializedSvg(){
+    const clone=$('map').cloneNode(true);clone.setAttribute('xmlns',NS);clone.setAttribute('width',W);clone.setAttribute('height',H);clone.setAttribute('viewBox',`0 0 ${W} ${H}`);clone.removeAttribute('role');clone.removeAttribute('aria-label');
+    const s=document.createElementNS(NS,'style');s.textContent=exportStyle;clone.prepend(s);
+    // Search and legend hover/focus are editor aids, never pale gaps in the exported map.
+    clone.querySelectorAll('.land-reference,.word-mark').forEach(e=>{e.setAttribute('fill-opacity','1');e.setAttribute('opacity','1');});
+    clone.querySelectorAll('.language-area').forEach(e=>e.setAttribute('fill-opacity',$('overlap-toggle').checked?String(opacity):'1'));
+    clone.querySelectorAll('.poster-legend-row > rect:first-child').forEach(e=>e.setAttribute('fill','transparent'));
+    clone.querySelectorAll('[tabindex],[role]').forEach(e=>{e.removeAttribute('tabindex');e.removeAttribute('role');});
+    return new XMLSerializer().serializeToString(clone);
   }
-  let zoom;
-  async function init() {
-    if(!window.d3)throw new Error('The local map library did not load.');
-    [data,features,countries,geoMeta]=await Promise.all(['lexicon.json','territories.geojson','countries.geojson','geometry-sources.json'].map(async f=>{const r=await fetch(`./data/${f}`);if(!r.ok)throw new Error(`Cannot load ${f} (${r.status})`);return r.json();}));
-    languages=data.languages;roots=data.roots;byId=new Map(languages.map(l=>[l.id,l]));byRoot=new Map(roots.map(r=>[r.id,r]));
-    features=features.features.filter(f=>byId.has(territoryId(f))).map(normalizeGeometry);
-    countries.features.forEach(normalizeGeometry);
-    languages.forEach(l=>{if(!features.some(f=>territoryId(f)===l.id))missing.add(l.id);});
-    svg=d3.select('#map');transform=d3.zoomIdentity;
-    projection=d3.geoConicConformal().parallels([35,65]).rotate([-18,0]).center([0,48]).scale(860).translate([545,480]).clipExtent([[-1500,-1500],[2700,2400]]).precision(.2);
-    path=d3.geoPath(projection);
-    const defs=svg.append('defs');defs.append('clipPath').attr('id','map-clip').append('rect').attr('width',1200).attr('height',900);
-    svg.append('rect').attr('width',1200).attr('height',900).attr('fill','#e7eff0');
-    world=svg.append('g').attr('class','map-world');
-    world.append('path').datum(d3.geoGraticule().step([10,10]).extent([[-40,20],[90,82]])()).attr('class','graticule').attr('d',path);
-    world.append('g').selectAll('path').data(countries.features).join('path').attr('class','coastline').attr('d',path).attr('fill','#e8e8df').attr('stroke','#b7c6c4').attr('stroke-width',.65);
-    // Small footprints are painted last so enclaves stay selectable.
+  function saveBlob(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);}
+  async function exportPng(){
+    if(exportBusy)return;exportBusy=true;$('download-png').disabled=true;
+    const original=$('download-png').innerHTML;$('download-png').textContent='Rendering…';
+    try{
+      await document.fonts.ready;
+      const width=Number($('export-size').value),height=Math.round(width*H/W),canvas=document.createElement('canvas');canvas.width=width;canvas.height=height;
+      const ctx=canvas.getContext('2d');if(!ctx)throw new Error('Canvas export is unavailable.');
+      const source=new Blob([serializedSvg()],{type:'image/svg+xml;charset=utf-8'}),url=URL.createObjectURL(source),img=new Image();
+      try{await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(new Error('Could not rasterize the map.'));img.src=url;});ctx.fillStyle='#f7f7ee';ctx.fillRect(0,0,width,height);ctx.drawImage(img,0,0,width,height);}finally{URL.revokeObjectURL(url);}
+      const png=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!png)throw new Error('PNG export was too large for this browser. Try a smaller size.');
+      saveBlob(png,`snow-map-${width}px.png`);$('status').textContent=`Saved PNG · ${width} × ${height} pixels`;
+    }catch(e){$('status').textContent=e.message;console.error(e);}finally{exportBusy=false;$('download-png').disabled=false;$('download-png').innerHTML=original;}
+  }
+  function status(){return `${languages.length} words · flat landscape · continuous land colour · PNG or editable SVG`;}
+  async function init(){
+    if(!window.d3)throw new Error('Local map library missing.');
+    [lex,metadata,coverage,lands,features]=await Promise.all(['lexicon.json','geometry-sources.json','map-coverage.json','land-reference.geojson','territories.geojson'].map(async name=>{const r=await fetch(`./data/${name}`);if(!r.ok)throw new Error(`Cannot load ${name}`);return r.json();}));
+    languages=lex.languages;byId=new Map(languages.map(l=>[l.id,l]));byRoot=new Map(lex.roots.map(r=>[r.id,r]));
+    lands=lands.features.map(normalize);features=features.features.filter(f=>byId.has(idOf(f))).map(normalize);
+    features.forEach(f=>{const id=idOf(f);if(!featureById.has(id))featureById.set(id,[]);featureById.get(id).push(f);});
+    // Linear meridians and parallels: no curved frame or curved southern edge.
+    const raw=(lambda,phi)=>[lambda,phi*1.325];raw.invert=(x,y)=>[x,y/1.325];
+    projection=d3.geoProjection(raw).center([20.5,49.5]).scale(882).translate([1037,540]).precision(.15);
+    path=d3.geoPath(projection);transform=d3.zoomIdentity;
+    svg=d3.select('#map').attr('viewBox',`0 0 ${W} ${H}`);
+    svg.selectAll('*').remove();
+    svg.append('style').text(exportStyle);
+    node(svg,'rect',{width:W,height:H,fill:'#edf3f0'});
+    const defs=svg.append('defs');
+    const clip=defs.append('clipPath').attr('id','land-clip');clip.selectAll('path').data(lands).join('path').attr('d',path);
+    const frame=defs.append('clipPath').attr('id','map-frame');frame.append('rect').attr('x',0).attr('y',17).attr('width',W).attr('height',1022);
+    world=svg.append('g').attr('class','geography').attr('clip-path','url(#map-frame)');
+    const graticule=d3.geoGraticule().step([10,10]).extent([[-60,10],[90,85]])();
+    world.append('path').datum(graticule).attr('class','graticule').attr('d',path).attr('fill','none').attr('stroke','#b5c7c4').attr('stroke-width',.5).attr('opacity',.35);
+    basePaths=world.append('g').selectAll('path').data(lands).join('path').attr('class','land-reference').attr('data-language',idOf).attr('d',path).attr('stroke-width',.5).on('click',(e,f)=>showWord(idOf(f)));
     features.sort((a,b)=>path.area(b)-path.area(a));
-    areas=world.append('g').attr('class','territory-layer').selectAll('path').data(features).join('path')
-      .attr('class','language-area').attr('d',path).attr('vector-effect','non-scaling-stroke').attr('data-language',territoryId)
-      .on('pointerenter',(event,f)=>{
-        const l=byId.get(territoryId(f));$('tooltip').innerHTML=`<strong dir="auto">${esc(l.word)}</strong><span>${esc(l.name)} · ${esc(rootOf(l).form||rootOf(l).label)}</span>`;$('tooltip').hidden=false;
-      }).on('pointermove',event=>{const box=$('map-stage').getBoundingClientRect();$('tooltip').style.left=Math.min(event.clientX-box.left+12,box.width-220)+'px';$('tooltip').style.top=Math.max(8,event.clientY-box.top-65)+'px';})
-      .on('pointerleave',()=>{$('tooltip').hidden=true;})
-      .on('click',(event,f)=>{
-        event.stopPropagation();$('tooltip').hidden=true;const p=projection.invert(transform.invert(d3.pointer(event,$('map'))));
-        const overlaps=[...new Set(features.filter(t=>contains(t,p)).map(territoryId))];select(territoryId(f),{overlaps});
-      });
-    borderLayer=world.append('g').attr('class','country-borders').attr('pointer-events','none');
-    borderLayer.selectAll('path').data(countries.features).join('path').attr('class','country-line').attr('d',path).attr('fill','none').attr('stroke','#718d92').attr('stroke-width',.6).attr('stroke-dasharray','3 3').attr('vector-effect','non-scaling-stroke');
-    const seas=[{p:[-20,46],name:'ATLANTIC OCEAN'},{p:[15,34.6],name:'MEDITERRANEAN SEA'},{p:[34.8,43],name:'BLACK SEA'},{p:[51.2,42],name:'CASPIAN SEA'}];
-    world.append('g').attr('pointer-events','none').selectAll('text').data(seas).join('text').attr('class','sea-label').attr('text-anchor','middle').attr('transform',d=>`translate(${projection(d.p)})`).text(d=>d.name);
-    labels=world.append('g').attr('class','label-layer').selectAll('g').data(languages.filter(l=>!missing.has(l.id))).join('g').attr('class','map-label').attr('data-language',l=>l.id).attr('role','button').attr('tabindex',0).attr('aria-label',l=>`${l.name}: ${l.word}. Show word history.`).style('cursor','pointer')
-      .on('click',(e,l)=>{e.stopPropagation();select(l.id);}).on('keydown',(e,l)=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(l.id);}});
-    labels.filter(l=>labelOffsets[l.id]).append('line').attr('class','label-leader').attr('x1',0).attr('y1',5).attr('x2',l=>-labelOffsets[l.id][0]).attr('y2',l=>-labelOffsets[l.id][1]).attr('stroke','#536f75').attr('stroke-width',.7);
-    labels.append('text').attr('class','word-label').attr('text-anchor','middle').attr('y',0).attr('dir','auto').text(l=>l.word);
-    labels.append('text').attr('class','language-label').attr('text-anchor','middle').attr('y',16).text(l=>l.id==='arb'?'Arabic · standard reference':l.name);
-    zoom=d3.zoom().scaleExtent([1,12]).translateExtent([[-1200,-900],[2400,1800]]).extent([[0,0],[1200,900]]).on('zoom',event=>{transform=event.transform;world.attr('transform',transform);updateLabels();$('tooltip').hidden=true;});
-    svg.call(zoom).on('dblclick.zoom',null);
-    $('zoom-in').addEventListener('click',()=>svg.transition().duration(250).call(zoom.scaleBy,1.6));
-    $('zoom-out').addEventListener('click',()=>svg.transition().duration(250).call(zoom.scaleBy,1/1.6));
-    $('zoom-reset').addEventListener('click',()=>svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity));
-    ['labels-toggle','borders-toggle','overlap-toggle'].forEach(id=>$(id).addEventListener('change',updateMap));
-    $('opacity').addEventListener('input',event=>{opacity=Number(event.target.value);updateMap();});
-    $('color-mode').addEventListener('change',event=>{stopStory();mode=event.target.value;activeRoot=null;renderLegend();updateMap();});
-    $('search').addEventListener('input',event=>{stopStory();activeRoot=null;searchTerm=event.target.value.trim().toLowerCase();renderOptions();renderLegend();updateMap();});
-    $('search').addEventListener('keydown',event=>{if(event.key==='Enter' && $('language-select').value)select($('language-select').value,{fly:true});if(event.key==='Escape'){searchTerm='';$('search').value='';renderOptions();updateMap();}});
-    $('language-select').addEventListener('change',event=>{if(event.target.value)select(event.target.value,{fly:true});});
-    $('play').addEventListener('click',()=>{if(storyTimer){stopStory();return;}mode='root';$('color-mode').value='root';svg.transition().duration(450).call(zoom.transform,d3.zoomIdentity);storyIndex=storyIndex<0||storyIndex>=stories.length?0:storyIndex;storyStep();});
-    $('reset-story').addEventListener('click',()=>{stopStory();storyIndex=-1;activeRoot=null;searchTerm='';$('search').value='';$('story-progress').firstElementChild.style.width='0%';$('story-progress').setAttribute('aria-valuenow','0');$('story-caption').textContent='Explore a word, or play the guided journey.';renderOptions();select('eng');svg.transition().duration(450).call(zoom.transform,d3.zoomIdentity);});
-    $('sources-button').addEventListener('click',sourceModal);$('close-sources').addEventListener('click',()=>$('sources-dialog').close());
-    $('sources-dialog').addEventListener('click',e=>{if(e.target===$('sources-dialog'))$('sources-dialog').close();});
-    $('download-svg').addEventListener('click',exportSvg);
-    renderOptions();select(byId.has(location.hash.slice(1))?location.hash.slice(1):'eng');
-    $('status').textContent=`${languages.length} words · ${languages.length-missing.size} mapped languages · ${roots.length} origin sets`;
-    document.querySelectorAll('.map-loading').forEach(el=>el.remove());
-    window.snowAtlas={languages,roots,features,missing:[...missing],select,exportSvg,projection,get selected(){return selected;},get transform(){return transform;}};
+    areaPaths=world.append('g').attr('clip-path','url(#land-clip)').selectAll('path').data(features).join('path').attr('class','language-area').attr('data-language',idOf).attr('d',path).attr('stroke','#fffef8').attr('stroke-width',.65).attr('vector-effect','non-scaling-stroke')
+      .on('pointerenter',(e,f)=>{const l=byId.get(idOf(f));$('tooltip').textContent=`${l.word} · ${l.name}`;$('tooltip').hidden=false;})
+      .on('pointermove',e=>{const b=$('map-stage').getBoundingClientRect();$('tooltip').style.left=Math.min(e.clientX-b.left+12,b.width-190)+'px';$('tooltip').style.top=Math.max(8,e.clientY-b.top-40)+'px';})
+      .on('pointerleave',()=>{$('tooltip').hidden=true;}).on('click',(e,f)=>{e.stopPropagation();$('tooltip').hidden=true;showWord(idOf(f));});
+    countryLines=world.append('g').attr('pointer-events','none');countryLines.selectAll('path').data(lands).join('path').attr('class','country-line').attr('d',path).attr('fill','none').attr('stroke','#405d61').attr('stroke-width',.55).attr('stroke-opacity',.43).attr('stroke-dasharray','2 2').attr('vector-effect','non-scaling-stroke');
+    const seas=[{p:[-16,45.6],text:'ATLANTIC OCEAN'},{p:[19,34.8],text:'MEDITERRANEAN SEA'}];
+    seas.forEach(s=>{const p=projection(s.p);addText(world,s.text,p[0],p[1],12.5,{'class':'sea-name','text-anchor':'middle',fill:'#748e91','font-style':'italic','letter-spacing':2});});
+    labelsLayer=svg.append('g').attr('class','word-layer');
+    legendLayer=svg.append('g').attr('class','poster-legend');
+    const title=svg.append('g').attr('class','poster-title');
+    addText(title,'SNOW',36,75,64,{'letter-spacing':2,'font-weight':400});
+    addText(title,'One word, many histories',40,108,20,{'font-style':'italic',fill:'#5a746f'});
+    addText(title,'EUROPE & ITS NEIGHBOURS',41,135,9.5,{'font-family':'Arial, sans-serif','letter-spacing':2,fill:'#77877d'});
+    const footer=svg.append('g');node(footer,'rect',{x:0,y:1042,width:W,height:58,fill:'#f8f8f0'});
+    addText(footer,'* Reconstructed form. Related colours trace branches of a shared root. Words name selected varieties; areas are generalized.',31,1064,11,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
+    addText(footer,'Areas: Asher & Moseley / DiACL / Rantanen via Glottography (CC BY 4.0). Land: Natural Earth. Gaps use country reference words. Lexical sources: linked atlas data.',31,1084,9.5,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
+    zoom=d3.zoom().scaleExtent([1,7]).extent([[0,0],[W,H]]).on('zoom',e=>{transform=e.transform;world.attr('transform',transform);labelLayout();$('tooltip').hidden=true;});svg.call(zoom).on('dblclick.zoom',null);
+    $('zoom-in').addEventListener('click',()=>svg.transition().duration(200).call(zoom.scaleBy,1.3));$('zoom-out').addEventListener('click',()=>svg.transition().duration(200).call(zoom.scaleBy,1/1.3));$('zoom-reset').addEventListener('click',()=>{search='';focused=null;$('search').value='';populateLanguages();drawLegend();paint();svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);});
+    $('color-mode').addEventListener('change',e=>{mode=e.target.value;focused=null;drawLegend();paint();});
+    ['labels-toggle','borders-toggle','overlap-toggle'].forEach(id=>$(id).addEventListener('change',paint));
+    $('opacity').addEventListener('input',e=>{opacity=+e.target.value;paint();});$('label-size').addEventListener('input',e=>{labelScale=+e.target.value;labelLayout();});
+    $('search').addEventListener('input',e=>{search=e.target.value.trim().toLowerCase();populateLanguages();paint();});$('search').addEventListener('keydown',e=>{if(e.key==='Enter'){const l=languages.find(matches);if(l)showWord(l.id);}});
+    $('language-select').addEventListener('change',e=>{if(e.target.value)showWord(e.target.value);});
+    $('close-word').addEventListener('click',()=>$('word-dialog').close());$('sources-button').addEventListener('click',showSources);$('close-sources').addEventListener('click',()=>$('sources-dialog').close());
+    ['word-dialog','sources-dialog'].forEach(id=>$(id).addEventListener('click',e=>{if(e.target===$(id))$(id).close();}));
+    $('download-svg').addEventListener('click',()=>saveBlob(new Blob([serializedSvg()],{type:'image/svg+xml;charset=utf-8'}),'snow-map-landscape.svg'));
+    $('download-png').addEventListener('click',exportPng);$('export-size').addEventListener('change',()=>{const s=$('download-png').querySelector('span');if(s)s.textContent=`PNG · ${Number($('export-size').value).toLocaleString()} px`;});
+    populateLanguages();drawLegend();paint();$('status').textContent=status();
   }
-  init().catch(error=>{console.error(error);$('status').textContent='Map could not load';$('inspector').innerHTML=`<p class="notice">${esc(error.message)}. Open the atlas through its local launcher or hosted website so the data files can load.</p>`;});
+  init().catch(e=>{console.error(e);$('status').textContent=`Map could not load: ${e.message}. Use the local launcher or hosted page.`;});
 })();

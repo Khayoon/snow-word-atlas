@@ -268,6 +268,130 @@
           "url": "https://en.wiktionary.org/wiki/kavi#Faroese"
         }
       ]
+    },
+    {
+      "id": "samoyedic-sira",
+      "label": "Samoyedic",
+      "form": "*sïrå",
+      "color": "#a6b7a1",
+      "description": "Tundra Nenets сыра continues Proto-Samoyedic *sïrå. This noun is kept separate from the *lome set; sharing the Uralic family does not establish the same lexical root.",
+      "sources": [
+        {
+          "title": "Wiktionary: сыра (Tundra Nenets)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D1%8B%D1%80%D0%B0#Tundra_Nenets"
+        }
+      ]
+    },
+    {
+      "id": "avar-ghazu",
+      "label": "Avar",
+      "form": "гӀазу",
+      "color": "#9ba0be",
+      "description": "The attested Avar snow word. No deeper reconstruction or relationship to the other Caucasian sets is asserted here.",
+      "sources": [
+        {
+          "title": "Avar Dictionary, Universitat Pompeu Fabra: гӀазу",
+          "url": "https://avarlab.upf.edu/entry/220064/"
+        },
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "dargwa-dyahi",
+      "label": "Dargwa",
+      "form": "дяхӏи",
+      "color": "#b8a896",
+      "description": "The Dargwa citation form in the comparative word list. Dargwa comprises many varieties; no deeper reconstruction is asserted here.",
+      "sources": [
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "lezgian-zhiv",
+      "label": "Lezgian",
+      "form": "жив",
+      "color": "#b5b984",
+      "description": "The attested Lezgian snow word. The comparative list and Russian lemma give жив; the English Wiktionary translation table also has жиз. This atlas uses жив and does not infer a deeper ancestor.",
+      "sources": [
+        {
+          "title": "Russian Wiktionary: жив (Lezgian)",
+          "url": "https://ru.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2#%D0%9B%D0%B5%D0%B7%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9"
+        },
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "lak-markhhala",
+      "label": "Lak",
+      "form": "марххала",
+      "color": "#b59eab",
+      "description": "The attested Lak word in the Russian–Lak dictionary. No deeper reconstruction is asserted here.",
+      "sources": [
+        {
+          "title": "Russian–Lak dictionary, Dagestan State University: снег / марххала, p. 327",
+          "url": "https://cathedra.dgu.ru/Content/files/%D0%A4%D0%B8%D0%BB%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BB%D0%B0%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C.pdf"
+        },
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "circassian-wes",
+      "label": "Circassian",
+      "form": "уэс / осы",
+      "color": "#9ab9b3",
+      "description": "The East and West Circassian words are compared in their lexical entries. They form a local comparative set here; no exact Proto-Circassian form or wider Caucasian relationship is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: уэс (East Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%83%D1%8D%D1%81#East_Circassian"
+        },
+        {
+          "title": "Wiktionary: осы (West Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%8B#West_Circassian"
+        }
+      ]
+    },
+    {
+      "id": "mongolic-casun",
+      "label": "Mongolic",
+      "form": "*časun",
+      "color": "#baa985",
+      "description": "Kalmyk цасн continues Proto-Mongolic *časun, also reflected by Mongolian цас. No connection with Turkic *kār is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: цасн (Kalmyk)",
+          "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%81%D0%BD#Kalmyk"
+        }
+      ]
+    },
+    {
+      "id": "greenlandic-aput",
+      "label": "Greenlandic",
+      "form": "aput",
+      "color": "#98acb4",
+      "description": "The attested Greenlandic snow word. Oqaasileriffik describes it as the general term for snow on the ground. This set does not assert a deeper reconstruction.",
+      "sources": [
+        {
+          "title": "Greenlandic–English Dictionary (University of Chicago and Oqaasileriffik, 2018): aput",
+          "url": "https://daka.gl/2018-kal-eng/"
+        },
+        {
+          "title": "Oqaasileriffik, Language Secretariat of Greenland: terms for snow and ice",
+          "url": "https://oqaasileriffik.gl/en/terms-for-snow-and-ice/"
+        }
+      ]
     }
   ],
   "languages": [
@@ -3953,15 +4077,599 @@
           "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE#Chechen"
         }
       ]
+    },
+    {
+      "id": "tuk",
+      "name": "Turkmen",
+      "native": "Turkmen",
+      "word": "gar",
+      "romanization": "",
+      "family": "Turkic",
+      "branch": "Common Turkic · Oghuz",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "gar",
+          "label": "Turkmen"
+        }
+      ],
+      "notes": "Standard Turkmen spelling is gar; some comparative sources mark its long vowel as gār.",
+      "sources": [
+        {
+          "title": "Wiktionary: gar (Turkmen)",
+          "url": "https://en.wiktionary.org/wiki/gar#Turkmen"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Turkic/kār",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Turkic/k%C4%81r"
+        }
+      ]
+    },
+    {
+      "id": "kpv",
+      "name": "Komi-Zyrian",
+      "native": "Komi-Zyrian",
+      "word": "лым",
+      "romanization": "lym",
+      "family": "Uralic",
+      "branch": "Permic · Komi",
+      "group": "uralic",
+      "root": "uralic-lome",
+      "chain": [
+        {
+          "form": "*lome",
+          "label": "Proto-Uralic"
+        },
+        {
+          "form": "*lu̇m",
+          "label": "Proto-Permic"
+        },
+        {
+          "form": "лым",
+          "label": "Komi-Zyrian"
+        }
+      ],
+      "notes": "Komi-Zyrian citation form. Komi-Permyak also has лым, but is a distinct variety.",
+      "sources": [
+        {
+          "title": "Wiktionary: лым (Komi-Zyrian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D1%8B%D0%BC#Komi-Zyrian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/lome"
+        }
+      ]
+    },
+    {
+      "id": "yrk",
+      "name": "Tundra Nenets",
+      "native": "Tundra Nenets",
+      "word": "сыра",
+      "romanization": "sira",
+      "family": "Uralic",
+      "branch": "Samoyedic · Nenets",
+      "group": "uralic",
+      "root": "samoyedic-sira",
+      "chain": [
+        {
+          "form": "*sïrå",
+          "label": "Proto-Samoyedic"
+        },
+        {
+          "form": "сыра",
+          "label": "Tundra Nenets"
+        }
+      ],
+      "notes": "The source also records the winter sense. This entry specifically represents Tundra Nenets; it does not collapse every Nenets variety.",
+      "sources": [
+        {
+          "title": "Wiktionary: сыра (Tundra Nenets)",
+          "url": "https://en.wiktionary.org/wiki/%D1%81%D1%8B%D1%80%D0%B0#Tundra_Nenets"
+        }
+      ]
+    },
+    {
+      "id": "ava",
+      "name": "Avar",
+      "native": "Avar",
+      "word": "гӀазу",
+      "romanization": "ʕazu",
+      "family": "Northeast Caucasian",
+      "branch": "Avar-Andic · Avar",
+      "group": "other",
+      "root": "avar-ghazu",
+      "chain": [
+        {
+          "form": "гӀазу",
+          "label": "Avar"
+        }
+      ],
+      "notes": "Attested modern word; the deeper lexical history is left unresolved. The first consonant uses Cyrillic palochka Ӏ.",
+      "sources": [
+        {
+          "title": "Avar Dictionary, Universitat Pompeu Fabra: гӀазу",
+          "url": "https://avarlab.upf.edu/entry/220064/"
+        },
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "dar",
+      "name": "Dargwa",
+      "native": "Dargwa",
+      "word": "дяхӏи",
+      "romanization": "",
+      "family": "Northeast Caucasian",
+      "branch": "Dargwa",
+      "group": "other",
+      "root": "dargwa-dyahi",
+      "chain": [
+        {
+          "form": "дяхӏи",
+          "label": "Dargwa citation form"
+        }
+      ],
+      "notes": "Representative citation form from the comparative list. Dargwa varieties have substantial lexical and phonological variation. No romanization or deep ancestor is supplied without a checked lemma source.",
+      "sources": [
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "lez",
+      "name": "Lezgian",
+      "native": "Lezgian",
+      "word": "жив",
+      "romanization": "živ",
+      "family": "Northeast Caucasian",
+      "branch": "Lezgic · Lezgian",
+      "group": "other",
+      "root": "lezgian-zhiv",
+      "chain": [
+        {
+          "form": "жив",
+          "label": "Lezgian"
+        }
+      ],
+      "notes": "The Russian Wiktionary lemma and the comparative Swadesh list agree on жив. The English translation table instead lists жиз; that conflicting spelling is not silently treated as a separate ancestry claim.",
+      "sources": [
+        {
+          "title": "Russian Wiktionary: жив (Lezgian)",
+          "url": "https://ru.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2#%D0%9B%D0%B5%D0%B7%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9"
+        },
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "lbe",
+      "name": "Lak",
+      "native": "Lak",
+      "word": "марххала",
+      "romanization": "",
+      "family": "Northeast Caucasian",
+      "branch": "Lak",
+      "group": "other",
+      "root": "lak-markhhala",
+      "chain": [
+        {
+          "form": "марххала",
+          "label": "Lak"
+        }
+      ],
+      "notes": "Checked in the Russian–Lak dictionary at p. 327. No romanization or deeper root is asserted.",
+      "sources": [
+        {
+          "title": "Russian–Lak dictionary, Dagestan State University: снег / марххала, p. 327",
+          "url": "https://cathedra.dgu.ru/Content/files/%D0%A4%D0%B8%D0%BB%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BB%D0%B0%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C.pdf"
+        },
+        {
+          "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "inh",
+      "name": "Ingush",
+      "native": "Ingush",
+      "word": "лоа",
+      "romanization": "loa",
+      "family": "Northeast Caucasian",
+      "branch": "Nakh",
+      "group": "other",
+      "root": "nakh-lawa",
+      "chain": [
+        {
+          "form": "*lawa",
+          "label": "Proto-Nakh"
+        },
+        {
+          "form": "лоа",
+          "label": "Ingush"
+        }
+      ],
+      "notes": "The noun is recorded as loa in the UC Berkeley Ingush word list. Comparative reconstructions also use *lawe or *law(a).",
+      "sources": [
+        {
+          "title": "Johanna Nichols, UC Berkeley: Ingush Swadesh word list",
+          "url": "https://linguistics.berkeley.edu/~ingush/swadesh.html"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Nakh/lawa",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Nakh/lawa"
+        }
+      ]
+    },
+    {
+      "id": "kbd",
+      "name": "Kabardian",
+      "native": "Kabardian",
+      "word": "уэс",
+      "romanization": "wɛs",
+      "family": "Northwest Caucasian",
+      "branch": "Circassian · East Circassian",
+      "group": "other",
+      "root": "circassian-wes",
+      "chain": [
+        {
+          "form": "уэс",
+          "label": "East Circassian / Kabardian"
+        }
+      ],
+      "notes": "The lemma citation form is уэс; inflected or indefinite forms can include a final э. The comparison with West Circassian is sourced, but an exact proto-form is not asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: уэс (East Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%83%D1%8D%D1%81#East_Circassian"
+        },
+        {
+          "title": "Wiktionary: осы (West Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%8B#West_Circassian"
+        }
+      ]
+    },
+    {
+      "id": "ady",
+      "name": "Adyghe",
+      "native": "Adyghe",
+      "word": "осы",
+      "romanization": "wosə",
+      "family": "Northwest Caucasian",
+      "branch": "Circassian · West Circassian",
+      "group": "other",
+      "root": "circassian-wes",
+      "chain": [
+        {
+          "form": "осы",
+          "label": "West Circassian / Adyghe"
+        }
+      ],
+      "notes": "West Circassian citation form. The source also gives Shapsug ос (wos).",
+      "sources": [
+        {
+          "title": "Wiktionary: осы (West Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%8B#West_Circassian"
+        },
+        {
+          "title": "Wiktionary: уэс (East Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%83%D1%8D%D1%81#East_Circassian"
+        }
+      ]
+    },
+    {
+      "id": "krc",
+      "name": "Karachay-Balkar",
+      "native": "Karachay-Balkar",
+      "word": "къар",
+      "romanization": "qar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "къар",
+          "label": "Karachay-Balkar"
+        }
+      ],
+      "notes": "The mapping unit combines Karachay and Balkar; the cited standard snow word is shared.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Turkic/kār",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Turkic/k%C4%81r"
+        },
+        {
+          "title": "Wiktionary: Appendix:Turkic Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Turkic%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "kum",
+      "name": "Kumyk",
+      "native": "Kumyk",
+      "word": "къар",
+      "romanization": "qar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "group": "turkic",
+      "root": "turkic-kar",
+      "chain": [
+        {
+          "form": "*kār",
+          "label": "Proto-Turkic"
+        },
+        {
+          "form": "къар",
+          "label": "Kumyk"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Turkic/kār",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Turkic/k%C4%81r"
+        },
+        {
+          "title": "Wiktionary: Appendix:Turkic Swadesh lists",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Turkic%20Swadesh%20lists"
+        }
+      ]
+    },
+    {
+      "id": "xal",
+      "name": "Kalmyk",
+      "native": "Kalmyk",
+      "word": "цасн",
+      "romanization": "tsasn",
+      "family": "Mongolic",
+      "branch": "Oirat · Kalmyk",
+      "group": "other",
+      "root": "mongolic-casun",
+      "chain": [
+        {
+          "form": "*časun",
+          "label": "Proto-Mongolic"
+        },
+        {
+          "form": "цасн",
+          "label": "Kalmyk"
+        }
+      ],
+      "notes": "Kalmyk citation form, used for the European Kalmyk portion of the broader Oirad-Kalmyk-Darkhat source unit.",
+      "sources": [
+        {
+          "title": "Wiktionary: цасн (Kalmyk)",
+          "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%81%D0%BD#Kalmyk"
+        }
+      ]
+    },
+    {
+      "id": "bal",
+      "name": "Balochi",
+      "native": "Balochi",
+      "word": "برپ",
+      "romanization": "barp",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "برپ",
+          "label": "Balochi"
+        }
+      ],
+      "notes": "Balochi citation form, also written برف (barf). Balochi includes several varieties; this is a reference word rather than a claim of uniform pronunciation across all source areas.",
+      "sources": [
+        {
+          "title": "Wiktionary: برپ (Baluchi)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%BE#Baluchi"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
+        }
+      ]
+    },
+    {
+      "id": "lrc",
+      "name": "Northern Luri",
+      "native": "Northern Luri",
+      "word": "برف",
+      "romanization": "barf",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Southwestern Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "برف",
+          "label": "Northern Luri"
+        }
+      ],
+      "notes": "The reconstruction source groups this modern form with Iranian *wafrah and lists it under Middle Persian descendants. The map records the lexical set; the precise balance of inheritance and contact with Persian is not independently established for each Luri variety.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
+        }
+      ]
+    },
+    {
+      "id": "luz",
+      "name": "Southern Luri",
+      "native": "Southern Luri",
+      "word": "برف",
+      "romanization": "barf",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Southwestern Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "برف",
+          "label": "Southern Luri"
+        }
+      ],
+      "notes": "The reconstruction source groups this modern form with Iranian *wafrah and lists it under Middle Persian descendants. The map records the lexical set; the precise balance of inheritance and contact with Persian is not independently established for each Luri variety.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
+        }
+      ]
+    },
+    {
+      "id": "bqi",
+      "name": "Bakhtiari",
+      "native": "Bakhtiari",
+      "word": "برف",
+      "romanization": "barf",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Southwestern Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "برف",
+          "label": "Bakhtiari"
+        }
+      ],
+      "notes": "The modern word and its Iranian lexical grouping are recorded in the comparative reconstruction source. This schematic chain leaves Persian contact versus direct inheritance unresolved.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
+        },
+        {
+          "title": "Wiktionary: snow",
+          "url": "https://en.wiktionary.org/wiki/snow"
+        }
+      ]
+    },
+    {
+      "id": "ckb",
+      "name": "Central Kurdish",
+      "native": "Central Kurdish",
+      "word": "بەفر",
+      "romanization": "befr",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "group": "pie",
+      "root": "iranian-wafra",
+      "chain": [
+        {
+          "form": "*wapras",
+          "label": "Proto-Indo-Iranian"
+        },
+        {
+          "form": "*wafrah",
+          "label": "Proto-Iranian"
+        },
+        {
+          "form": "بەفر",
+          "label": "Central Kurdish"
+        }
+      ],
+      "notes": "Central Kurdish / Sorani citation form. The lemma transliterates it befr; comparative sources can use bafr. The source also records وەفر (wefr).",
+      "sources": [
+        {
+          "title": "Wiktionary: بەفر (Central Kurdish)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%95%D9%81%D8%B1#Central_Kurdish"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah"
+        }
+      ]
+    },
+    {
+      "id": "kal",
+      "name": "Greenlandic",
+      "native": "Greenlandic",
+      "word": "aput",
+      "romanization": "",
+      "family": "Inuit–Yupik–Unangan",
+      "branch": "Inuit · Greenlandic",
+      "group": "other",
+      "root": "greenlandic-aput",
+      "chain": [
+        {
+          "form": "aput",
+          "label": "Standard Greenlandic / Kalaallisut"
+        }
+      ],
+      "notes": "Standard Greenlandic reference word, used for the clipped Greenland land fragment. The official snow terminology distinguishes snow on the ground (aput) from snow falling in the air (qaniit); this map uses the general noun aput. It does not claim that Greenland is dialectally uniform.",
+      "sources": [
+        {
+          "title": "Greenlandic–English Dictionary (University of Chicago and Oqaasileriffik, 2018): aput",
+          "url": "https://daka.gl/2018-kal-eng/"
+        },
+        {
+          "title": "Oqaasileriffik, Language Secretariat of Greenland: terms for snow and ice",
+          "url": "https://oqaasileriffik.gl/en/terms-for-snow-and-ice/"
+        }
+      ]
     }
   ],
   "methodology": {
     "title": "Lexical and etymological method",
     "asOf": "2026-10-14",
-    "scope": "80 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
+    "scope": "99 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
     "comparison": "Colors encode etymological word sets using root, not national borders or general language families. Family and branch remain separate metadata. Membership in Indo-European does not make every word for snow a descendant of *sneygʷʰ-.",
     "chains": "Chains are schematic selections of attested or reconstructed stages, not complete sound histories, exact dates, or claims that all forms coexisted. Intermediate stages may be omitted. Asterisked forms are reconstructed and unattested. Arrows include derivation and, where stated, borrowing; they do not always mean direct inheritance.",
-    "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative.",
+    "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative. Avar, Dargwa, Lak and Lezgian are separate attested word sets without a claimed common deep ancestor. Circassian is shown as a local comparison without an invented proto-form. Luri and Bakhtiari membership in the Iranian snow set does not resolve direct inheritance versus Persian contact.",
     "standards": "Some ISO entries are macrolanguages or combined mapping units. A citation form may belong to one variety; notes state material variation. Orthography and romanization are reading aids, not a substitute for IPA. Arabic, Hebrew, Georgian, Armenian and Cyrillic scripts are retained.",
     "sources": "Lexical entries are primarily cross-checked against Wiktionary lemma and reconstruction pages, which in turn cite dictionaries and etymological reference works. These are accessible secondary lexical sources, not independent fieldwork or a peer-reviewed atlas. Kabyle uses an online Dallet dictionary transcription. Every entry links its lexical source; root descriptions link supporting reconstruction sources. Ambiguous or missing etymologies are not filled by visual similarity. Spanish nieve was additionally checked directly in the RAE dictionary, Catalan neu in the IEC Catalan-Valencian-Balearic dictionary, and Basque elur in an Euskaltzaindia dictionary PDF.",
     "license": "Original explanatory prose and data organization; brief lexical facts and forms compiled with attribution to linked sources. Wiktionary is licensed CC BY-SA 4.0; consult each page for revision history and third-party references."

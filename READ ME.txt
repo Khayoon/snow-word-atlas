@@ -1,67 +1,70 @@
-SNOW — A WORD ATLAS
+SNOW — A LANDSCAPE WORD MAP
 
-Double-click "Open Snow Atlas.cmd" to open the interactive atlas.
-Node.js is required. There is no npm install or build step.
-The local server listens only on your computer (127.0.0.1).
-Keep its window open while using the atlas; close it to stop.
+Double-click "Open Snow Atlas.cmd" to open the map editor.
+Node.js is required. No npm install or build step is needed.
+The server stays on your computer (127.0.0.1). Close its window to stop.
 
-EXPLORE
-- Click a word or language area to inspect its ancestry and source links.
-- Search by language, native word, transcription or ISO language ID.
-- Use the language dropdown to reach small areas and lexicon-only entries.
-- Scroll to zoom; drag to pan; use reset view to see the full region.
-- Toggle word labels, country outlines, and overlapping fills.
-- Click an origin set in the legend to focus it. Click again to clear.
-- Switch to language branches to compare family relationships.
-- Play the guided journey for the PIE, Germanic, Latin and other routes.
-- Use the download button to save the current map as an editable SVG.
+MAKE AN IMAGE
+The image is the main deliverable: a flat 1800:1100 landscape composition,
+continuous colour on land, words-only labels, and a legend in the upper left.
+There is no sidebar in the artwork.
 
-WHAT IS INCLUDED
-80 selected lexical entries and 17 word-origin sets, with modern forms,
-selected historical stages, reconstruction notes and dictionary links.
-Coverage focuses on Europe, North Africa, the Caucasus and western Central
-Asia. Some languages have lexical entries without a matching polygon.
-Languages and synonyms are selected, not exhaustive.
+Choose PNG at 6,000, 9,000 or 12,000 pixels wide, or editable SVG.
+The default PNG is 6000 x 3667 pixels. Controls and dialogs are excluded.
+Search highlights are cleared in export. Colour mode, label size, layer
+settings and map composition remain part of the exported image.
 
-GEOGRAPHY AND HONEST LIMITS
-Language areas come from published, digitized language atlases through
-Glottography. They cross country borders and retain available disjoint
-enclaves. They are generalized source-era footprints, not a 2026 language
-census. They omit some small communities and multilingual cities.
-Overlap does not measure speaker proportions. A filled area is not a claim
-of exclusive use, political sovereignty, or uniform language use.
-Neutral areas have no mapped lexical match; they are not uninhabited.
-Arabic has a standard-reference lexical form over mapped Arabic varieties,
-with separate vernacular entries where supplied. See each entry's notes.
+Use the word-size slider to adjust density. Drag or zoom to compose.
+Reset composition restores the full region. Click a word to read its
+etymology and sources in a dialog, or choose a language from the dropdown.
 
-WORD HISTORY
-Colour means a shared word-origin set, not merely a shared language family.
-Greek and Armenian have a different PIE snow/winter root from English snow.
-Romanian zapada (zăpadă) is of Slavic origin; the alternative nea follows
-the Latin snow line. Hungarian ho (hó) and Finnish lumi belong to different
-Uralic word sets. Faroese kavi is separate from poetic snjogvur (snjógvur).
-An asterisk marks a reconstructed form. Routes are schematic and omit some
-stages; they do not represent dated human migrations. Some deeper origins
-remain unresolved. The material is an attributed educational compilation.
+COLOURS AND LEGEND
+The default routes view gives different colours to Germanic, Latin/Romance,
+Slavic, Baltic and Goidelic routes beneath their shared PIE snow root.
+Other established or unresolved word-origin sets stay separate.
+Shared-roots mode gives the PIE snow cognates a single colour.
+Language-branch mode compares general family relationships instead.
 
-EDITING AND REUSE
-dist/data/lexicon.json: words, ancestry chains, roots, notes and references.
-dist/data/territories.geojson: language polygons and source-specific notes.
-dist/data/geometry-sources.json: provenance, licenses and transformations.
-dist/data/countries.geojson: Natural Earth context geometry.
-dist/app.js and styles.css: interactive map logic and appearance.
+An asterisk marks reconstruction. Modern forms without an asterisk in the
+legend can identify an attested comparative set without asserting a deeper
+origin. Histories are schematic; source notes identify unresolved analyses.
 
-All libraries and map files are local. Internet access is needed only to
-follow dictionary and provenance links, or to use the hosted edition.
+CONTINUOUS LAND COVERAGE
+Full Natural Earth country land provides a reference-language background.
+Published minority-language polygons sit above it. This fills the gaps in
+speaker-footprint datasets, including sparsely populated land and deserts.
+It does not turn the map into a new ethnic or census boundary survey.
+
+All source land inside [-27,25,68,75] is covered, including Sinai, the Zagros,
+eastern Turkey, North Caucasus, northern Russia and the Karakum Desert.
+Generalized source areas overlap; some supplements show traditional ranges.
+Some selected varieties have point labels without a separate area polygon.
+Leader lines connect crowded labels to their anchors.
+
+The lexicon has 99 selected entries and 25 deeper word-origin sets.
+The default composition places 96 word labels; not every selected variety
+has a separate territory or fits inside the crop. These are selected words
+and varieties, not an exhaustive dictionary of every dialect or synonym.
+
+EDITABLE DATA
+dist/data/lexicon.json: words, roots, historical stages, notes and references.
+dist/data/territories.geojson: published language-area polygons.
+dist/data/land-reference.geojson: complete background reference-language land.
+dist/data/map-coverage.json: coverage method, provenance and spatial checks.
+dist/data/geometry-sources.json: atlas sources, licenses and transformations.
+dist/app.js and styles.css: composition, labels, legend and export logic.
+
+All libraries and data files are local. Dictionary links need internet.
 
 ATTRIBUTION
-Main language atlas: Asher, R. E. & Christopher J. Moseley (eds.). 2007.
-Atlas of the World's Languages, second edition. Routledge.
-Digitized and distributed by The Glottography Consortium, CC BY 4.0:
-https://github.com/glottography/asher2007world
-Supplementary area sources are named in geometry-sources.json.
-Geography: Natural Earth 1:50m countries, public domain.
-https://www.naturalearthdata.com/about/terms-of-use/
-Lexical sources: individually linked in lexicon.json; primarily Wiktionary
-(CC BY-SA 4.0) plus linked dictionaries. Consult source revision histories.
-Visualization: D3 7.9.0, ISC license (dist/vendor/D3-LICENSE.txt).
+Asher, R. E. & Christopher J. Moseley (eds.). 2007. Atlas of the World's
+Languages, second edition. Routledge. Digitized by Glottography, CC BY 4.0.
+https://github.com/Glottography/asher2007world
+Traditional supplements: Carling & Gippert (eds.) 2025, DiACL/TITUS Polygon
+Archive; Rantanen et al. 2021, Geographical database of Uralic languages,
+with 2022 methods paper. Both distributed by Glottography under CC BY 4.0.
+Full attribution and source-specific epochs are in geometry-sources.json.
+Natural Earth 1:50m country geometry is public domain.
+Lexical entries link their dictionaries; primarily Wiktionary (CC BY-SA 4.0)
+and the additional named lexical resources. Consult source histories.
+D3 7.9.0 is under ISC; see dist/vendor/D3-LICENSE.txt.

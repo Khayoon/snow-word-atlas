@@ -1,0 +1,155 @@
+{
+  "title": "Snow Atlas continuous land coverage",
+  "bbox": [
+    -27,
+    25,
+    68,
+    75
+  ],
+  "method": "Draw full Natural Earth country polygons using selected lexical references, then overlay documented atlas/traditional language areas.",
+  "sourceFile": "countries.geojson",
+  "sourceSha256": "0809112a60eb803fc039673d4ec9086a9bb995af6332c4fbe107fb2fb0c6cac1",
+  "greenlandSupplementFile": "work/countries-world.geojson",
+  "greenlandSupplementSha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+  "geometrySourceName": "ne_50m_admin_0_countries",
+  "geometrySourceUrl": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/",
+  "geometryLicense": "Natural Earth public domain",
+  "featureCount": 83,
+  "uniqueReferenceLanguageIds": [
+    "aeb",
+    "arb",
+    "arz",
+    "aze",
+    "bal",
+    "bel",
+    "bul",
+    "cat",
+    "ces",
+    "dan",
+    "deu",
+    "ell",
+    "eng",
+    "est",
+    "fao",
+    "fin",
+    "fra",
+    "gle",
+    "hbs",
+    "heb",
+    "hun",
+    "hye",
+    "isl",
+    "ita",
+    "kal",
+    "kat",
+    "kaz",
+    "lav",
+    "lit",
+    "ltz",
+    "mkd",
+    "mlt",
+    "nld",
+    "nor",
+    "pes",
+    "pol",
+    "por",
+    "ron",
+    "rus",
+    "slk",
+    "slv",
+    "spa",
+    "sqi",
+    "swe",
+    "tuk",
+    "tur",
+    "ukr",
+    "uzb"
+  ],
+  "referenceIdsWithoutLexiconEntry": [],
+  "validGeometryCount": 83,
+  "sourceLandAreaDegrees": 2669.8782941074255,
+  "uncoveredSourceLandAreaDegrees": 0.0,
+  "outsideSourceLandAreaDegrees": 0.0,
+  "uncoveredFullWorldSourceLandAreaDegrees": 0.0,
+  "checks": {
+    "Sinai Peninsula": {
+      "coordinate": [
+        33.8,
+        29.1
+      ],
+      "referenceCountries": [
+        "EGY"
+      ],
+      "covered": true
+    },
+    "Zagros Mountains": {
+      "coordinate": [
+        46.5,
+        34.0
+      ],
+      "referenceCountries": [
+        "IRN"
+      ],
+      "covered": true
+    },
+    "Eastern Turkey": {
+      "coordinate": [
+        42.0,
+        39.0
+      ],
+      "referenceCountries": [
+        "TUR"
+      ],
+      "covered": true
+    },
+    "North Caucasus": {
+      "coordinate": [
+        44.0,
+        43.7
+      ],
+      "referenceCountries": [
+        "RUS"
+      ],
+      "covered": true
+    },
+    "Northern Russia": {
+      "coordinate": [
+        54.0,
+        68.0
+      ],
+      "referenceCountries": [
+        "RUS"
+      ],
+      "covered": true
+    },
+    "Novaya Zemlya": {
+      "coordinate": [
+        56.0,
+        73.5
+      ],
+      "referenceCountries": [
+        "RUS"
+      ],
+      "covered": true
+    },
+    "Karakum Desert": {
+      "coordinate": [
+        59.0,
+        39.5
+      ],
+      "referenceCountries": [
+        "TKM"
+      ],
+      "covered": true
+    }
+  },
+  "interpretation": "The base is an editorial cartographic convention to avoid uncoloured land. It is not measured ethnicity, population, habitation or a newly reconstructed linguistic border.",
+  "limitations": [
+    "Country reference choices do not imply official-language status, a speaker majority or exclusivity.",
+    "Persian is a selected shared lexical reference for Dari and Tajik backgrounds; local scripts/pronunciations can differ.",
+    "The standard Arabic form is a shared lexical reference, not every regional vernacular.",
+    "The reference base covers all supplied country land in the window, supplemented by Greenland from the original full Natural Earth source.",
+    "Country borders and land coastlines retain the supplied Natural Earth resolution. No new ethnic boundaries are inferred.",
+    "Minority and regional source polygons must be drawn above this base to preserve cross-border ranges and enclaves."
+  ]
+}
