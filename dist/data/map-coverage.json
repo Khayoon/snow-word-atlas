@@ -16,7 +16,9 @@
   "geometryLicense": "Natural Earth public domain",
   "featureCount": 83,
   "uniqueReferenceLanguageIds": [
+    "acm",
     "aeb",
+    "apc",
     "arb",
     "arz",
     "aze",
@@ -147,7 +149,7 @@
   "limitations": [
     "Country reference choices do not imply official-language status, a speaker majority or exclusivity.",
     "Persian is a selected shared lexical reference for Dari and Tajik backgrounds; local scripts/pronunciations can differ.",
-    "The standard Arabic form is a shared lexical reference, not every regional vernacular.",
+    "Arabic backgrounds use selected regional references for Tunisia, Egypt, Syria and Iraq, and a shared standard reference elsewhere; local varieties differ.",
     "The reference base covers all supplied country land in the window, supplemented by Greenland from the original full Natural Earth source.",
     "Country borders and land coastlines retain the supplied Natural Earth resolution. No new ethnic boundaries are inferred.",
     "Minority and regional source polygons must be drawn above this base to preserve cross-border ranges and enclaves."

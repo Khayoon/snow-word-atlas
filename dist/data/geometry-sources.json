@@ -20,7 +20,8 @@
     "Selected contemporary source speaker areas intersecting the map window.",
     "Clipped to [-25,26,68,72.5] longitude/latitude; repaired invalid geometries.",
     "Aggregated by source Glottocode and explicit lexical joins, retaining disjoint polygons.",
-    "Simplified at 0.008 degrees with topology preserved within each area; coordinates rounded to four decimals."
+    "Simplified at 0.008 degrees with topology preserved within each area; coordinates rounded to four decimals.",
+    "Joined North Syrian Dialects (4453) and Central Syrian Dialects (1028) to the selected Syrian Arabic lexical reference, apc."
   ],
   "limitations": [
     "Speaker areas reflect an atlas published in 2007, not a current census, majority-language estimate or official boundary.",
@@ -29,10 +30,11 @@
     "Some source areas combine related varieties. No new territory boundaries have been inferred to split them.",
     "Small enclaves present in the source are retained, subject to source resolution and display simplification.",
     "Country borders, if displayed elsewhere, are context and are not used to construct these language areas.",
-    "Occitan, Catalan, Cornish, Crimean Tatar, North Sami and Veps include explicitly marked traditional-area supplements. They must not be interpreted as contemporary majority-speaker distributions."
+    "Occitan, Catalan, Cornish, Crimean Tatar, North Sami and Veps include explicitly marked traditional-area supplements. They must not be interpreted as contemporary majority-speaker distributions.",
+    "Mesopotamian Arabic has a selected Iraqi cartographic reference fill and label, without a separately asserted speaker-area polygon."
   ],
-  "featureCount": 179,
-  "lexicalJoinCount": 69,
+  "featureCount": 178,
+  "lexicalJoinCount": 87,
   "supplements": [
     {
       "id": "glottography-carling2025diacl",
@@ -71,6 +73,7 @@
     }
   ],
   "lexiconWithoutTerritory": [
+    "acm",
     "arg",
     "ast",
     "csb",

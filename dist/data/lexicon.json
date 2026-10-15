@@ -3676,6 +3676,72 @@
       "mapRomanization": "talg"
     },
     {
+      "id": "apc",
+      "name": "Syrian Arabic",
+      "native": "عربي سوري",
+      "word": "تلج",
+      "romanization": "telj",
+      "mapRomanization": "telj",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "ثَلْج",
+          "label": "Arabic"
+        },
+        {
+          "form": "تلج",
+          "label": "Syrian Arabic"
+        }
+      ],
+      "notes": "Selected regional reading: telj. Map romanization supplied by the map author; local pronunciations and spellings vary.",
+      "sources": [
+        {
+          "title": "Wiktionary: ثلج (Arabic etymology and regional forms)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        }
+      ]
+    },
+    {
+      "id": "acm",
+      "name": "Mesopotamian Arabic",
+      "native": "عراقي",
+      "word": "ثلج",
+      "romanization": "thelij",
+      "mapRomanization": "thelij",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "group": "semitic",
+      "root": "semitic-thalg",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "ثَلْج",
+          "label": "Arabic"
+        },
+        {
+          "form": "ثلج",
+          "label": "Mesopotamian Arabic"
+        }
+      ],
+      "notes": "Selected regional reading: thelij. Map romanization supplied by the map author; local pronunciations and spellings vary.",
+      "sources": [
+        {
+          "title": "Wiktionary: ثلج (Arabic etymology and regional forms)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
+        }
+      ]
+    },
+    {
       "id": "tur",
       "name": "Turkish",
       "native": "Türkçe",

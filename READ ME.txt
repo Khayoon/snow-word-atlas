@@ -42,7 +42,7 @@ Generalized source areas overlap; some supplements show traditional ranges.
 Some selected varieties have point labels without a separate area polygon.
 Leader lines connect crowded labels to their anchors.
 
-The lexicon has 99 selected entries and 25 deeper word-origin sets.
+The lexicon has 101 selected entries and 25 deeper word-origin sets.
 The default composition places 97 word labels; not every selected variety
 has a separate territory or fits inside the crop. These are selected words
 and varieties, not an exhaustive dictionary of every dialect or synonym.
