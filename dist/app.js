@@ -29,7 +29,7 @@
   ];
   const rootColors={'pie-snow':'#96c8d4','pie-winter':'#c9abd5','brythonic-ergh':'#b9cd8f','slavic-fall':'#dfc29b','albanian-fall':'#dcadaf','iranian-wafra':'#d8ad97','uralic-lome':'#e6cf87','uralic-kume':'#d9b66c','sami-muotte':'#a5c9ba','semitic-thalg':'#e8c69a','turkic-kar':'#b2d0ba','kartvelian-tow':'#bea1ca','basque-erur':'#dd9990','berber-adfel':'#e3b17f','nakh-lawa':'#bda8a0','norse-kaf':'#c6d9d8','ossetian-mit':'#c5bec9'};
   const branchColors={Germanic:'#96c8d4',Romance:'#e7b39f',Slavic:'#acb6d5',Baltic:'#c0ce95',Celtic:'#a5c49b',Uralic:'#e6cf87',Semitic:'#e8c69a',Turkic:'#b2d0ba',Kartvelian:'#bea1ca',Berber:'#e3b17f',Basque:'#dd9990',Hellenic:'#c9abd5',Armenian:'#baa8ce',Albanian:'#dcadaf',Iranian:'#d8ad97',Nakh:'#bda8a0',Circassian:'#9eb6bb',Mongolic:'#d9c59e',Eskimo:'#cadcdb'};
-  let lex,metadata,coverage,lands,features,languages,byId,byRoot,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
+  let lex,metadata,coverage,lands,features,legendTitles,languages,byId,byRoot,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
   let mode='routes',opacity=.90,labelScale=1,selected=null,search='',focused=null,exportBusy=false;
   const featureById=new Map(), labelPoints=new Map();
   function branch(l){
@@ -62,7 +62,12 @@
     const panelHeight=start+rows.length*rowHeight+35;
     legendLayer.attr('transform','translate(34,168)');
     node(legendLayer,'rect',{width:306,height:panelHeight,fill:'#fbfaf4','fill-opacity':.97,stroke:'#cfcfc1','stroke-width':.8});
-    addText(legendLayer,mode==='branch'?'LANGUAGE BRANCHES':mode==='routes'?'ONE ROOT · FIVE ROUTES':'COMMON WORD ORIGIN',17,29,11,{'font-family':'Arial, sans-serif','letter-spacing':1.8,'font-weight':700});
+    const heading=legendTitles.titles[mode==='branch'?'branches':'etymology'];
+    const headingGroup=node(legendLayer,'g',{'class':'legend-heading','aria-label':heading.text});
+    node(headingGroup,'title',{},heading.text);
+    // Font outlines keep the blackletter title identical in the browser, PNG and SVG.
+    const headingScale=18/legendTitles.unitsPerEm;
+    node(headingGroup,'path',{d:heading.path,transform:`translate(17,32) scale(${headingScale},${-headingScale})`,fill:'#203b40'});
     if(mode!=='branch'){
       addText(legendLayer,'*sneygʷʰ-',17,66,29);
       addText(legendLayer,'Shared Proto-Indo-European root · “to snow”',18,87,11,{'font-family':'Arial, sans-serif',fill:'#63706b'});
@@ -175,7 +180,7 @@
   function status(){return `${languages.length} words · flat landscape · continuous land colour · PNG or editable SVG`;}
   async function init(){
     if(!window.d3)throw new Error('Local map library missing.');
-    [lex,metadata,coverage,lands,features]=await Promise.all(['lexicon.json','geometry-sources.json','map-coverage.json','land-reference.geojson','territories.geojson'].map(async name=>{const r=await fetch(`./data/${name}`);if(!r.ok)throw new Error(`Cannot load ${name}`);return r.json();}));
+    [lex,metadata,coverage,lands,features,legendTitles]=await Promise.all(['data/lexicon.json','data/geometry-sources.json','data/map-coverage.json','data/land-reference.geojson','data/territories.geojson','vendor/legend-titles.json'].map(async name=>{const r=await fetch(`./${name}`);if(!r.ok)throw new Error(`Cannot load ${name}`);return r.json();}));
     languages=lex.languages;byId=new Map(languages.map(l=>[l.id,l]));byRoot=new Map(lex.roots.map(r=>[r.id,r]));
     lands=lands.features.map(normalize);features=features.features.filter(f=>byId.has(idOf(f))).map(normalize);
     features.forEach(f=>{const id=idOf(f);if(!featureById.has(id))featureById.set(id,[]);featureById.get(id).push(f);});
@@ -206,8 +211,7 @@
     legendLayer=svg.append('g').attr('class','poster-legend');
     const title=svg.append('g').attr('class','poster-title');
     addText(title,'SNOW',36,75,64,{'letter-spacing':2,'font-weight':400});
-    addText(title,'One word, many histories',40,108,20,{'font-style':'italic',fill:'#5a746f'});
-    addText(title,'EUROPE & ITS NEIGHBOURS',41,135,9.5,{'font-family':'Arial, sans-serif','letter-spacing':2,fill:'#77877d'});
+    addText(title,'EUROPE & ITS NEIGHBOURS',41,108,9.5,{'font-family':'Arial, sans-serif','letter-spacing':2,fill:'#77877d'});
     const footer=svg.append('g');node(footer,'rect',{x:0,y:1042,width:W,height:58,fill:'#f8f8f0'});
     addText(footer,'Parentheses: romanized readings. * Reconstructed form. Related colours trace branches of a shared root. Words name selected varieties; areas are generalized.',31,1064,11,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
     addText(footer,'Areas: Asher & Moseley / DiACL / Rantanen via Glottography (CC BY 4.0). Land: Natural Earth. Gaps use country reference words. Lexical sources: linked atlas data.',31,1084,9.5,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});

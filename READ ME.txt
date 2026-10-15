@@ -69,3 +69,7 @@ Natural Earth 1:50m country geometry is public domain.
 Lexical entries link their dictionaries; primarily Wiktionary (CC BY-SA 4.0)
 and the additional named lexical resources. Consult source histories.
 D3 7.9.0 is under ISC; see dist/vendor/D3-LICENSE.txt.
+
+Legend heading: UnifrakturCook Bold, SIL OFL 1.1. Font and license are in
+dist/vendor/. Heading outlines preserve its appearance in image exports.
+https://github.com/google/fonts/tree/main/ofl/unifrakturcook
