@@ -23,7 +23,8 @@
     "Simplified at 0.008 degrees with topology preserved within each area; coordinates rounded to four decimals.",
     "Joined North Syrian Dialects (4453) and Central Syrian Dialects (1028) to the selected Syrian Arabic lexical reference, apc.",
     "Joined the atlas Kurdish macrolanguage area kurd1259 (source 3004) to the Northern Kurdish lexical reference kmr; variety distinctions are retained in lexical notes, without inferring internal boundaries.",
-    "Added separate Northern Kurdish and Central Kurdish DiACL/TITUS traditional areas (source 98 and 99, reference year 1750), clipped to the poster window, simplified at 0.008 degrees, coordinates rounded to four decimals with validity repair. Original 2007 atlas features remain separate."
+    "Added separate Northern Kurdish and Central Kurdish DiACL/TITUS traditional areas (source 98 and 99, reference year 1750), clipped to the poster window, simplified at 0.008 degrees, coordinates rounded to four decimals with validity repair. Original 2007 atlas features remain separate.",
+    "Joined existing Turōyō source area turo1239 to tru. Added a La Palma historical island reference using the existing Natural Earth coastline; no new Aramaic speaker boundaries were drawn."
   ],
   "limitations": [
     "Speaker areas reflect an atlas published in 2007, not a current census, majority-language estimate or official boundary.",
@@ -34,10 +35,13 @@
     "Country borders, if displayed elsewhere, are context and are not used to construct these language areas.",
     "Occitan, Catalan, Cornish, Crimean Tatar, North Sami and Veps include explicitly marked traditional-area supplements. They must not be interpreted as contemporary majority-speaker distributions.",
     "Mesopotamian Arabic has a selected Iraqi cartographic reference fill and label, without a separately asserted speaker-area polygon.",
-    "The Kurdish supplements are historical/traditional language areas with reference year 1750, not contemporary prevalence estimates or newly inferred ethnic boundaries."
+    "The Kurdish supplements are historical/traditional language areas with reference year 1750, not contemporary prevalence estimates or newly inferred ethnic boundaries.",
+    "Maaloula Western Neo-Aramaic, Assyrian Neo-Aramaic and literary Mandaic use reference-point labels; no exclusive modern territory is asserted.",
+    "The broad source aggregate normalized as Classical Syriac remains unassigned to modern Assyrian Neo-Aramaic.",
+    "Canarian tener? is a disputed La Palma report. The island fill is a historical geographic reference rather than surviving language-area geometry."
   ],
-  "featureCount": 180,
-  "lexicalJoinCount": 88,
+  "featureCount": 181,
+  "lexicalJoinCount": 90,
   "supplements": [
     {
       "id": "glottography-carling2025diacl",
@@ -79,6 +83,8 @@
   ],
   "lexiconWithoutTerritory": [
     "acm",
+    "aii",
+    "amw",
     "arg",
     "ast",
     "csb",
@@ -86,7 +92,9 @@
     "glg",
     "glv",
     "hsb",
+    "kal",
     "kir",
+    "myz",
     "scn",
     "sco",
     "vec"

@@ -1,0 +1,146 @@
+{
+  "created": "2026-10-17",
+  "bundle": "new-aramaic-geometry.geojson",
+  "siteFilesChanged": false,
+  "sourceFiles": [
+    {
+      "file": "work/geometry-source/features.geojson",
+      "sha256": "84af615ffda56da1f5d754f73a6f5db4e42e46bc36dff5245bb2382724b96fa7",
+      "sourceUrl": "https://github.com/Glottography/asher2007world",
+      "sourceCommit": "5590fcc8870d8883a323ff0defd5a1a6a03e9611",
+      "epoch": 2007,
+      "license": "CC BY 4.0"
+    }
+  ],
+  "evidence": [
+    {
+      "lexicalId": "tru",
+      "operation": "Join existing turo1239 area to the Turoyo lexical entry; do not duplicate the area.",
+      "existingTerritoryId": "turo1239",
+      "sourceIds": [
+        "6047"
+      ],
+      "sourceNames": [
+        "Turōyō"
+      ],
+      "sourceEpoch": "2007",
+      "bbox": [
+        41.1658,
+        37.3259,
+        41.8177,
+        37.6775
+      ],
+      "geometryValid": true,
+      "polygonCount": 1,
+      "sourceLabel": [
+        41.5084,
+        37.4768
+      ]
+    },
+    {
+      "lexicalId": "amw",
+      "operation": "Display source-backed point/callout only; no speaker polygon is available in the cached sources.",
+      "sourceUrl": "https://glottolog.org/resource/languoid/id/west2763",
+      "sourceDataUrl": "https://glottolog.org/resource/languoid/id/west2763.json",
+      "sourceVersion": "Glottolog 5.3",
+      "inputSha256": "e75c3784a0bf931d08cbf044f852db5679364e138eb14e5ede323da2fa3ec24a",
+      "coordinates": [
+        36.484,
+        33.8162
+      ],
+      "license": "CC BY 4.0"
+    },
+    {
+      "lexicalId": "aii",
+      "operation": "Display source-backed point/callout only; no speaker polygon is available in the cached sources.",
+      "sourceUrl": "https://glottolog.org/resource/languoid/id/assy1241",
+      "sourceDataUrl": "https://glottolog.org/resource/languoid/id/assy1241.json",
+      "sourceVersion": "Glottolog 5.3",
+      "inputSha256": "e105b103305f7facd823519968c70ed7caf73b9129ae490dd9a34f564dd6a20c",
+      "coordinates": [
+        43.0,
+        36.75
+      ],
+      "license": "CC BY 4.0"
+    },
+    {
+      "lexicalId": "mid",
+      "operation": "Display source-backed point/callout only; no speaker polygon is available in the cached sources.",
+      "sourceUrl": "https://glottolog.org/resource/languoid/id/nucl1706",
+      "sourceDataUrl": "https://glottolog.org/resource/languoid/id/nucl1706.json",
+      "sourceVersion": "Glottolog 5.3",
+      "inputSha256": "01d9b0a6e62e684aebf455b3bea482b477ff8bf957fd5a59efbc973e20821b37",
+      "coordinates": [
+        48.8128,
+        31.3443
+      ],
+      "license": "CC BY 4.0"
+    }
+  ],
+  "existingBroadAramaicArea": {
+    "existingTerritoryId": "clas1252",
+    "sourceIds": [
+      "278"
+    ],
+    "originalSourceNames": [
+      "Aramaic"
+    ],
+    "normalizedLanguageName": "Classical Syriac",
+    "sourceGlottocode": "clas1252",
+    "sourceEpoch": 2007,
+    "maps": [
+      "Map 53 Iran, Afghanistan and Pakistan [66]",
+      "Map 59 The Caucasus [54]",
+      "Map 60 Turkey [7]"
+    ],
+    "bbox": [
+      42.7241,
+      35.1003,
+      46.6496,
+      41.2891
+    ],
+    "components": [
+      {
+        "bbox": [
+          45.8661,
+          35.1003,
+          46.2743,
+          35.4929
+        ],
+        "areaDegrees": 0.12443680999999995
+      },
+      {
+        "bbox": [
+          42.7241,
+          35.9298,
+          45.569,
+          39.0616
+        ],
+        "areaDegrees": 5.0593818550000025
+      },
+      {
+        "bbox": [
+          43.5294,
+          38.8227,
+          46.6496,
+          41.2891
+        ],
+        "areaDegrees": 2.7119467500000054
+      }
+    ],
+    "caveat": "Atlas original label is Aramaic, while the source CLDF joins it to Classical Syriac. This is not a separately supported Assyrian Neo-Aramaic area and must not be silently relabeled as one. Excluded from the new modern-language bundle."
+  },
+  "coverageGaps": [
+    "No Western Neo-Aramaic, Assyrian-specific, Mandaic or Guanche speaker polygon was found in cached Asher, Carling/DiACL or Bouckaert features.",
+    "Neo-Mandaic Glottolog reference point is in southwest Iran, not southern Iraq; it must not be mislabeled as a Basra point.",
+    "Glottolog Iraqi Neo-Mandaic dialect iraq1245 has null coordinates. A southern Iraq community callout needs a separate published location source.",
+    "Turoyo is a distinct Neo-Aramaic language. Its Tur Abdin source polygon must not substitute for the entire Assyrian Neo-Aramaic distribution.",
+    "Glottolog Classical Mandaic point clas1253 is unexpectedly far north (49.5659,36.1203); excluded because it is unsuitable for the requested southern community location."
+  ],
+  "suggestedIntegration": [
+    "Add alias turo1239 to tru after adding an independently sourced Turoyo lexical entry.",
+    "For amw and aii use the supplied reference points as visible markers/callouts, with source notes; retain surrounding Kurdish, Arabic and other polygons.",
+    "Use Mandaic marker only once lexical form and historical versus modern variety are settled; no constructed polygon.",
+    "Do not append the Turoyo bundle copy if the existing turo1239 territory is retained."
+  ]
+}

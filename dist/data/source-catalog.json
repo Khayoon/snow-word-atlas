@@ -11,13 +11,13 @@
     "READ ME.txt"
   ],
   "counts": {
-    "languages": 101,
-    "wordOriginSets": 25,
-    "lexicalLiteralUrls": 122,
-    "lexicalCanonicalSources": 121,
-    "lexicalCitations": 351,
-    "languageAreaFeatures": 180,
-    "documentedLexicalJoins": 88,
+    "languages": 106,
+    "wordOriginSets": 26,
+    "lexicalLiteralUrls": 140,
+    "lexicalCanonicalSources": 139,
+    "lexicalCitations": 373,
+    "languageAreaFeatures": 181,
+    "documentedLexicalJoins": 90,
     "referenceLandFeatures": 83
   },
   "geography": [
@@ -104,11 +104,29 @@
         }
       ],
       "usedFor": "Complete reference-language land fill underneath language polygons; country boundaries are not linguistic boundaries."
+    },
+    {
+      "id": "glottolog-reference-points",
+      "title": "Glottolog 5.3: language reference locations",
+      "license": "CC BY 4.0",
+      "usedFor": "Reference points for Maaloula Western Neo-Aramaic and Assyrian Neo-Aramaic; locations do not define speaker-area boundaries.",
+      "urls": [
+        {
+          "label": "Western Neo-Aramaic",
+          "url": "https://glottolog.org/resource/languoid/id/west2763"
+        },
+        {
+          "label": "Assyrian Neo-Aramaic",
+          "url": "https://glottolog.org/resource/languoid/id/assy1241"
+        }
+      ]
     }
   ],
   "lexical": [
     {
+      "id": "L001",
       "url": "https://avarlab.upf.edu/entry/220064/",
+      "title": "Avar Dictionary, Universitat Pompeu Fabra: гӀазу",
       "titles": [
         "Avar Dictionary, Universitat Pompeu Fabra: гӀазу"
       ],
@@ -127,12 +145,12 @@
           "name": "Avar"
         }
       ],
-      "useCount": 2,
-      "id": "L001",
-      "title": "Avar Dictionary, Universitat Pompeu Fabra: гӀазу"
+      "useCount": 2
     },
     {
+      "id": "L002",
       "url": "https://bararan.am/%D5%B1%D5%B5%D5%B8%D6%82%D5%B6",
+      "title": "Bararan Armenian dictionary: ձյուն / dzyun",
       "titles": [
         "Bararan Armenian dictionary: ձյուն / dzyun"
       ],
@@ -146,12 +164,12 @@
           "name": "Armenian"
         }
       ],
-      "useCount": 1,
-      "id": "L002",
-      "title": "Bararan Armenian dictionary: ձյուն / dzyun"
+      "useCount": 1
     },
     {
+      "id": "L003",
       "url": "https://cathedra.dgu.ru/Content/files/%D0%A4%D0%B8%D0%BB%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D0%BB%D0%B0%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C.pdf",
+      "title": "Russian–Lak dictionary, Dagestan State University: снег / марххала, p. 327",
       "titles": [
         "Russian–Lak dictionary, Dagestan State University: снег / марххала, p. 327"
       ],
@@ -170,12 +188,12 @@
           "name": "Lak"
         }
       ],
-      "useCount": 2,
-      "id": "L003",
-      "title": "Russian–Lak dictionary, Dagestan State University: снег / марххала, p. 327"
+      "useCount": 2
     },
     {
+      "id": "L004",
       "url": "https://daka.gl/2018-kal-eng/",
+      "title": "Greenlandic–English Dictionary (University of Chicago and Oqaasileriffik, 2018): aput",
       "titles": [
         "Greenlandic–English Dictionary (University of Chicago and Oqaasileriffik, 2018): aput"
       ],
@@ -194,12 +212,12 @@
           "name": "Greenlandic"
         }
       ],
-      "useCount": 2,
-      "id": "L004",
-      "title": "Greenlandic–English Dictionary (University of Chicago and Oqaasileriffik, 2018): aput"
+      "useCount": 2
     },
     {
+      "id": "L005",
       "url": "https://dcvb.iec.cat/results.asp?Id=99850&Word=neu&search=neu",
+      "title": "IEC: Diccionari catala-valencia-balear, neu",
       "titles": [
         "IEC: Diccionari catala-valencia-balear, neu"
       ],
@@ -213,12 +231,12 @@
           "name": "Catalan"
         }
       ],
-      "useCount": 1,
-      "id": "L005",
-      "title": "IEC: Diccionari catala-valencia-balear, neu"
+      "useCount": 1
     },
     {
+      "id": "L006",
       "url": "https://dle.rae.es/nieve",
+      "title": "Real Academia Espanola: nieve",
       "titles": [
         "Real Academia Espanola: nieve"
       ],
@@ -232,12 +250,12 @@
           "name": "Spanish"
         }
       ],
-      "useCount": 1,
-      "id": "L006",
-      "title": "Real Academia Espanola: nieve"
+      "useCount": 1
     },
     {
+      "id": "L007",
       "url": "https://en.wiktionary.org/wiki/%C3%B1eve#Asturian",
+      "title": "Wiktionary: ñeve (Asturian)",
       "titles": [
         "Wiktionary: ñeve (Asturian)"
       ],
@@ -251,12 +269,12 @@
           "name": "Asturian"
         }
       ],
-      "useCount": 1,
-      "id": "L007",
-      "title": "Wiktionary: ñeve (Asturian)"
+      "useCount": 1
     },
     {
+      "id": "L008",
       "url": "https://en.wiktionary.org/wiki/%C5%9Bnieg#Polish",
+      "title": "Wiktionary: śnieg (Polish)",
       "titles": [
         "Wiktionary: śnieg (Polish)"
       ],
@@ -270,12 +288,12 @@
           "name": "Polish"
         }
       ],
-      "useCount": 1,
-      "id": "L008",
-      "title": "Wiktionary: śnieg (Polish)"
+      "useCount": 1
     },
     {
+      "id": "L009",
       "url": "https://en.wiktionary.org/wiki/%CF%87%CE%B9%CF%8C%CE%BD%CE%B9#Greek",
+      "title": "Wiktionary: χιόνι (Greek)",
       "titles": [
         "Wiktionary: χιόνι (Greek)"
       ],
@@ -298,12 +316,12 @@
           "name": "Armenian"
         }
       ],
-      "useCount": 3,
-      "id": "L009",
-      "title": "Wiktionary: χιόνι (Greek)"
+      "useCount": 3
     },
     {
+      "id": "L010",
       "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D1%80#Kyrgyz",
+      "title": "Wiktionary: кар (Kyrgyz)",
       "titles": [
         "Wiktionary: кар (Kyrgyz)"
       ],
@@ -317,12 +335,12 @@
           "name": "Kyrgyz"
         }
       ],
-      "useCount": 1,
-      "id": "L010",
-      "title": "Wiktionary: кар (Kyrgyz)"
+      "useCount": 1
     },
     {
+      "id": "L011",
       "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D1%80#Tatar",
+      "title": "Wiktionary: кар (Tatar)",
       "titles": [
         "Wiktionary: кар (Tatar)"
       ],
@@ -336,12 +354,12 @@
           "name": "Tatar"
         }
       ],
-      "useCount": 1,
-      "id": "L011",
-      "title": "Wiktionary: кар (Tatar)"
+      "useCount": 1
     },
     {
+      "id": "L012",
       "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE#Chechen",
+      "title": "Wiktionary: ло (Chechen)",
       "titles": [
         "Wiktionary: ло (Chechen)"
       ],
@@ -360,12 +378,12 @@
           "name": "Chechen"
         }
       ],
-      "useCount": 2,
-      "id": "L012",
-      "title": "Wiktionary: ло (Chechen)"
+      "useCount": 2
     },
     {
+      "id": "L013",
       "url": "https://en.wiktionary.org/wiki/%D0%BB%D1%83%D0%BC#Eastern_Mari",
+      "title": "Wiktionary: лум (Eastern Mari)",
       "titles": [
         "Wiktionary: лум (Eastern Mari)"
       ],
@@ -379,12 +397,12 @@
           "name": "Meadow Mari"
         }
       ],
-      "useCount": 1,
-      "id": "L013",
-      "title": "Wiktionary: лум (Eastern Mari)"
+      "useCount": 1
     },
     {
+      "id": "L014",
       "url": "https://en.wiktionary.org/wiki/%D0%BB%D1%8B%D0%BC#Komi-Zyrian",
+      "title": "Wiktionary: лым (Komi-Zyrian)",
       "titles": [
         "Wiktionary: лым (Komi-Zyrian)"
       ],
@@ -398,12 +416,12 @@
           "name": "Komi-Zyrian"
         }
       ],
-      "useCount": 1,
-      "id": "L014",
-      "title": "Wiktionary: лым (Komi-Zyrian)"
+      "useCount": 1
     },
     {
+      "id": "L015",
       "url": "https://en.wiktionary.org/wiki/%D0%BB%D1%8B%D0%BC%D1%8B#Udmurt",
+      "title": "Wiktionary: лымы (Udmurt)",
       "titles": [
         "Wiktionary: лымы (Udmurt)"
       ],
@@ -417,12 +435,12 @@
           "name": "Udmurt"
         }
       ],
-      "useCount": 1,
-      "id": "L015",
-      "title": "Wiktionary: лымы (Udmurt)"
+      "useCount": 1
     },
     {
+      "id": "L016",
       "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D1%82#Ossetian",
+      "title": "Wiktionary: мит (Ossetian)",
       "titles": [
         "Wiktionary: мит (Ossetian)"
       ],
@@ -441,12 +459,12 @@
           "name": "Ossetian"
         }
       ],
-      "useCount": 2,
-      "id": "L016",
-      "title": "Wiktionary: мит (Ossetian)"
+      "useCount": 2
     },
     {
+      "id": "L017",
       "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%81%D1%8B#West_Circassian",
+      "title": "Wiktionary: осы (West Circassian)",
       "titles": [
         "Wiktionary: осы (West Circassian)"
       ],
@@ -461,20 +479,20 @@
       ],
       "languageUses": [
         {
-          "id": "ady",
-          "name": "Adyghe"
-        },
-        {
           "id": "kbd",
           "name": "Kabardian"
+        },
+        {
+          "id": "ady",
+          "name": "Adyghe"
         }
       ],
-      "useCount": 3,
-      "id": "L017",
-      "title": "Wiktionary: осы (West Circassian)"
+      "useCount": 3
     },
     {
+      "id": "L018",
       "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D0%B5%D0%B3#Belarusian",
+      "title": "Wiktionary: снег (Belarusian)",
       "titles": [
         "Wiktionary: снег (Belarusian)"
       ],
@@ -488,12 +506,12 @@
           "name": "Belarusian"
         }
       ],
-      "useCount": 1,
-      "id": "L018",
-      "title": "Wiktionary: снег (Belarusian)"
+      "useCount": 1
     },
     {
+      "id": "L019",
       "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D0%B5%D0%B3#Macedonian",
+      "title": "Wiktionary: снег (Macedonian)",
       "titles": [
         "Wiktionary: снег (Macedonian)"
       ],
@@ -507,12 +525,12 @@
           "name": "Macedonian"
         }
       ],
-      "useCount": 1,
-      "id": "L019",
-      "title": "Wiktionary: снег (Macedonian)"
+      "useCount": 1
     },
     {
+      "id": "L020",
       "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D0%B5%D0%B3#Russian",
+      "title": "Wiktionary: снег (Russian)",
       "titles": [
         "Wiktionary: снег (Russian)"
       ],
@@ -526,12 +544,12 @@
           "name": "Russian"
         }
       ],
-      "useCount": 1,
-      "id": "L020",
-      "title": "Wiktionary: снег (Russian)"
+      "useCount": 1
     },
     {
+      "id": "L021",
       "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D1%8F%D0%B3#Bulgarian",
+      "title": "Wiktionary: сняг (Bulgarian)",
       "titles": [
         "Wiktionary: сняг (Bulgarian)"
       ],
@@ -545,12 +563,12 @@
           "name": "Bulgarian"
         }
       ],
-      "useCount": 1,
-      "id": "L021",
-      "title": "Wiktionary: сняг (Bulgarian)"
+      "useCount": 1
     },
     {
+      "id": "L022",
       "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BD%D1%96%D0%B3#Ukrainian",
+      "title": "Wiktionary: сніг (Ukrainian)",
       "titles": [
         "Wiktionary: сніг (Ukrainian)"
       ],
@@ -564,12 +582,12 @@
           "name": "Ukrainian"
         }
       ],
-      "useCount": 1,
-      "id": "L022",
-      "title": "Wiktionary: сніг (Ukrainian)"
+      "useCount": 1
     },
     {
+      "id": "L023",
       "url": "https://en.wiktionary.org/wiki/%D1%81%D1%8B%D1%80%D0%B0#Tundra_Nenets",
+      "title": "Wiktionary: сыра (Tundra Nenets)",
       "titles": [
         "Wiktionary: сыра (Tundra Nenets)"
       ],
@@ -588,12 +606,12 @@
           "name": "Tundra Nenets"
         }
       ],
-      "useCount": 2,
-      "id": "L023",
-      "title": "Wiktionary: сыра (Tundra Nenets)"
+      "useCount": 2
     },
     {
+      "id": "L024",
       "url": "https://en.wiktionary.org/wiki/%D1%83%D1%8D%D1%81#East_Circassian",
+      "title": "Wiktionary: уэс (East Circassian)",
       "titles": [
         "Wiktionary: уэс (East Circassian)"
       ],
@@ -608,20 +626,20 @@
       ],
       "languageUses": [
         {
-          "id": "ady",
-          "name": "Adyghe"
-        },
-        {
           "id": "kbd",
           "name": "Kabardian"
+        },
+        {
+          "id": "ady",
+          "name": "Adyghe"
         }
       ],
-      "useCount": 3,
-      "id": "L024",
-      "title": "Wiktionary: уэс (East Circassian)"
+      "useCount": 3
     },
     {
+      "id": "L025",
       "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%81%D0%BD#Kalmyk",
+      "title": "Wiktionary: цасн (Kalmyk)",
       "titles": [
         "Wiktionary: цасн (Kalmyk)"
       ],
@@ -640,12 +658,12 @@
           "name": "Kalmyk"
         }
       ],
-      "useCount": 2,
-      "id": "L025",
-      "title": "Wiktionary: цасн (Kalmyk)"
+      "useCount": 2
     },
     {
+      "id": "L026",
       "url": "https://en.wiktionary.org/wiki/%D2%9B%D0%B0%D1%80#Kazakh",
+      "title": "Wiktionary: қар (Kazakh)",
       "titles": [
         "Wiktionary: қар (Kazakh)"
       ],
@@ -660,8 +678,20 @@
       ],
       "languageUses": [
         {
+          "id": "tur",
+          "name": "Turkish"
+        },
+        {
           "id": "aze",
           "name": "Azerbaijani"
+        },
+        {
+          "id": "kaz",
+          "name": "Kazakh"
+        },
+        {
+          "id": "tat",
+          "name": "Tatar"
         },
         {
           "id": "bak",
@@ -672,32 +702,20 @@
           "name": "Crimean Tatar"
         },
         {
-          "id": "kaz",
-          "name": "Kazakh"
-        },
-        {
           "id": "kir",
           "name": "Kyrgyz"
-        },
-        {
-          "id": "tat",
-          "name": "Tatar"
-        },
-        {
-          "id": "tur",
-          "name": "Turkish"
         },
         {
           "id": "uzb",
           "name": "Uzbek"
         }
       ],
-      "useCount": 9,
-      "id": "L026",
-      "title": "Wiktionary: қар (Kazakh)"
+      "useCount": 9
     },
     {
+      "id": "L027",
       "url": "https://en.wiktionary.org/wiki/%D2%A1%D0%B0%D1%80#Bashkir",
+      "title": "Wiktionary: ҡар (Bashkir)",
       "titles": [
         "Wiktionary: ҡар (Bashkir)"
       ],
@@ -711,12 +729,12 @@
           "name": "Bashkir"
         }
       ],
-      "useCount": 1,
-      "id": "L027",
-      "title": "Wiktionary: ҡар (Bashkir)"
+      "useCount": 1
     },
     {
+      "id": "L028",
       "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB%D6%82%D5%B6#Old_Armenian",
+      "title": "Wiktionary: ձիւն (Old Armenian)",
       "titles": [
         "Wiktionary: ձիւն (Old Armenian)"
       ],
@@ -739,12 +757,12 @@
           "name": "Armenian"
         }
       ],
-      "useCount": 3,
-      "id": "L028",
-      "title": "Wiktionary: ձիւն (Old Armenian)"
+      "useCount": 3
     },
     {
+      "id": "L029",
       "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%B5%D5%B8%D6%82%D5%B6#Armenian",
+      "title": "Wiktionary: ձյուն (Armenian)",
       "titles": [
         "Wiktionary: ձյուն (Armenian)"
       ],
@@ -758,12 +776,12 @@
           "name": "Armenian"
         }
       ],
-      "useCount": 1,
-      "id": "L029",
-      "title": "Wiktionary: ձյուն (Armenian)"
+      "useCount": 1
     },
     {
+      "id": "L030",
       "url": "https://en.wiktionary.org/wiki/%D7%A9%D7%9C%D7%92#Hebrew",
+      "title": "Wiktionary: שלג (Hebrew)",
       "titles": [
         "Wiktionary: שלג (Hebrew)"
       ],
@@ -778,16 +796,8 @@
       ],
       "languageUses": [
         {
-          "id": "aeb",
-          "name": "Tunisian Arabic"
-        },
-        {
           "id": "arb",
           "name": "Arabic (standard reference)"
-        },
-        {
-          "id": "arz",
-          "name": "Egyptian Arabic"
         },
         {
           "id": "heb",
@@ -796,14 +806,22 @@
         {
           "id": "mlt",
           "name": "Maltese"
+        },
+        {
+          "id": "aeb",
+          "name": "Tunisian Arabic"
+        },
+        {
+          "id": "arz",
+          "name": "Egyptian Arabic"
         }
       ],
-      "useCount": 6,
-      "id": "L030",
-      "title": "Wiktionary: שלג (Hebrew)"
+      "useCount": 6
     },
     {
+      "id": "L031",
       "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%81#Persian",
+      "title": "Wiktionary: برف (Persian)",
       "titles": [
         "Wiktionary: برف (Persian)"
       ],
@@ -818,20 +836,20 @@
       ],
       "languageUses": [
         {
-          "id": "kmr",
-          "name": "Northern Kurdish"
-        },
-        {
           "id": "pes",
           "name": "Persian"
+        },
+        {
+          "id": "kmr",
+          "name": "Northern Kurdish"
         }
       ],
-      "useCount": 3,
-      "id": "L031",
-      "title": "Wiktionary: برف (Persian)"
+      "useCount": 3
     },
     {
+      "id": "L032",
       "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%BE#Baluchi",
+      "title": "Wiktionary: برپ (Baluchi)",
       "titles": [
         "Wiktionary: برپ (Baluchi)"
       ],
@@ -845,12 +863,12 @@
           "name": "Balochi"
         }
       ],
-      "useCount": 1,
-      "id": "L032",
-      "title": "Wiktionary: برپ (Baluchi)"
+      "useCount": 1
     },
     {
+      "id": "L033",
       "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%95%D9%81%D8%B1#Central_Kurdish",
+      "title": "Wiktionary: بەفر (Central Kurdish)",
       "titles": [
         "Wiktionary: بەفر (Central Kurdish)"
       ],
@@ -864,12 +882,12 @@
           "name": "Central Kurdish"
         }
       ],
-      "useCount": 1,
-      "id": "L033",
-      "title": "Wiktionary: بەفر (Central Kurdish)"
+      "useCount": 1
     },
     {
+      "id": "L034",
       "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%84%D8%AC#Egyptian_Arabic",
+      "title": "Wiktionary: تلج (Egyptian Arabic)",
       "titles": [
         "Wiktionary: تلج (Egyptian Arabic)"
       ],
@@ -883,15 +901,15 @@
           "name": "Egyptian Arabic"
         }
       ],
-      "useCount": 1,
-      "id": "L034",
-      "title": "Wiktionary: تلج (Egyptian Arabic)"
+      "useCount": 1
     },
     {
+      "id": "L035",
       "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic",
+      "title": "Wiktionary: ثلج (Arabic)",
       "titles": [
-        "Wiktionary: ثلج (Arabic etymology and regional forms)",
-        "Wiktionary: ثلج (Arabic)"
+        "Wiktionary: ثلج (Arabic)",
+        "Wiktionary: ثلج (Arabic etymology and regional forms)"
       ],
       "urlAliases": [
         "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Arabic"
@@ -904,24 +922,8 @@
       ],
       "languageUses": [
         {
-          "id": "acm",
-          "name": "Mesopotamian Arabic"
-        },
-        {
-          "id": "aeb",
-          "name": "Tunisian Arabic"
-        },
-        {
-          "id": "apc",
-          "name": "Syrian Arabic"
-        },
-        {
           "id": "arb",
           "name": "Arabic (standard reference)"
-        },
-        {
-          "id": "arz",
-          "name": "Egyptian Arabic"
         },
         {
           "id": "heb",
@@ -930,14 +932,30 @@
         {
           "id": "mlt",
           "name": "Maltese"
+        },
+        {
+          "id": "aeb",
+          "name": "Tunisian Arabic"
+        },
+        {
+          "id": "arz",
+          "name": "Egyptian Arabic"
+        },
+        {
+          "id": "apc",
+          "name": "Syrian Arabic"
+        },
+        {
+          "id": "acm",
+          "name": "Mesopotamian Arabic"
         }
       ],
-      "useCount": 8,
-      "id": "L035",
-      "title": "Wiktionary: ثلج (Arabic etymology and regional forms)"
+      "useCount": 8
     },
     {
+      "id": "L036",
       "url": "https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Tunisian_Arabic",
+      "title": "Wiktionary: ثلج (Tunisian Arabic)",
       "titles": [
         "Wiktionary: ثلج (Tunisian Arabic)"
       ],
@@ -951,12 +969,12 @@
           "name": "Tunisian Arabic"
         }
       ],
-      "useCount": 1,
-      "id": "L036",
-      "title": "Wiktionary: ثلج (Tunisian Arabic)"
+      "useCount": 1
     },
     {
+      "id": "L037",
       "url": "https://en.wiktionary.org/wiki/%E1%83%97%E1%83%9D%E1%83%95%E1%83%9A%E1%83%98#Georgian",
+      "title": "Wiktionary: თოვლი (Georgian)",
       "titles": [
         "Wiktionary: თოვლი (Georgian)"
       ],
@@ -975,12 +993,12 @@
           "name": "Georgian"
         }
       ],
-      "useCount": 2,
-      "id": "L037",
-      "title": "Wiktionary: თოვლი (Georgian)"
+      "useCount": 2
     },
     {
+      "id": "L038",
       "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B4%B7%E2%B4%BC%E2%B5%8D#Central_Atlas_Tamazight",
+      "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)",
       "titles": [
         "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)"
       ],
@@ -999,20 +1017,20 @@
           "name": "Kabyle"
         },
         {
-          "id": "shi",
-          "name": "Tachelhit"
-        },
-        {
           "id": "tzm",
           "name": "Central Atlas Tamazight"
+        },
+        {
+          "id": "shi",
+          "name": "Tachelhit"
         }
       ],
-      "useCount": 4,
-      "id": "L038",
-      "title": "Wiktionary: ⴰⴷⴼⵍ (Central Atlas Tamazight)"
+      "useCount": 4
     },
     {
+      "id": "L039",
       "url": "https://en.wiktionary.org/wiki/Appendix:Kabyle%20Swadesh%20list",
+      "title": "Wiktionary: Appendix:Kabyle Swadesh list",
       "titles": [
         "Wiktionary: Appendix:Kabyle Swadesh list"
       ],
@@ -1026,12 +1044,12 @@
           "name": "Kabyle"
         }
       ],
-      "useCount": 1,
-      "id": "L039",
-      "title": "Wiktionary: Appendix:Kabyle Swadesh list"
+      "useCount": 1
     },
     {
+      "id": "L040",
       "url": "https://en.wiktionary.org/wiki/Appendix:Nakh-Dagestanian%20Swadesh%20lists",
+      "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists",
       "titles": [
         "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists"
       ],
@@ -1048,12 +1066,12 @@
           "name": "Dargwa"
         },
         {
-          "id": "lak-markhhala",
-          "name": "Lak"
-        },
-        {
           "id": "lezgian-zhiv",
           "name": "Lezgian"
+        },
+        {
+          "id": "lak-markhhala",
+          "name": "Lak"
         }
       ],
       "languageUses": [
@@ -1066,20 +1084,20 @@
           "name": "Dargwa"
         },
         {
-          "id": "lbe",
-          "name": "Lak"
-        },
-        {
           "id": "lez",
           "name": "Lezgian"
+        },
+        {
+          "id": "lbe",
+          "name": "Lak"
         }
       ],
-      "useCount": 8,
-      "id": "L040",
-      "title": "Wiktionary: Appendix:Nakh-Dagestanian Swadesh lists"
+      "useCount": 8
     },
     {
+      "id": "L041",
       "url": "https://en.wiktionary.org/wiki/Appendix:Tatar_Swadesh_list",
+      "title": "Wiktionary: Tatar Swadesh list",
       "titles": [
         "Wiktionary: Tatar Swadesh list"
       ],
@@ -1093,12 +1111,12 @@
           "name": "Tatar"
         }
       ],
-      "useCount": 1,
-      "id": "L041",
-      "title": "Wiktionary: Tatar Swadesh list"
+      "useCount": 1
     },
     {
+      "id": "L042",
       "url": "https://en.wiktionary.org/wiki/Appendix:Turkic%20Swadesh%20lists",
+      "title": "Wiktionary: Appendix:Turkic Swadesh lists",
       "titles": [
         "Wiktionary: Appendix:Turkic Swadesh lists"
       ],
@@ -1116,12 +1134,12 @@
           "name": "Kumyk"
         }
       ],
-      "useCount": 2,
-      "id": "L042",
-      "title": "Wiktionary: Appendix:Turkic Swadesh lists"
+      "useCount": 2
     },
     {
+      "id": "L043",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Basque/eruR",
+      "title": "Wiktionary: Reconstruction:Proto-Basque/eruR",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Basque/eruR"
       ],
@@ -1140,12 +1158,12 @@
           "name": "Basque"
         }
       ],
-      "useCount": 2,
-      "id": "L043",
-      "title": "Wiktionary: Reconstruction:Proto-Basque/eruR"
+      "useCount": 2
     },
     {
+      "id": "L044",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Brythonic/%C4%97r%C9%A3",
+      "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ"
       ],
@@ -1160,24 +1178,24 @@
       ],
       "languageUses": [
         {
+          "id": "cym",
+          "name": "Welsh"
+        },
+        {
           "id": "bre",
           "name": "Breton"
         },
         {
           "id": "cor",
           "name": "Cornish"
-        },
-        {
-          "id": "cym",
-          "name": "Welsh"
         }
       ],
-      "useCount": 4,
-      "id": "L044",
-      "title": "Wiktionary: Reconstruction:Proto-Brythonic/ėrɣ"
+      "useCount": 4
     },
     {
+      "id": "L045",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sn%C3%ADg%CA%B7%CA%B0s",
+      "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs"
       ],
@@ -1192,144 +1210,120 @@
       ],
       "languageUses": [
         {
-          "id": "arg",
-          "name": "Aragonese"
+          "id": "eng",
+          "name": "English"
         },
         {
-          "id": "ast",
-          "name": "Asturian"
-        },
-        {
-          "id": "bel",
-          "name": "Belarusian"
-        },
-        {
-          "id": "bul",
-          "name": "Bulgarian"
-        },
-        {
-          "id": "cat",
-          "name": "Catalan"
-        },
-        {
-          "id": "ces",
-          "name": "Czech"
-        },
-        {
-          "id": "csb",
-          "name": "Kashubian"
-        },
-        {
-          "id": "dan",
-          "name": "Danish"
+          "id": "sco",
+          "name": "Scots"
         },
         {
           "id": "deu",
           "name": "German"
         },
         {
-          "id": "dsb",
-          "name": "Lower Sorbian"
-        },
-        {
-          "id": "eng",
-          "name": "English"
-        },
-        {
-          "id": "fra",
-          "name": "French"
+          "id": "nld",
+          "name": "Dutch"
         },
         {
           "id": "fry",
           "name": "West Frisian"
         },
         {
-          "id": "fur",
-          "name": "Friulian"
-        },
-        {
-          "id": "gla",
-          "name": "Scottish Gaelic"
-        },
-        {
-          "id": "gle",
-          "name": "Irish"
-        },
-        {
-          "id": "glg",
-          "name": "Galician"
-        },
-        {
-          "id": "glv",
-          "name": "Manx"
-        },
-        {
-          "id": "hbs",
-          "name": "Serbian–Croatian–Bosnian"
-        },
-        {
-          "id": "hsb",
-          "name": "Upper Sorbian"
-        },
-        {
-          "id": "isl",
-          "name": "Icelandic"
-        },
-        {
-          "id": "ita",
-          "name": "Italian"
-        },
-        {
-          "id": "lav",
-          "name": "Latvian"
-        },
-        {
-          "id": "lit",
-          "name": "Lithuanian"
-        },
-        {
           "id": "ltz",
           "name": "Luxembourgish"
         },
         {
-          "id": "mkd",
-          "name": "Macedonian"
+          "id": "dan",
+          "name": "Danish"
         },
         {
-          "id": "nld",
-          "name": "Dutch"
+          "id": "swe",
+          "name": "Swedish"
         },
         {
           "id": "nor",
           "name": "Norwegian"
         },
         {
-          "id": "oci",
-          "name": "Occitan"
+          "id": "isl",
+          "name": "Icelandic"
         },
         {
-          "id": "pol",
-          "name": "Polish"
+          "id": "spa",
+          "name": "Spanish"
         },
         {
           "id": "por",
           "name": "Portuguese"
         },
         {
-          "id": "roh",
-          "name": "Romansh"
+          "id": "glg",
+          "name": "Galician"
         },
         {
-          "id": "rus",
-          "name": "Russian"
+          "id": "cat",
+          "name": "Catalan"
+        },
+        {
+          "id": "oci",
+          "name": "Occitan"
+        },
+        {
+          "id": "ita",
+          "name": "Italian"
         },
         {
           "id": "scn",
           "name": "Sicilian"
         },
         {
-          "id": "sco",
-          "name": "Scots"
+          "id": "srd",
+          "name": "Sardinian"
+        },
+        {
+          "id": "vec",
+          "name": "Venetian"
+        },
+        {
+          "id": "fur",
+          "name": "Friulian"
+        },
+        {
+          "id": "roh",
+          "name": "Romansh"
+        },
+        {
+          "id": "ast",
+          "name": "Asturian"
+        },
+        {
+          "id": "arg",
+          "name": "Aragonese"
+        },
+        {
+          "id": "fra",
+          "name": "French"
+        },
+        {
+          "id": "rus",
+          "name": "Russian"
+        },
+        {
+          "id": "ukr",
+          "name": "Ukrainian"
+        },
+        {
+          "id": "bel",
+          "name": "Belarusian"
+        },
+        {
+          "id": "pol",
+          "name": "Polish"
+        },
+        {
+          "id": "ces",
+          "name": "Czech"
         },
         {
           "id": "slk",
@@ -1340,32 +1334,56 @@
           "name": "Slovenian"
         },
         {
-          "id": "spa",
-          "name": "Spanish"
+          "id": "hbs",
+          "name": "Serbian–Croatian–Bosnian"
         },
         {
-          "id": "srd",
-          "name": "Sardinian"
+          "id": "bul",
+          "name": "Bulgarian"
         },
         {
-          "id": "swe",
-          "name": "Swedish"
+          "id": "mkd",
+          "name": "Macedonian"
         },
         {
-          "id": "ukr",
-          "name": "Ukrainian"
+          "id": "hsb",
+          "name": "Upper Sorbian"
         },
         {
-          "id": "vec",
-          "name": "Venetian"
+          "id": "dsb",
+          "name": "Lower Sorbian"
+        },
+        {
+          "id": "csb",
+          "name": "Kashubian"
+        },
+        {
+          "id": "lit",
+          "name": "Lithuanian"
+        },
+        {
+          "id": "lav",
+          "name": "Latvian"
+        },
+        {
+          "id": "gle",
+          "name": "Irish"
+        },
+        {
+          "id": "gla",
+          "name": "Scottish Gaelic"
+        },
+        {
+          "id": "glv",
+          "name": "Manx"
         }
       ],
-      "useCount": 43,
-      "id": "L045",
-      "title": "Wiktionary: Reconstruction:Proto-Indo-European/snígʷʰs"
+      "useCount": 43
     },
     {
+      "id": "L046",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sn%C3%B3yg%CA%B7%CA%B0os",
+      "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos"
       ],
@@ -1380,144 +1398,120 @@
       ],
       "languageUses": [
         {
-          "id": "arg",
-          "name": "Aragonese"
+          "id": "eng",
+          "name": "English"
         },
         {
-          "id": "ast",
-          "name": "Asturian"
-        },
-        {
-          "id": "bel",
-          "name": "Belarusian"
-        },
-        {
-          "id": "bul",
-          "name": "Bulgarian"
-        },
-        {
-          "id": "cat",
-          "name": "Catalan"
-        },
-        {
-          "id": "ces",
-          "name": "Czech"
-        },
-        {
-          "id": "csb",
-          "name": "Kashubian"
-        },
-        {
-          "id": "dan",
-          "name": "Danish"
+          "id": "sco",
+          "name": "Scots"
         },
         {
           "id": "deu",
           "name": "German"
         },
         {
-          "id": "dsb",
-          "name": "Lower Sorbian"
-        },
-        {
-          "id": "eng",
-          "name": "English"
-        },
-        {
-          "id": "fra",
-          "name": "French"
+          "id": "nld",
+          "name": "Dutch"
         },
         {
           "id": "fry",
           "name": "West Frisian"
         },
         {
-          "id": "fur",
-          "name": "Friulian"
-        },
-        {
-          "id": "gla",
-          "name": "Scottish Gaelic"
-        },
-        {
-          "id": "gle",
-          "name": "Irish"
-        },
-        {
-          "id": "glg",
-          "name": "Galician"
-        },
-        {
-          "id": "glv",
-          "name": "Manx"
-        },
-        {
-          "id": "hbs",
-          "name": "Serbian–Croatian–Bosnian"
-        },
-        {
-          "id": "hsb",
-          "name": "Upper Sorbian"
-        },
-        {
-          "id": "isl",
-          "name": "Icelandic"
-        },
-        {
-          "id": "ita",
-          "name": "Italian"
-        },
-        {
-          "id": "lav",
-          "name": "Latvian"
-        },
-        {
-          "id": "lit",
-          "name": "Lithuanian"
-        },
-        {
           "id": "ltz",
           "name": "Luxembourgish"
         },
         {
-          "id": "mkd",
-          "name": "Macedonian"
+          "id": "dan",
+          "name": "Danish"
         },
         {
-          "id": "nld",
-          "name": "Dutch"
+          "id": "swe",
+          "name": "Swedish"
         },
         {
           "id": "nor",
           "name": "Norwegian"
         },
         {
-          "id": "oci",
-          "name": "Occitan"
+          "id": "isl",
+          "name": "Icelandic"
         },
         {
-          "id": "pol",
-          "name": "Polish"
+          "id": "spa",
+          "name": "Spanish"
         },
         {
           "id": "por",
           "name": "Portuguese"
         },
         {
-          "id": "roh",
-          "name": "Romansh"
+          "id": "glg",
+          "name": "Galician"
         },
         {
-          "id": "rus",
-          "name": "Russian"
+          "id": "cat",
+          "name": "Catalan"
+        },
+        {
+          "id": "oci",
+          "name": "Occitan"
+        },
+        {
+          "id": "ita",
+          "name": "Italian"
         },
         {
           "id": "scn",
           "name": "Sicilian"
         },
         {
-          "id": "sco",
-          "name": "Scots"
+          "id": "srd",
+          "name": "Sardinian"
+        },
+        {
+          "id": "vec",
+          "name": "Venetian"
+        },
+        {
+          "id": "fur",
+          "name": "Friulian"
+        },
+        {
+          "id": "roh",
+          "name": "Romansh"
+        },
+        {
+          "id": "ast",
+          "name": "Asturian"
+        },
+        {
+          "id": "arg",
+          "name": "Aragonese"
+        },
+        {
+          "id": "fra",
+          "name": "French"
+        },
+        {
+          "id": "rus",
+          "name": "Russian"
+        },
+        {
+          "id": "ukr",
+          "name": "Ukrainian"
+        },
+        {
+          "id": "bel",
+          "name": "Belarusian"
+        },
+        {
+          "id": "pol",
+          "name": "Polish"
+        },
+        {
+          "id": "ces",
+          "name": "Czech"
         },
         {
           "id": "slk",
@@ -1528,32 +1522,56 @@
           "name": "Slovenian"
         },
         {
-          "id": "spa",
-          "name": "Spanish"
+          "id": "hbs",
+          "name": "Serbian–Croatian–Bosnian"
         },
         {
-          "id": "srd",
-          "name": "Sardinian"
+          "id": "bul",
+          "name": "Bulgarian"
         },
         {
-          "id": "swe",
-          "name": "Swedish"
+          "id": "mkd",
+          "name": "Macedonian"
         },
         {
-          "id": "ukr",
-          "name": "Ukrainian"
+          "id": "hsb",
+          "name": "Upper Sorbian"
         },
         {
-          "id": "vec",
-          "name": "Venetian"
+          "id": "dsb",
+          "name": "Lower Sorbian"
+        },
+        {
+          "id": "csb",
+          "name": "Kashubian"
+        },
+        {
+          "id": "lit",
+          "name": "Lithuanian"
+        },
+        {
+          "id": "lav",
+          "name": "Latvian"
+        },
+        {
+          "id": "gle",
+          "name": "Irish"
+        },
+        {
+          "id": "gla",
+          "name": "Scottish Gaelic"
+        },
+        {
+          "id": "glv",
+          "name": "Manx"
         }
       ],
-      "useCount": 43,
-      "id": "L046",
-      "title": "Wiktionary: Reconstruction:Proto-Indo-European/snóygʷʰos"
+      "useCount": 43
     },
     {
+      "id": "L047",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sneyg%CA%B7%CA%B0-",
+      "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-"
       ],
@@ -1568,144 +1586,120 @@
       ],
       "languageUses": [
         {
-          "id": "arg",
-          "name": "Aragonese"
+          "id": "eng",
+          "name": "English"
         },
         {
-          "id": "ast",
-          "name": "Asturian"
-        },
-        {
-          "id": "bel",
-          "name": "Belarusian"
-        },
-        {
-          "id": "bul",
-          "name": "Bulgarian"
-        },
-        {
-          "id": "cat",
-          "name": "Catalan"
-        },
-        {
-          "id": "ces",
-          "name": "Czech"
-        },
-        {
-          "id": "csb",
-          "name": "Kashubian"
-        },
-        {
-          "id": "dan",
-          "name": "Danish"
+          "id": "sco",
+          "name": "Scots"
         },
         {
           "id": "deu",
           "name": "German"
         },
         {
-          "id": "dsb",
-          "name": "Lower Sorbian"
-        },
-        {
-          "id": "eng",
-          "name": "English"
-        },
-        {
-          "id": "fra",
-          "name": "French"
+          "id": "nld",
+          "name": "Dutch"
         },
         {
           "id": "fry",
           "name": "West Frisian"
         },
         {
-          "id": "fur",
-          "name": "Friulian"
-        },
-        {
-          "id": "gla",
-          "name": "Scottish Gaelic"
-        },
-        {
-          "id": "gle",
-          "name": "Irish"
-        },
-        {
-          "id": "glg",
-          "name": "Galician"
-        },
-        {
-          "id": "glv",
-          "name": "Manx"
-        },
-        {
-          "id": "hbs",
-          "name": "Serbian–Croatian–Bosnian"
-        },
-        {
-          "id": "hsb",
-          "name": "Upper Sorbian"
-        },
-        {
-          "id": "isl",
-          "name": "Icelandic"
-        },
-        {
-          "id": "ita",
-          "name": "Italian"
-        },
-        {
-          "id": "lav",
-          "name": "Latvian"
-        },
-        {
-          "id": "lit",
-          "name": "Lithuanian"
-        },
-        {
           "id": "ltz",
           "name": "Luxembourgish"
         },
         {
-          "id": "mkd",
-          "name": "Macedonian"
+          "id": "dan",
+          "name": "Danish"
         },
         {
-          "id": "nld",
-          "name": "Dutch"
+          "id": "swe",
+          "name": "Swedish"
         },
         {
           "id": "nor",
           "name": "Norwegian"
         },
         {
-          "id": "oci",
-          "name": "Occitan"
+          "id": "isl",
+          "name": "Icelandic"
         },
         {
-          "id": "pol",
-          "name": "Polish"
+          "id": "spa",
+          "name": "Spanish"
         },
         {
           "id": "por",
           "name": "Portuguese"
         },
         {
-          "id": "roh",
-          "name": "Romansh"
+          "id": "glg",
+          "name": "Galician"
         },
         {
-          "id": "rus",
-          "name": "Russian"
+          "id": "cat",
+          "name": "Catalan"
+        },
+        {
+          "id": "oci",
+          "name": "Occitan"
+        },
+        {
+          "id": "ita",
+          "name": "Italian"
         },
         {
           "id": "scn",
           "name": "Sicilian"
         },
         {
-          "id": "sco",
-          "name": "Scots"
+          "id": "srd",
+          "name": "Sardinian"
+        },
+        {
+          "id": "vec",
+          "name": "Venetian"
+        },
+        {
+          "id": "fur",
+          "name": "Friulian"
+        },
+        {
+          "id": "roh",
+          "name": "Romansh"
+        },
+        {
+          "id": "ast",
+          "name": "Asturian"
+        },
+        {
+          "id": "arg",
+          "name": "Aragonese"
+        },
+        {
+          "id": "fra",
+          "name": "French"
+        },
+        {
+          "id": "rus",
+          "name": "Russian"
+        },
+        {
+          "id": "ukr",
+          "name": "Ukrainian"
+        },
+        {
+          "id": "bel",
+          "name": "Belarusian"
+        },
+        {
+          "id": "pol",
+          "name": "Polish"
+        },
+        {
+          "id": "ces",
+          "name": "Czech"
         },
         {
           "id": "slk",
@@ -1716,32 +1710,56 @@
           "name": "Slovenian"
         },
         {
-          "id": "spa",
-          "name": "Spanish"
+          "id": "hbs",
+          "name": "Serbian–Croatian–Bosnian"
         },
         {
-          "id": "srd",
-          "name": "Sardinian"
+          "id": "bul",
+          "name": "Bulgarian"
         },
         {
-          "id": "swe",
-          "name": "Swedish"
+          "id": "mkd",
+          "name": "Macedonian"
         },
         {
-          "id": "ukr",
-          "name": "Ukrainian"
+          "id": "hsb",
+          "name": "Upper Sorbian"
         },
         {
-          "id": "vec",
-          "name": "Venetian"
+          "id": "dsb",
+          "name": "Lower Sorbian"
+        },
+        {
+          "id": "csb",
+          "name": "Kashubian"
+        },
+        {
+          "id": "lit",
+          "name": "Lithuanian"
+        },
+        {
+          "id": "lav",
+          "name": "Latvian"
+        },
+        {
+          "id": "gle",
+          "name": "Irish"
+        },
+        {
+          "id": "gla",
+          "name": "Scottish Gaelic"
+        },
+        {
+          "id": "glv",
+          "name": "Manx"
         }
       ],
-      "useCount": 43,
-      "id": "L047",
-      "title": "Wiktionary: Reconstruction:Proto-Indo-European/sneygʷʰ-"
+      "useCount": 43
     },
     {
+      "id": "L048",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/wafrah",
+      "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Iranian/wafrah"
       ],
@@ -1755,28 +1773,28 @@
           "name": "Balochi"
         },
         {
-          "id": "bqi",
-          "name": "Bakhtiari"
-        },
-        {
-          "id": "ckb",
-          "name": "Central Kurdish"
-        },
-        {
           "id": "lrc",
           "name": "Northern Luri"
         },
         {
           "id": "luz",
           "name": "Southern Luri"
+        },
+        {
+          "id": "bqi",
+          "name": "Bakhtiari"
+        },
+        {
+          "id": "ckb",
+          "name": "Central Kurdish"
         }
       ],
-      "useCount": 5,
-      "id": "L048",
-      "title": "Wiktionary: Reconstruction:Proto-Iranian/wafrah"
+      "useCount": 5
     },
     {
+      "id": "L049",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Nakh/lawa",
+      "title": "Wiktionary: Reconstruction:Proto-Nakh/lawa",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Nakh/lawa"
       ],
@@ -1790,12 +1808,12 @@
           "name": "Ingush"
         }
       ],
-      "useCount": 1,
-      "id": "L049",
-      "title": "Wiktionary: Reconstruction:Proto-Nakh/lawa"
+      "useCount": 1
     },
     {
+      "id": "L050",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Sami/muott%C3%ABk",
+      "title": "Wiktionary: Reconstruction:Proto-Sami/muottëk",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Sami/muottëk"
       ],
@@ -1814,12 +1832,12 @@
           "name": "Northern Sámi"
         }
       ],
-      "useCount": 2,
-      "id": "L050",
-      "title": "Wiktionary: Reconstruction:Proto-Sami/muottëk"
+      "useCount": 2
     },
     {
+      "id": "L051",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Turkic/k%C4%81r",
+      "title": "Wiktionary: Reconstruction:Proto-Turkic/kār",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Turkic/kār"
       ],
@@ -1829,24 +1847,24 @@
       "rootUses": [],
       "languageUses": [
         {
+          "id": "tuk",
+          "name": "Turkmen"
+        },
+        {
           "id": "krc",
           "name": "Karachay-Balkar"
         },
         {
           "id": "kum",
           "name": "Kumyk"
-        },
-        {
-          "id": "tuk",
-          "name": "Turkmen"
         }
       ],
-      "useCount": 3,
-      "id": "L051",
-      "title": "Wiktionary: Reconstruction:Proto-Turkic/kār"
+      "useCount": 3
     },
     {
+      "id": "L052",
       "url": "https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/lome",
+      "title": "Wiktionary: Reconstruction:Proto-Uralic/lome",
       "titles": [
         "Wiktionary: Reconstruction:Proto-Uralic/lome"
       ],
@@ -1862,20 +1880,20 @@
       ],
       "languageUses": [
         {
-          "id": "est",
-          "name": "Estonian"
-        },
-        {
           "id": "fin",
           "name": "Finnish"
         },
         {
-          "id": "kpv",
-          "name": "Komi-Zyrian"
+          "id": "est",
+          "name": "Estonian"
         },
         {
           "id": "krl",
           "name": "Karelian"
+        },
+        {
+          "id": "vep",
+          "name": "Veps"
         },
         {
           "id": "mhr",
@@ -1886,16 +1904,16 @@
           "name": "Udmurt"
         },
         {
-          "id": "vep",
-          "name": "Veps"
+          "id": "kpv",
+          "name": "Komi-Zyrian"
         }
       ],
-      "useCount": 8,
-      "id": "L052",
-      "title": "Wiktionary: Reconstruction:Proto-Uralic/lome"
+      "useCount": 8
     },
     {
+      "id": "L053",
       "url": "https://en.wiktionary.org/wiki/Schn%C3%A9i#Luxembourgish",
+      "title": "Wiktionary: Schnéi (Luxembourgish)",
       "titles": [
         "Wiktionary: Schnéi (Luxembourgish)"
       ],
@@ -1909,12 +1927,12 @@
           "name": "Luxembourgish"
         }
       ],
-      "useCount": 1,
-      "id": "L053",
-      "title": "Wiktionary: Schnéi (Luxembourgish)"
+      "useCount": 1
     },
     {
+      "id": "L054",
       "url": "https://en.wiktionary.org/wiki/Schnee#German",
+      "title": "Wiktionary: Schnee (German)",
       "titles": [
         "Wiktionary: Schnee (German)"
       ],
@@ -1928,12 +1946,12 @@
           "name": "German"
         }
       ],
-      "useCount": 1,
-      "id": "L054",
-      "title": "Wiktionary: Schnee (German)"
+      "useCount": 1
     },
     {
+      "id": "L055",
       "url": "https://en.wiktionary.org/wiki/Wiktionary:Dargwa_transliteration",
+      "title": "Wiktionary: Dargwa transliteration (following Gippert / TITUS)",
       "titles": [
         "Wiktionary: Dargwa transliteration (following Gippert / TITUS)"
       ],
@@ -1947,12 +1965,12 @@
           "name": "Dargwa"
         }
       ],
-      "useCount": 1,
-      "id": "L055",
-      "title": "Wiktionary: Dargwa transliteration (following Gippert / TITUS)"
+      "useCount": 1
     },
     {
+      "id": "L056",
       "url": "https://en.wiktionary.org/wiki/adfl#Tashelhit",
+      "title": "Wiktionary: adfl (Tashelhit)",
       "titles": [
         "Wiktionary: adfl (Tashelhit)"
       ],
@@ -1971,20 +1989,20 @@
           "name": "Kabyle"
         },
         {
-          "id": "shi",
-          "name": "Tachelhit"
-        },
-        {
           "id": "tzm",
           "name": "Central Atlas Tamazight"
+        },
+        {
+          "id": "shi",
+          "name": "Tachelhit"
         }
       ],
-      "useCount": 4,
-      "id": "L056",
-      "title": "Wiktionary: adfl (Tashelhit)"
+      "useCount": 4
     },
     {
+      "id": "L057",
       "url": "https://en.wiktionary.org/wiki/berf#Northern_Kurdish",
+      "title": "Wiktionary: berf (Northern Kurdish)",
       "titles": [
         "Wiktionary: berf (Northern Kurdish)"
       ],
@@ -1999,20 +2017,20 @@
       ],
       "languageUses": [
         {
-          "id": "kmr",
-          "name": "Northern Kurdish"
-        },
-        {
           "id": "pes",
           "name": "Persian"
+        },
+        {
+          "id": "kmr",
+          "name": "Northern Kurdish"
         }
       ],
-      "useCount": 3,
-      "id": "L057",
-      "title": "Wiktionary: berf (Northern Kurdish)"
+      "useCount": 3
     },
     {
+      "id": "L058",
       "url": "https://en.wiktionary.org/wiki/bor%C3%AB#Albanian",
+      "title": "Wiktionary: borë (Albanian)",
       "titles": [
         "Wiktionary: borë (Albanian)"
       ],
@@ -2031,12 +2049,12 @@
           "name": "Albanian"
         }
       ],
-      "useCount": 2,
-      "id": "L058",
-      "title": "Wiktionary: borë (Albanian)"
+      "useCount": 2
     },
     {
+      "id": "L059",
       "url": "https://en.wiktionary.org/wiki/eira#Welsh",
+      "title": "Wiktionary: eira (Welsh)",
       "titles": [
         "Wiktionary: eira (Welsh)"
       ],
@@ -2050,12 +2068,12 @@
           "name": "Welsh"
         }
       ],
-      "useCount": 1,
-      "id": "L059",
-      "title": "Wiktionary: eira (Welsh)"
+      "useCount": 1
     },
     {
+      "id": "L060",
       "url": "https://en.wiktionary.org/wiki/elur#Basque",
+      "title": "Wiktionary: elur (Basque)",
       "titles": [
         "Wiktionary: elur (Basque)"
       ],
@@ -2074,12 +2092,12 @@
           "name": "Basque"
         }
       ],
-      "useCount": 2,
-      "id": "L060",
-      "title": "Wiktionary: elur (Basque)"
+      "useCount": 2
     },
     {
+      "id": "L061",
       "url": "https://en.wiktionary.org/wiki/erc'h#Breton",
+      "title": "Wiktionary: erc'h (Breton)",
       "titles": [
         "Wiktionary: erc'h (Breton)"
       ],
@@ -2093,12 +2111,12 @@
           "name": "Breton"
         }
       ],
-      "useCount": 1,
-      "id": "L061",
-      "title": "Wiktionary: erc'h (Breton)"
+      "useCount": 1
     },
     {
+      "id": "L062",
       "url": "https://en.wiktionary.org/wiki/ergh#Cornish",
+      "title": "Wiktionary: ergh (Cornish)",
       "titles": [
         "Wiktionary: ergh (Cornish)"
       ],
@@ -2112,12 +2130,12 @@
           "name": "Cornish"
         }
       ],
-      "useCount": 1,
-      "id": "L062",
-      "title": "Wiktionary: ergh (Cornish)"
+      "useCount": 1
     },
     {
+      "id": "L063",
       "url": "https://en.wiktionary.org/wiki/gar#Turkmen",
+      "title": "Wiktionary: gar (Turkmen)",
       "titles": [
         "Wiktionary: gar (Turkmen)"
       ],
@@ -2131,12 +2149,12 @@
           "name": "Turkmen"
         }
       ],
-      "useCount": 1,
-      "id": "L063",
-      "title": "Wiktionary: gar (Turkmen)"
+      "useCount": 1
     },
     {
+      "id": "L064",
       "url": "https://en.wiktionary.org/wiki/h%C3%B3#Hungarian",
+      "title": "Wiktionary: hó (Hungarian)",
       "titles": [
         "Wiktionary: hó (Hungarian)"
       ],
@@ -2155,12 +2173,12 @@
           "name": "Hungarian"
         }
       ],
-      "useCount": 2,
-      "id": "L064",
-      "title": "Wiktionary: hó (Hungarian)"
+      "useCount": 2
     },
     {
+      "id": "L065",
       "url": "https://en.wiktionary.org/wiki/kar#Turkish",
+      "title": "Wiktionary: kar (Turkish)",
       "titles": [
         "Wiktionary: kar (Turkish)"
       ],
@@ -2175,8 +2193,20 @@
       ],
       "languageUses": [
         {
+          "id": "tur",
+          "name": "Turkish"
+        },
+        {
           "id": "aze",
           "name": "Azerbaijani"
+        },
+        {
+          "id": "kaz",
+          "name": "Kazakh"
+        },
+        {
+          "id": "tat",
+          "name": "Tatar"
         },
         {
           "id": "bak",
@@ -2187,32 +2217,20 @@
           "name": "Crimean Tatar"
         },
         {
-          "id": "kaz",
-          "name": "Kazakh"
-        },
-        {
           "id": "kir",
           "name": "Kyrgyz"
-        },
-        {
-          "id": "tat",
-          "name": "Tatar"
-        },
-        {
-          "id": "tur",
-          "name": "Turkish"
         },
         {
           "id": "uzb",
           "name": "Uzbek"
         }
       ],
-      "useCount": 9,
-      "id": "L065",
-      "title": "Wiktionary: kar (Turkish)"
+      "useCount": 9
     },
     {
+      "id": "L066",
       "url": "https://en.wiktionary.org/wiki/kavi#Faroese",
+      "title": "Wiktionary: kavi (Faroese)",
       "titles": [
         "Wiktionary: kavi (Faroese)"
       ],
@@ -2231,12 +2249,12 @@
           "name": "Faroese"
         }
       ],
-      "useCount": 2,
-      "id": "L066",
-      "title": "Wiktionary: kavi (Faroese)"
+      "useCount": 2
     },
     {
+      "id": "L067",
       "url": "https://en.wiktionary.org/wiki/lumi#Estonian",
+      "title": "Wiktionary: lumi (Estonian)",
       "titles": [
         "Wiktionary: lumi (Estonian)"
       ],
@@ -2250,12 +2268,12 @@
           "name": "Estonian"
         }
       ],
-      "useCount": 1,
-      "id": "L067",
-      "title": "Wiktionary: lumi (Estonian)"
+      "useCount": 1
     },
     {
+      "id": "L068",
       "url": "https://en.wiktionary.org/wiki/lumi#Finnish",
+      "title": "Wiktionary: lumi (Finnish)",
       "titles": [
         "Wiktionary: lumi (Finnish)"
       ],
@@ -2270,16 +2288,20 @@
       ],
       "languageUses": [
         {
-          "id": "est",
-          "name": "Estonian"
-        },
-        {
           "id": "fin",
           "name": "Finnish"
         },
         {
+          "id": "est",
+          "name": "Estonian"
+        },
+        {
           "id": "krl",
           "name": "Karelian"
+        },
+        {
+          "id": "vep",
+          "name": "Veps"
         },
         {
           "id": "mhr",
@@ -2288,18 +2310,14 @@
         {
           "id": "udm",
           "name": "Udmurt"
-        },
-        {
-          "id": "vep",
-          "name": "Veps"
         }
       ],
-      "useCount": 7,
-      "id": "L068",
-      "title": "Wiktionary: lumi (Finnish)"
+      "useCount": 7
     },
     {
+      "id": "L069",
       "url": "https://en.wiktionary.org/wiki/lumi#Karelian",
+      "title": "Wiktionary: lumi (Karelian)",
       "titles": [
         "Wiktionary: lumi (Karelian)"
       ],
@@ -2313,12 +2331,12 @@
           "name": "Karelian"
         }
       ],
-      "useCount": 1,
-      "id": "L069",
-      "title": "Wiktionary: lumi (Karelian)"
+      "useCount": 1
     },
     {
+      "id": "L070",
       "url": "https://en.wiktionary.org/wiki/lumi#Veps",
+      "title": "Wiktionary: lumi (Veps)",
       "titles": [
         "Wiktionary: lumi (Veps)"
       ],
@@ -2332,12 +2350,12 @@
           "name": "Veps"
         }
       ],
-      "useCount": 1,
-      "id": "L070",
-      "title": "Wiktionary: lumi (Veps)"
+      "useCount": 1
     },
     {
+      "id": "L071",
       "url": "https://en.wiktionary.org/wiki/muohta#Northern_Sami",
+      "title": "Wiktionary: muohta (Northern Sami)",
       "titles": [
         "Wiktionary: muohta (Northern Sami)"
       ],
@@ -2356,12 +2374,12 @@
           "name": "Northern Sámi"
         }
       ],
-      "useCount": 2,
-      "id": "L071",
-      "title": "Wiktionary: muohta (Northern Sami)"
+      "useCount": 2
     },
     {
+      "id": "L072",
       "url": "https://en.wiktionary.org/wiki/n%C3%A8u#Occitan",
+      "title": "Wiktionary: nèu (Occitan)",
       "titles": [
         "Wiktionary: nèu (Occitan)"
       ],
@@ -2375,12 +2393,12 @@
           "name": "Occitan"
         }
       ],
-      "useCount": 1,
-      "id": "L072",
-      "title": "Wiktionary: nèu (Occitan)"
+      "useCount": 1
     },
     {
+      "id": "L073",
       "url": "https://en.wiktionary.org/wiki/n%C3%AAf#Friulian",
+      "title": "Wiktionary: nêf (Friulian)",
       "titles": [
         "Wiktionary: nêf (Friulian)"
       ],
@@ -2394,12 +2412,12 @@
           "name": "Friulian"
         }
       ],
-      "useCount": 1,
-      "id": "L073",
-      "title": "Wiktionary: nêf (Friulian)"
+      "useCount": 1
     },
     {
+      "id": "L074",
       "url": "https://en.wiktionary.org/wiki/naiv#Romansh",
+      "title": "Wiktionary: naiv (Romansh)",
       "titles": [
         "Wiktionary: naiv (Romansh)"
       ],
@@ -2413,12 +2431,12 @@
           "name": "Romansh"
         }
       ],
-      "useCount": 1,
-      "id": "L074",
-      "title": "Wiktionary: naiv (Romansh)"
+      "useCount": 1
     },
     {
+      "id": "L075",
       "url": "https://en.wiktionary.org/wiki/neige#French",
+      "title": "Wiktionary: neige (French)",
       "titles": [
         "Wiktionary: neige (French)"
       ],
@@ -2432,12 +2450,12 @@
           "name": "French"
         }
       ],
-      "useCount": 1,
-      "id": "L075",
-      "title": "Wiktionary: neige (French)"
+      "useCount": 1
     },
     {
+      "id": "L076",
       "url": "https://en.wiktionary.org/wiki/neu#Catalan",
+      "title": "Wiktionary: neu (Catalan)",
       "titles": [
         "Wiktionary: neu (Catalan)"
       ],
@@ -2451,12 +2469,12 @@
           "name": "Catalan"
         }
       ],
-      "useCount": 1,
-      "id": "L076",
-      "title": "Wiktionary: neu (Catalan)"
+      "useCount": 1
     },
     {
+      "id": "L077",
       "url": "https://en.wiktionary.org/wiki/neve#Galician",
+      "title": "Wiktionary: neve (Galician)",
       "titles": [
         "Wiktionary: neve (Galician)"
       ],
@@ -2470,12 +2488,12 @@
           "name": "Galician"
         }
       ],
-      "useCount": 1,
-      "id": "L077",
-      "title": "Wiktionary: neve (Galician)"
+      "useCount": 1
     },
     {
+      "id": "L078",
       "url": "https://en.wiktionary.org/wiki/neve#Italian",
+      "title": "Wiktionary: neve (Italian)",
       "titles": [
         "Wiktionary: neve (Italian)"
       ],
@@ -2489,12 +2507,12 @@
           "name": "Italian"
         }
       ],
-      "useCount": 1,
-      "id": "L078",
-      "title": "Wiktionary: neve (Italian)"
+      "useCount": 1
     },
     {
+      "id": "L079",
       "url": "https://en.wiktionary.org/wiki/neve#Portuguese",
+      "title": "Wiktionary: neve (Portuguese)",
       "titles": [
         "Wiktionary: neve (Portuguese)"
       ],
@@ -2508,12 +2526,12 @@
           "name": "Portuguese"
         }
       ],
-      "useCount": 1,
-      "id": "L079",
-      "title": "Wiktionary: neve (Portuguese)"
+      "useCount": 1
     },
     {
+      "id": "L080",
       "url": "https://en.wiktionary.org/wiki/neve#Venetan",
+      "title": "Wiktionary: neve (Venetian)",
       "titles": [
         "Wiktionary: neve (Venetian)"
       ],
@@ -2527,12 +2545,12 @@
           "name": "Venetian"
         }
       ],
-      "useCount": 1,
-      "id": "L080",
-      "title": "Wiktionary: neve (Venetian)"
+      "useCount": 1
     },
     {
+      "id": "L081",
       "url": "https://en.wiktionary.org/wiki/nibe#Sardinian",
+      "title": "Wiktionary: nibe (Sardinian)",
       "titles": [
         "Wiktionary: nibe (Sardinian)"
       ],
@@ -2546,12 +2564,12 @@
           "name": "Sardinian"
         }
       ],
-      "useCount": 1,
-      "id": "L081",
-      "title": "Wiktionary: nibe (Sardinian)"
+      "useCount": 1
     },
     {
+      "id": "L082",
       "url": "https://en.wiktionary.org/wiki/nieu#Aragonese",
+      "title": "Wiktionary: nieu (Aragonese)",
       "titles": [
         "Wiktionary: nieu (Aragonese)"
       ],
@@ -2565,12 +2583,12 @@
           "name": "Aragonese"
         }
       ],
-      "useCount": 1,
-      "id": "L082",
-      "title": "Wiktionary: nieu (Aragonese)"
+      "useCount": 1
     },
     {
+      "id": "L083",
       "url": "https://en.wiktionary.org/wiki/nieve#Spanish",
+      "title": "Wiktionary: nieve (Spanish)",
       "titles": [
         "Wiktionary: nieve (Spanish)"
       ],
@@ -2584,12 +2602,12 @@
           "name": "Spanish"
         }
       ],
-      "useCount": 1,
-      "id": "L083",
-      "title": "Wiktionary: nieve (Spanish)"
+      "useCount": 1
     },
     {
+      "id": "L084",
       "url": "https://en.wiktionary.org/wiki/nivi#Sicilian",
+      "title": "Wiktionary: nivi (Sicilian)",
       "titles": [
         "Wiktionary: nivi (Sicilian)"
       ],
@@ -2603,12 +2621,12 @@
           "name": "Sicilian"
         }
       ],
-      "useCount": 1,
-      "id": "L084",
-      "title": "Wiktionary: nivi (Sicilian)"
+      "useCount": 1
     },
     {
+      "id": "L085",
       "url": "https://en.wiktionary.org/wiki/qar#Azerbaijani",
+      "title": "Wiktionary: qar (Azerbaijani)",
       "titles": [
         "Wiktionary: qar (Azerbaijani)"
       ],
@@ -2622,12 +2640,12 @@
           "name": "Azerbaijani"
         }
       ],
-      "useCount": 1,
-      "id": "L085",
-      "title": "Wiktionary: qar (Azerbaijani)"
+      "useCount": 1
     },
     {
+      "id": "L086",
       "url": "https://en.wiktionary.org/wiki/qar#Crimean_Tatar",
+      "title": "Wiktionary: qar (Crimean Tatar)",
       "titles": [
         "Wiktionary: qar (Crimean Tatar)"
       ],
@@ -2641,12 +2659,12 @@
           "name": "Crimean Tatar"
         }
       ],
-      "useCount": 1,
-      "id": "L086",
-      "title": "Wiktionary: qar (Crimean Tatar)"
+      "useCount": 1
     },
     {
+      "id": "L087",
       "url": "https://en.wiktionary.org/wiki/qor#Uzbek",
+      "title": "Wiktionary: qor (Uzbek)",
       "titles": [
         "Wiktionary: qor (Uzbek)"
       ],
@@ -2660,12 +2678,12 @@
           "name": "Uzbek"
         }
       ],
-      "useCount": 1,
-      "id": "L087",
-      "title": "Wiktionary: qor (Uzbek)"
+      "useCount": 1
     },
     {
+      "id": "L088",
       "url": "https://en.wiktionary.org/wiki/sil%C4%A1#Maltese",
+      "title": "Wiktionary: silġ (Maltese)",
       "titles": [
         "Wiktionary: silġ (Maltese)"
       ],
@@ -2680,16 +2698,8 @@
       ],
       "languageUses": [
         {
-          "id": "aeb",
-          "name": "Tunisian Arabic"
-        },
-        {
           "id": "arb",
           "name": "Arabic (standard reference)"
-        },
-        {
-          "id": "arz",
-          "name": "Egyptian Arabic"
         },
         {
           "id": "heb",
@@ -2698,14 +2708,22 @@
         {
           "id": "mlt",
           "name": "Maltese"
+        },
+        {
+          "id": "aeb",
+          "name": "Tunisian Arabic"
+        },
+        {
+          "id": "arz",
+          "name": "Egyptian Arabic"
         }
       ],
-      "useCount": 6,
-      "id": "L088",
-      "title": "Wiktionary: silġ (Maltese)"
+      "useCount": 6
     },
     {
+      "id": "L089",
       "url": "https://en.wiktionary.org/wiki/sn%C3%ADh#Czech",
+      "title": "Wiktionary: sníh (Czech)",
       "titles": [
         "Wiktionary: sníh (Czech)"
       ],
@@ -2719,12 +2737,12 @@
           "name": "Czech"
         }
       ],
-      "useCount": 1,
-      "id": "L089",
-      "title": "Wiktionary: sníh (Czech)"
+      "useCount": 1
     },
     {
+      "id": "L090",
       "url": "https://en.wiktionary.org/wiki/sn%C3%B6#Swedish",
+      "title": "Wiktionary: snö (Swedish)",
       "titles": [
         "Wiktionary: snö (Swedish)"
       ],
@@ -2738,12 +2756,12 @@
           "name": "Swedish"
         }
       ],
-      "useCount": 1,
-      "id": "L090",
-      "title": "Wiktionary: snö (Swedish)"
+      "useCount": 1
     },
     {
+      "id": "L091",
       "url": "https://en.wiktionary.org/wiki/sn%C3%B8#Norwegian",
+      "title": "Wiktionary: snø (Norwegian)",
       "titles": [
         "Wiktionary: snø (Norwegian)"
       ],
@@ -2757,12 +2775,12 @@
           "name": "Norwegian"
         }
       ],
-      "useCount": 1,
-      "id": "L091",
-      "title": "Wiktionary: snø (Norwegian)"
+      "useCount": 1
     },
     {
+      "id": "L092",
       "url": "https://en.wiktionary.org/wiki/sn%C4%9Bg#Lower_Sorbian",
+      "title": "Wiktionary: sněg (Lower Sorbian)",
       "titles": [
         "Wiktionary: sněg (Lower Sorbian)"
       ],
@@ -2776,12 +2794,12 @@
           "name": "Lower Sorbian"
         }
       ],
-      "useCount": 1,
-      "id": "L092",
-      "title": "Wiktionary: sněg (Lower Sorbian)"
+      "useCount": 1
     },
     {
+      "id": "L093",
       "url": "https://en.wiktionary.org/wiki/sn%C4%9Bh#Upper_Sorbian",
+      "title": "Wiktionary: sněh (Upper Sorbian)",
       "titles": [
         "Wiktionary: sněh (Upper Sorbian)"
       ],
@@ -2795,12 +2813,12 @@
           "name": "Upper Sorbian"
         }
       ],
-      "useCount": 1,
-      "id": "L093",
-      "title": "Wiktionary: sněh (Upper Sorbian)"
+      "useCount": 1
     },
     {
+      "id": "L094",
       "url": "https://en.wiktionary.org/wiki/snaw#Scots",
+      "title": "Wiktionary: snaw (Scots)",
       "titles": [
         "Wiktionary: snaw (Scots)"
       ],
@@ -2814,12 +2832,12 @@
           "name": "Scots"
         }
       ],
-      "useCount": 1,
-      "id": "L094",
-      "title": "Wiktionary: snaw (Scots)"
+      "useCount": 1
     },
     {
+      "id": "L095",
       "url": "https://en.wiktionary.org/wiki/sne#Danish",
+      "title": "Wiktionary: sne (Danish)",
       "titles": [
         "Wiktionary: sne (Danish)"
       ],
@@ -2833,12 +2851,12 @@
           "name": "Danish"
         }
       ],
-      "useCount": 1,
-      "id": "L095",
-      "title": "Wiktionary: sne (Danish)"
+      "useCount": 1
     },
     {
+      "id": "L096",
       "url": "https://en.wiktionary.org/wiki/sneachd#Scottish_Gaelic",
+      "title": "Wiktionary: sneachd (Scottish Gaelic)",
       "titles": [
         "Wiktionary: sneachd (Scottish Gaelic)"
       ],
@@ -2852,12 +2870,12 @@
           "name": "Scottish Gaelic"
         }
       ],
-      "useCount": 1,
-      "id": "L096",
-      "title": "Wiktionary: sneachd (Scottish Gaelic)"
+      "useCount": 1
     },
     {
+      "id": "L097",
       "url": "https://en.wiktionary.org/wiki/sneachda#Scottish_Gaelic",
+      "title": "Wiktionary: sneachda (Scottish Gaelic)",
       "titles": [
         "Wiktionary: sneachda (Scottish Gaelic)"
       ],
@@ -2871,12 +2889,12 @@
           "name": "Scottish Gaelic"
         }
       ],
-      "useCount": 1,
-      "id": "L097",
-      "title": "Wiktionary: sneachda (Scottish Gaelic)"
+      "useCount": 1
     },
     {
+      "id": "L098",
       "url": "https://en.wiktionary.org/wiki/sneachta#Irish",
+      "title": "Wiktionary: sneachta (Irish)",
       "titles": [
         "Wiktionary: sneachta (Irish)"
       ],
@@ -2890,12 +2908,12 @@
           "name": "Irish"
         }
       ],
-      "useCount": 1,
-      "id": "L098",
-      "title": "Wiktionary: sneachta (Irish)"
+      "useCount": 1
     },
     {
+      "id": "L099",
       "url": "https://en.wiktionary.org/wiki/snechtae#Old_Irish",
+      "title": "Wiktionary: snechtae (Old Irish)",
       "titles": [
         "Wiktionary: snechtae (Old Irish)"
       ],
@@ -2905,24 +2923,24 @@
       "rootUses": [],
       "languageUses": [
         {
-          "id": "gla",
-          "name": "Scottish Gaelic"
-        },
-        {
           "id": "gle",
           "name": "Irish"
+        },
+        {
+          "id": "gla",
+          "name": "Scottish Gaelic"
         },
         {
           "id": "glv",
           "name": "Manx"
         }
       ],
-      "useCount": 3,
-      "id": "L099",
-      "title": "Wiktionary: snechtae (Old Irish)"
+      "useCount": 3
     },
     {
+      "id": "L100",
       "url": "https://en.wiktionary.org/wiki/sneeuw#Dutch",
+      "title": "Wiktionary: sneeuw (Dutch)",
       "titles": [
         "Wiktionary: sneeuw (Dutch)"
       ],
@@ -2936,12 +2954,12 @@
           "name": "Dutch"
         }
       ],
-      "useCount": 1,
-      "id": "L100",
-      "title": "Wiktionary: sneeuw (Dutch)"
+      "useCount": 1
     },
     {
+      "id": "L101",
       "url": "https://en.wiktionary.org/wiki/sneg#Slovenian",
+      "title": "Wiktionary: sneg (Slovenian)",
       "titles": [
         "Wiktionary: sneg (Slovenian)"
       ],
@@ -2955,12 +2973,12 @@
           "name": "Slovenian"
         }
       ],
-      "useCount": 1,
-      "id": "L101",
-      "title": "Wiktionary: sneg (Slovenian)"
+      "useCount": 1
     },
     {
+      "id": "L102",
       "url": "https://en.wiktionary.org/wiki/sneh#Slovak",
+      "title": "Wiktionary: sneh (Slovak)",
       "titles": [
         "Wiktionary: sneh (Slovak)"
       ],
@@ -2974,12 +2992,12 @@
           "name": "Slovak"
         }
       ],
-      "useCount": 1,
-      "id": "L102",
-      "title": "Wiktionary: sneh (Slovak)"
+      "useCount": 1
     },
     {
+      "id": "L103",
       "url": "https://en.wiktionary.org/wiki/sni%C3%A9g#Kashubian",
+      "title": "Wiktionary: sniég (Kashubian)",
       "titles": [
         "Wiktionary: sniég (Kashubian)"
       ],
@@ -2993,12 +3011,12 @@
           "name": "Kashubian"
         }
       ],
-      "useCount": 1,
-      "id": "L103",
-      "title": "Wiktionary: sniég (Kashubian)"
+      "useCount": 1
     },
     {
+      "id": "L104",
       "url": "https://en.wiktionary.org/wiki/sniaghtey#Manx",
+      "title": "Wiktionary: sniaghtey (Manx)",
       "titles": [
         "Wiktionary: sniaghtey (Manx)"
       ],
@@ -3012,12 +3030,12 @@
           "name": "Manx"
         }
       ],
-      "useCount": 1,
-      "id": "L104",
-      "title": "Wiktionary: sniaghtey (Manx)"
+      "useCount": 1
     },
     {
+      "id": "L105",
       "url": "https://en.wiktionary.org/wiki/snie#West_Frisian",
+      "title": "Wiktionary: snie (West Frisian)",
       "titles": [
         "Wiktionary: snie (West Frisian)"
       ],
@@ -3031,12 +3049,12 @@
           "name": "West Frisian"
         }
       ],
-      "useCount": 1,
-      "id": "L105",
-      "title": "Wiktionary: snie (West Frisian)"
+      "useCount": 1
     },
     {
+      "id": "L106",
       "url": "https://en.wiktionary.org/wiki/sniegas#Lithuanian",
+      "title": "Wiktionary: sniegas (Lithuanian)",
       "titles": [
         "Wiktionary: sniegas (Lithuanian)"
       ],
@@ -3050,12 +3068,12 @@
           "name": "Lithuanian"
         }
       ],
-      "useCount": 1,
-      "id": "L106",
-      "title": "Wiktionary: sniegas (Lithuanian)"
+      "useCount": 1
     },
     {
+      "id": "L107",
       "url": "https://en.wiktionary.org/wiki/sniegs#Latvian",
+      "title": "Wiktionary: sniegs (Latvian)",
       "titles": [
         "Wiktionary: sniegs (Latvian)"
       ],
@@ -3069,12 +3087,12 @@
           "name": "Latvian"
         }
       ],
-      "useCount": 1,
-      "id": "L107",
-      "title": "Wiktionary: sniegs (Latvian)"
+      "useCount": 1
     },
     {
+      "id": "L108",
       "url": "https://en.wiktionary.org/wiki/snijeg#Serbo-Croatian",
+      "title": "Wiktionary: snijeg (Serbo-Croatian)",
       "titles": [
         "Wiktionary: snijeg (Serbo-Croatian)"
       ],
@@ -3088,12 +3106,12 @@
           "name": "Serbian–Croatian–Bosnian"
         }
       ],
-      "useCount": 1,
-      "id": "L108",
-      "title": "Wiktionary: snijeg (Serbo-Croatian)"
+      "useCount": 1
     },
     {
+      "id": "L109",
       "url": "https://en.wiktionary.org/wiki/snj%C3%B3gvur#Faroese",
+      "title": "Wiktionary: snjógvur (poetic / archaic)",
       "titles": [
         "Wiktionary: snjógvur (poetic / archaic)"
       ],
@@ -3107,12 +3125,12 @@
           "name": "Faroese"
         }
       ],
-      "useCount": 1,
-      "id": "L109",
-      "title": "Wiktionary: snjógvur (poetic / archaic)"
+      "useCount": 1
     },
     {
+      "id": "L110",
       "url": "https://en.wiktionary.org/wiki/snj%C3%B3r#Icelandic",
+      "title": "Wiktionary: snjór (Icelandic)",
       "titles": [
         "Wiktionary: snjór (Icelandic)"
       ],
@@ -3126,12 +3144,12 @@
           "name": "Icelandic"
         }
       ],
-      "useCount": 1,
-      "id": "L110",
-      "title": "Wiktionary: snjór (Icelandic)"
+      "useCount": 1
     },
     {
+      "id": "L111",
       "url": "https://en.wiktionary.org/wiki/snow",
+      "title": "Wiktionary: snow",
       "titles": [
         "Wiktionary: snow"
       ],
@@ -3145,12 +3163,12 @@
           "name": "Bakhtiari"
         }
       ],
-      "useCount": 1,
-      "id": "L111",
-      "title": "Wiktionary: snow"
+      "useCount": 1
     },
     {
+      "id": "L112",
       "url": "https://en.wiktionary.org/wiki/snow#English",
+      "title": "Wiktionary: snow (English)",
       "titles": [
         "Wiktionary: snow (English)"
       ],
@@ -3164,12 +3182,12 @@
           "name": "English"
         }
       ],
-      "useCount": 1,
-      "id": "L112",
-      "title": "Wiktionary: snow (English)"
+      "useCount": 1
     },
     {
+      "id": "L113",
       "url": "https://en.wiktionary.org/wiki/z%C4%83pad%C4%83#Romanian",
+      "title": "Wiktionary: zăpadă (Romanian)",
       "titles": [
         "Wiktionary: zăpadă (Romanian)"
       ],
@@ -3188,12 +3206,12 @@
           "name": "Romanian"
         }
       ],
-      "useCount": 2,
-      "id": "L113",
-      "title": "Wiktionary: zăpadă (Romanian)"
+      "useCount": 2
     },
     {
+      "id": "L114",
       "url": "https://linguistics.berkeley.edu/~ingush/swadesh.html",
+      "title": "Johanna Nichols, UC Berkeley: Ingush Swadesh word list",
       "titles": [
         "Johanna Nichols, UC Berkeley: Ingush Swadesh word list"
       ],
@@ -3207,12 +3225,12 @@
           "name": "Ingush"
         }
       ],
-      "useCount": 1,
-      "id": "L114",
-      "title": "Johanna Nichols, UC Berkeley: Ingush Swadesh word list"
+      "useCount": 1
     },
     {
+      "id": "L115",
       "url": "https://oqaasileriffik.gl/en/terms-for-snow-and-ice/",
+      "title": "Oqaasileriffik, Language Secretariat of Greenland: terms for snow and ice",
       "titles": [
         "Oqaasileriffik, Language Secretariat of Greenland: terms for snow and ice"
       ],
@@ -3231,12 +3249,12 @@
           "name": "Greenlandic"
         }
       ],
-      "useCount": 2,
-      "id": "L115",
-      "title": "Oqaasileriffik, Language Secretariat of Greenland: terms for snow and ice"
+      "useCount": 2
     },
     {
+      "id": "L116",
       "url": "https://ru.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B2#%D0%9B%D0%B5%D0%B7%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9",
+      "title": "Russian Wiktionary: жив (Lezgian)",
       "titles": [
         "Russian Wiktionary: жив (Lezgian)"
       ],
@@ -3255,12 +3273,12 @@
           "name": "Lezgian"
         }
       ],
-      "useCount": 2,
-      "id": "L116",
-      "title": "Russian Wiktionary: жив (Lezgian)"
+      "useCount": 2
     },
     {
+      "id": "L117",
       "url": "https://transliteration.eki.ee/pdf/Dargwa.pdf",
+      "title": "Institute of the Estonian Language: Transliteration of Dargwa, TITUS column",
       "titles": [
         "Institute of the Estonian Language: Transliteration of Dargwa, TITUS column"
       ],
@@ -3274,12 +3292,12 @@
           "name": "Dargwa"
         }
       ],
-      "useCount": 1,
-      "id": "L117",
-      "title": "Institute of the Estonian Language: Transliteration of Dargwa, TITUS column"
+      "useCount": 1
     },
     {
+      "id": "L118",
       "url": "https://transliteration.eki.ee/pdf/Lakh.pdf",
+      "title": "Institute of the Estonian Language: Transliteration of Lak, ALA-LC column",
       "titles": [
         "Institute of the Estonian Language: Transliteration of Lak, ALA-LC column"
       ],
@@ -3293,12 +3311,12 @@
           "name": "Lak"
         }
       ],
-      "useCount": 1,
-      "id": "L118",
-      "title": "Institute of the Estonian Language: Transliteration of Lak, ALA-LC column"
+      "useCount": 1
     },
     {
+      "id": "L119",
       "url": "https://www.dictionnaire-kabyle.com/adfel.html",
+      "title": "Dallet's Kabyle–French dictionary: adfel",
       "titles": [
         "Dallet's Kabyle–French dictionary: adfel"
       ],
@@ -3317,20 +3335,20 @@
           "name": "Kabyle"
         },
         {
-          "id": "shi",
-          "name": "Tachelhit"
-        },
-        {
           "id": "tzm",
           "name": "Central Atlas Tamazight"
+        },
+        {
+          "id": "shi",
+          "name": "Tachelhit"
         }
       ],
-      "useCount": 4,
-      "id": "L119",
-      "title": "Dallet's Kabyle–French dictionary: adfel"
+      "useCount": 4
     },
     {
+      "id": "L120",
       "url": "https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/67699.pdf",
+      "title": "Euskaltzaindia: elur, dictionary entry (PDF)",
       "titles": [
         "Euskaltzaindia: elur, dictionary entry (PDF)"
       ],
@@ -3344,12 +3362,12 @@
           "name": "Basque"
         }
       ],
-      "useCount": 1,
-      "id": "L120",
-      "title": "Euskaltzaindia: elur, dictionary entry (PDF)"
+      "useCount": 1
     },
     {
+      "id": "L121",
       "url": "https://www.oyggjar.com/faroese.php",
+      "title": "Oyggjar English-Faroese lexicon: snow / kavi",
       "titles": [
         "Oyggjar English-Faroese lexicon: snow / kavi"
       ],
@@ -3363,9 +3381,369 @@
           "name": "Faroese"
         }
       ],
-      "useCount": 1,
-      "id": "L121",
-      "title": "Oyggjar English-Faroese lexicon: snow / kavi"
+      "useCount": 1
+    },
+    {
+      "id": "L122",
+      "url": "https://archive.org/details/delorigenymilagr00espi",
+      "title": "Alonso de Espinosa, Del origen y milagros de la Santa Imagen de Nuestra Señora de Candelaria (1594), book I chapter1, fol.9v",
+      "titles": [
+        "Alonso de Espinosa, Del origen y milagros de la Santa Imagen de Nuestra Señora de Candelaria (1594), book I chapter1, fol.9v"
+      ],
+      "urlAliases": [
+        "https://archive.org/details/delorigenymilagr00espi"
+      ],
+      "rootUses": [
+        {
+          "id": "unknown-canarian",
+          "name": "Canarian report"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "gnc",
+          "name": "Indigenous Canarian (La Palma; disputed report)"
+        }
+      ],
+      "useCount": 2
+    },
+    {
+      "id": "L123",
+      "url": "https://www.almogaren.org/ic-digital/ICDigital_Almogaren_44-45_1_%282014%29.pdf",
+      "title": "Carmen Díaz Alayón and Francisco Javier Castillo, Estudio de la lista de voces prehispánicas de Juan Bautista Lorenzo Rodríguez, Almogaren 44–45 (2013–2014), pp.7–56, especially p.35",
+      "titles": [
+        "Carmen Díaz Alayón and Francisco Javier Castillo, Estudio de la lista de voces prehispánicas de Juan Bautista Lorenzo Rodríguez, Almogaren 44–45 (2013–2014), pp.7–56, especially p.35"
+      ],
+      "urlAliases": [
+        "https://www.almogaren.org/ic-digital/ICDigital_Almogaren_44-45_1_%282014%29.pdf"
+      ],
+      "rootUses": [
+        {
+          "id": "unknown-canarian",
+          "name": "Canarian report"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "gnc",
+          "name": "Indigenous Canarian (La Palma; disputed report)"
+        }
+      ],
+      "useCount": 2
+    },
+    {
+      "id": "L124",
+      "url": "https://hdiecan.org/wp-content/uploads/tainacan-items/5/6717/ALVAREZ-1941-Miscelanea-guanche.pdf#page=50",
+      "title": "Juan Álvarez Delgado, Miscelánea guanche (1941), printed pp.46–48",
+      "titles": [
+        "Juan Álvarez Delgado, Miscelánea guanche (1941), printed pp.46–48"
+      ],
+      "urlAliases": [
+        "https://hdiecan.org/wp-content/uploads/tainacan-items/5/6717/ALVAREZ-1941-Miscelanea-guanche.pdf#page=50"
+      ],
+      "rootUses": [
+        {
+          "id": "unknown-canarian",
+          "name": "Canarian report"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "gnc",
+          "name": "Indigenous Canarian (La Palma; disputed report)"
+        }
+      ],
+      "useCount": 2
+    },
+    {
+      "id": "L125",
+      "url": "https://guanchismos.ulpgc.es/item/14417",
+      "title": "Maximiano Trapero, Los Guanchismos, entry Tenerife / Tinefe / Tenerista (ULPGC)",
+      "titles": [
+        "Maximiano Trapero, Los Guanchismos, entry Tenerife / Tinefe / Tenerista (ULPGC)"
+      ],
+      "urlAliases": [
+        "https://guanchismos.ulpgc.es/item/14417"
+      ],
+      "rootUses": [
+        {
+          "id": "unknown-canarian",
+          "name": "Canarian report"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "gnc",
+          "name": "Indigenous Canarian (La Palma; disputed report)"
+        }
+      ],
+      "useCount": 2
+    },
+    {
+      "id": "L126",
+      "url": "https://doi.org/10.1515/9783110251586.685",
+      "title": "Werner Arnold, Western Neo-Aramaic, The Semitic Languages, pp. 685–696, esp. p. 689 (2011/2012)",
+      "titles": [
+        "Werner Arnold, Western Neo-Aramaic, The Semitic Languages, pp. 685–696, esp. p. 689 (2011/2012)"
+      ],
+      "urlAliases": [
+        "https://doi.org/10.1515/9783110251586.685"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "amw",
+          "name": "Western Neo-Aramaic (Maaloula)"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L127",
+      "url": "https://joverfelt.net/wp-content/uploads/2021/09/the-semitic-languages-an-international-handbook-handbucc88cher-zur-sprach-und-kommunikationswissenschaft-by-stefan-weninger-geoffrey-khan-michael-p.-streck-janet-c.-e.-watson-.pdf",
+      "title": "Full handbook PDF used to inspect Arnold's p. 689 table",
+      "titles": [
+        "Full handbook PDF used to inspect Arnold's p. 689 table"
+      ],
+      "urlAliases": [
+        "https://joverfelt.net/wp-content/uploads/2021/09/the-semitic-languages-an-international-handbook-handbucc88cher-zur-sprach-und-kommunikationswissenschaft-by-stefan-weninger-geoffrey-khan-michael-p.-streck-janet-c.-e.-watson-.pdf"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "amw",
+          "name": "Western Neo-Aramaic (Maaloula)"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L128",
+      "url": "https://books.openbookpublishers.com/10.11647/obp.0209.04.pdf",
+      "title": "Geoffrey Khan, Verbal Forms Expressing Discourse Dependency in North-Eastern Neo-Aramaic, p. 163 (2021)",
+      "titles": [
+        "Geoffrey Khan, Verbal Forms Expressing Discourse Dependency in North-Eastern Neo-Aramaic, p. 163 (2021)"
+      ],
+      "urlAliases": [
+        "https://books.openbookpublishers.com/10.11647/obp.0209.04.pdf"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "aii",
+          "name": "Assyrian Neo-Aramaic"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L129",
+      "url": "https://www.assyrianlanguages.org/sureth/dosearch.php?language=id&searchkey=15578",
+      "title": "Sureth Online Dictionary, snow (Oraham / Bailis Shamun; entry marked Classical Syriac)",
+      "titles": [
+        "Sureth Online Dictionary, snow (Oraham / Bailis Shamun; entry marked Classical Syriac)"
+      ],
+      "urlAliases": [
+        "https://www.assyrianlanguages.org/sureth/dosearch.php?language=id&searchkey=15578"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "aii",
+          "name": "Assyrian Neo-Aramaic"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L130",
+      "url": "https://en.wiktionary.org/wiki/%DC%AC%DC%A0%DC%93%DC%90#Assyrian_Neo-Aramaic",
+      "title": "Wiktionary: ܬܠܓܐ, Assyrian Neo-Aramaic reference orthography, reading and etymology",
+      "titles": [
+        "Wiktionary: ܬܠܓܐ, Assyrian Neo-Aramaic reference orthography, reading and etymology"
+      ],
+      "urlAliases": [
+        "https://en.wiktionary.org/wiki/%DC%AC%DC%A0%DC%93%DC%90#Assyrian_Neo-Aramaic"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "aii",
+          "name": "Assyrian Neo-Aramaic"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L131",
+      "url": "https://nena.ames.cam.ac.uk/",
+      "title": "Cambridge North-Eastern Neo-Aramaic Database: dialect region and language varieties",
+      "titles": [
+        "Cambridge North-Eastern Neo-Aramaic Database: dialect region and language varieties"
+      ],
+      "urlAliases": [
+        "https://nena.ames.cam.ac.uk/"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "aii",
+          "name": "Assyrian Neo-Aramaic"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L132",
+      "url": "https://glottolog.org/resource/languoid/id/assy1241",
+      "title": "Glottolog: Assyrian Neo-Aramaic reference location",
+      "titles": [
+        "Glottolog: Assyrian Neo-Aramaic reference location"
+      ],
+      "urlAliases": [
+        "https://glottolog.org/resource/languoid/id/assy1241"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "aii",
+          "name": "Assyrian Neo-Aramaic"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L133",
+      "url": "https://textbook.surayt.com/en/Level%20A/1.6?content-fragment-id=1743",
+      "title": "Šlomo Surayt: An Introductory Course to Surayt-Aramaic (Turoyo), lesson 1.6 Vocabulary, Aramaic Online Project",
+      "titles": [
+        "Šlomo Surayt: An Introductory Course to Surayt-Aramaic (Turoyo), lesson 1.6 Vocabulary, Aramaic Online Project"
+      ],
+      "urlAliases": [
+        "https://textbook.surayt.com/en/Level%20A/1.6?content-fragment-id=1743"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "tru",
+          "name": "Turoyo / Surayt"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L134",
+      "url": "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf",
+      "title": "Barsky, Kalinin and Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p. 232",
+      "titles": [
+        "Barsky, Kalinin and Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p. 232"
+      ],
+      "urlAliases": [
+        "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "tru",
+          "name": "Turoyo / Surayt"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L135",
+      "url": "https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=94",
+      "title": "Qais Al-Saadi, Nhura: English–Mandaic / Mandaic–Mandaic Dictionary (2012), p.93; also p.204",
+      "titles": [
+        "Qais Al-Saadi, Nhura: English–Mandaic / Mandaic–Mandaic Dictionary (2012), p.93; also p.204"
+      ],
+      "urlAliases": [
+        "https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=94"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "myz",
+          "name": "Mandaic (Mandaean liturgical reference)"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L136",
+      "url": "https://cal.huc.edu/oneentry.php?cits=all&lemma=tlg+N",
+      "title": "Comprehensive Aramaic Lexicon, tlg / tlgʾ",
+      "titles": [
+        "Comprehensive Aramaic Lexicon, tlg / tlgʾ"
+      ],
+      "urlAliases": [
+        "https://cal.huc.edu/oneentry.php?cits=all&lemma=tlg+N"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "myz",
+          "name": "Mandaic (Mandaean liturgical reference)"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L137",
+      "url": "https://scholarship.libraries.rutgers.edu/esploro/outputs/book/The-Neo-Mandaic-Dialect-of-Khorramshahr/991031550027404646",
+      "title": "Charles G. Häberl, The Neo-Mandaic Dialect of Khorramshahr (2009), pp.42,113",
+      "titles": [
+        "Charles G. Häberl, The Neo-Mandaic Dialect of Khorramshahr (2009), pp.42,113"
+      ],
+      "urlAliases": [
+        "https://scholarship.libraries.rutgers.edu/esploro/outputs/book/The-Neo-Mandaic-Dialect-of-Khorramshahr/991031550027404646"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "myz",
+          "name": "Mandaic (Mandaean liturgical reference)"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L138",
+      "url": "https://sahd-online.com/words/sheleg/",
+      "title": "Chiara Stornaiuolo, šèleg – snow, Semantics of Ancient Hebrew Database, §1 A.1,A.4",
+      "titles": [
+        "Chiara Stornaiuolo, šèleg – snow, Semantics of Ancient Hebrew Database, §1 A.1,A.4"
+      ],
+      "urlAliases": [
+        "https://sahd-online.com/words/sheleg/"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "myz",
+          "name": "Mandaic (Mandaean liturgical reference)"
+        }
+      ],
+      "useCount": 1
+    },
+    {
+      "id": "L139",
+      "url": "https://www.iranicaonline.org/articles/mandaeans/mandaeans-iv-community-in-iran/",
+      "title": "Encyclopaedia Iranica: Mandaean communities in southern Iraq and Iran; modern language distinctions",
+      "titles": [
+        "Encyclopaedia Iranica: Mandaean communities in southern Iraq and Iran; modern language distinctions"
+      ],
+      "urlAliases": [
+        "https://www.iranicaonline.org/articles/mandaeans/mandaeans-iv-community-in-iran/"
+      ],
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "myz",
+          "name": "Mandaic (Mandaean liturgical reference)"
+        }
+      ],
+      "useCount": 1
     }
   ],
   "typographySoftwareLicense": [
@@ -3418,6 +3796,20 @@
         "dist/vendor/GentiumPlus-OFL.txt"
       ],
       "usedFor": "License URL supplied in the bundled Gentium Plus license."
+    },
+    {
+      "id": "noto-native-scripts",
+      "title": "Noto Sans Syriac and Noto Sans Mandaic",
+      "category": "typography",
+      "license": "SIL Open Font License 1.1",
+      "url": "https://github.com/notofonts/noto-fonts",
+      "localFiles": [
+        "dist/vendor/NotoSansSyriac-Regular.ttf",
+        "dist/vendor/NotoSansMandaic-Regular.ttf",
+        "dist/vendor/Noto-OFL.txt",
+        "dist/vendor/native-word-outlines.json"
+      ],
+      "usedFor": "Export-safe joining and diacritics in the new Syriac and Mandaic labels."
     }
   ],
   "provenanceNotes": [
@@ -3427,7 +3819,9 @@
     "Percent-encoding variants of the same path are merged into a single canonical lexical source. Distinct language fragments are retained as distinct source links. All literal variants are retained in urlAliases.",
     "No single license is asserted over all third-party material. Geometry, dictionary content, font software and D3 retain their own stated licensing or terms.",
     "The source atlas Kurdish area kurd1259 combines varieties across Turkey, Syria, Iraq and Iran. It uses Northern Kurdish berf as a selected reference; Central Kurdish befr is separately labelled, with both in the Iranian snow-word set.",
-    "The Kurdish supplements are historical/traditional language areas with reference year 1750, not contemporary prevalence estimates or newly inferred ethnic boundaries."
+    "The Kurdish supplements are historical/traditional language areas with reference year 1750, not contemporary prevalence estimates or newly inferred ethnic boundaries.",
+    "Canarian tener? is an explicitly disputed historical La Palma report; its root is left unassigned and no mainland Amazigh word has been substituted.",
+    "Western Neo-Aramaic uses the directly attested scholarly ṯelka transcription. Mandaic is a literary/liturgical reference near Basra; no modern speech territory is inferred."
   ],
   "auditNotes": [],
   "publicationDate": "2026-10-17"

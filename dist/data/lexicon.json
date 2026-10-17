@@ -417,6 +417,33 @@
         }
       ],
       "gloss": "snow on the ground"
+    },
+    {
+      "id": "unknown-canarian",
+      "label": "Canarian report",
+      "form": "tener?",
+      "gloss": "snow?",
+      "color": "#bcb8a7",
+      "family": "Unresolved lexical origin",
+      "description": "A disputed historical report from La Palma. Espinosa (1594) glosses tener as snow; incompatible early reports and modern philological criticism prevent treating this as a secure Canarian word or a reconstructed Proto-Berber form. No relation to mainland adfel is asserted.",
+      "sources": [
+        {
+          "title": "Alonso de Espinosa, Del origen y milagros de la Santa Imagen de Nuestra Señora de Candelaria (1594), book I chapter1, fol.9v",
+          "url": "https://archive.org/details/delorigenymilagr00espi"
+        },
+        {
+          "title": "Carmen Díaz Alayón and Francisco Javier Castillo, Estudio de la lista de voces prehispánicas de Juan Bautista Lorenzo Rodríguez, Almogaren 44–45 (2013–2014), pp.7–56, especially p.35",
+          "url": "https://www.almogaren.org/ic-digital/ICDigital_Almogaren_44-45_1_%282014%29.pdf"
+        },
+        {
+          "title": "Juan Álvarez Delgado, Miscelánea guanche (1941), printed pp.46–48",
+          "url": "https://hdiecan.org/wp-content/uploads/tainacan-items/5/6717/ALVAREZ-1941-Miscelanea-guanche.pdf#page=50"
+        },
+        {
+          "title": "Maximiano Trapero, Los Guanchismos, entry Tenerife / Tinefe / Tenerista (ULPGC)",
+          "url": "https://guanchismos.ulpgc.es/item/14417"
+        }
+      ]
     }
   ],
   "languages": [
@@ -4808,15 +4835,225 @@
           "url": "https://oqaasileriffik.gl/en/terms-for-snow-and-ice/"
         }
       ]
+    },
+    {
+      "id": "amw",
+      "name": "Western Neo-Aramaic (Maaloula)",
+      "word": "ṯelka",
+      "romanization": "thelka (scholarly ṯelka)",
+      "root": "semitic-thalg",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Western Aramaic",
+      "notes": "Werner Arnold's chapter, p. 689, table under 3.2.1, gives Maaloula ṯelka and Bakh'a ṯelka, versus Jubb'adin ṯelča, all meaning snow. Use ṯelka as a Maaloula reference, not Classical Syriac talgā. Latin scholarly transcription is the reliable attestation here; do not invent a Syriac spelling from pronunciation. A weak aggregator prints ܬܠܟܐ but is not sufficient to establish orthography. Shown at a representative Maaloula reference point; no village-area polygon or present population distribution is asserted.",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "talgā",
+          "label": "Earlier Aramaic"
+        },
+        {
+          "form": "ṯelka",
+          "label": "Maaloula Western Neo-Aramaic"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Werner Arnold, Western Neo-Aramaic, The Semitic Languages, pp. 685–696, esp. p. 689 (2011/2012)",
+          "url": "https://doi.org/10.1515/9783110251586.685"
+        },
+        {
+          "title": "Full handbook PDF used to inspect Arnold's p. 689 table",
+          "url": "https://joverfelt.net/wp-content/uploads/2021/09/the-semitic-languages-an-international-handbook-handbucc88cher-zur-sprach-und-kommunikationswissenschaft-by-stefan-weninger-geoffrey-khan-michael-p.-streck-janet-c.-e.-watson-.pdf"
+        }
+      ],
+      "group": "semitic",
+      "mapPoint": true
+    },
+    {
+      "id": "aii",
+      "name": "Assyrian Neo-Aramaic",
+      "word": "ܬܲܠܓܵܐ",
+      "romanization": "talgā",
+      "root": "semitic-thalg",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Northeastern Neo-Aramaic",
+      "notes": "Selected Assyrian Neo-Aramaic reference form. The native spelling and talgā are explicitly printed in the modern Assyrian lemma; standard and Nineveh Plains readings have g, Urmian can have j. Sureth Online gives the same spelling but labels its entry Classical Syriac and phonetically telga:, so that record alone must not be represented as a uniform modern dialect reading. Scholarly modern NENA example tálga = snow appears in Geoffrey Khan's 2021 chapter, p. 163. This is a reference form for a dialect continuum, not a claim that every Assyrian village pronounces it identically. Shown at a published reference point in the traditional northern Mesopotamian area. No exclusive modern Assyrian boundary is inferred from the source atlas’s ambiguous Classical Syriac aggregate.",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "talgā",
+          "label": "Earlier Aramaic"
+        },
+        {
+          "form": "ܬܲܠܓܵܐ",
+          "label": "Assyrian Neo-Aramaic reference"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Geoffrey Khan, Verbal Forms Expressing Discourse Dependency in North-Eastern Neo-Aramaic, p. 163 (2021)",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0209.04.pdf"
+        },
+        {
+          "title": "Sureth Online Dictionary, snow (Oraham / Bailis Shamun; entry marked Classical Syriac)",
+          "url": "https://www.assyrianlanguages.org/sureth/dosearch.php?language=id&searchkey=15578"
+        },
+        {
+          "title": "Wiktionary: ܬܠܓܐ, Assyrian Neo-Aramaic reference orthography, reading and etymology",
+          "url": "https://en.wiktionary.org/wiki/%DC%AC%DC%A0%DC%93%DC%90#Assyrian_Neo-Aramaic"
+        },
+        {
+          "title": "Cambridge North-Eastern Neo-Aramaic Database: dialect region and language varieties",
+          "url": "https://nena.ames.cam.ac.uk/"
+        },
+        {
+          "title": "Glottolog: Assyrian Neo-Aramaic reference location",
+          "url": "https://glottolog.org/resource/languoid/id/assy1241"
+        }
+      ],
+      "group": "semitic",
+      "mapRomanization": "talgā",
+      "mapPoint": true
+    },
+    {
+      "id": "tru",
+      "name": "Turoyo / Surayt",
+      "word": "ܬܰܠܓܐ",
+      "romanization": "talgo",
+      "root": "semitic-thalg",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Central Neo-Aramaic",
+      "notes": "Primary Aramaic Online Project / Šlomo Surayt lesson 1.6 explicitly lists talgo, snow, ܬܰܠܓܐ. This is the modern Turoyo/Surayt form of Tur Abdin, not Classical Syriac vocalization. Barsky, Kalinin and Loesov (2018), p. 232, independently give Turoyo talgo (RW 510), with earlier Aramaic talgā/talga comparanda.",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "talgā",
+          "label": "Earlier Aramaic"
+        },
+        {
+          "form": "ܬܰܠܓܐ",
+          "label": "Turoyo / Surayt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Šlomo Surayt: An Introductory Course to Surayt-Aramaic (Turoyo), lesson 1.6 Vocabulary, Aramaic Online Project",
+          "url": "https://textbook.surayt.com/en/Level%20A/1.6?content-fragment-id=1743"
+        },
+        {
+          "title": "Barsky, Kalinin and Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p. 232",
+          "url": "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf"
+        }
+      ],
+      "group": "semitic",
+      "mapRomanization": "talgo"
+    },
+    {
+      "id": "myz",
+      "name": "Mandaic (Mandaean liturgical reference)",
+      "word": "ࡕࡋࡂࡀ",
+      "romanization": "talga",
+      "mapRomanization": "talga",
+      "root": "semitic-thalg",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Eastern Aramaic · Mandaic",
+      "group": "semitic",
+      "notes": "The Mandaic literary/liturgical form is talga, used for both snow and ice. Mandaean is a community designation; Mandaic is the language name. Modern Neo-Mandaic must be distinguished from the literary language. The label near Basra is a historical/liturgical community reference, not a claim about the language spoken by all residents today.",
+      "chain": [
+        {
+          "form": "*ṯalg-",
+          "label": "Proto-Semitic"
+        },
+        {
+          "form": "talgā",
+          "label": "Aramaic"
+        },
+        {
+          "form": "ࡕࡋࡂࡀ",
+          "label": "Mandaic"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qais Al-Saadi, Nhura: English–Mandaic / Mandaic–Mandaic Dictionary (2012), p.93; also p.204",
+          "url": "https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=94"
+        },
+        {
+          "title": "Comprehensive Aramaic Lexicon, tlg / tlgʾ",
+          "url": "https://cal.huc.edu/oneentry.php?cits=all&lemma=tlg+N"
+        },
+        {
+          "title": "Charles G. Häberl, The Neo-Mandaic Dialect of Khorramshahr (2009), pp.42,113",
+          "url": "https://scholarship.libraries.rutgers.edu/esploro/outputs/book/The-Neo-Mandaic-Dialect-of-Khorramshahr/991031550027404646"
+        },
+        {
+          "title": "Chiara Stornaiuolo, šèleg – snow, Semantics of Ancient Hebrew Database, §1 A.1,A.4",
+          "url": "https://sahd-online.com/words/sheleg/"
+        },
+        {
+          "title": "Encyclopaedia Iranica: Mandaean communities in southern Iraq and Iran; modern language distinctions",
+          "url": "https://www.iranicaonline.org/articles/mandaeans/mandaeans-iv-community-in-iran/"
+        }
+      ],
+      "mapPoint": true
+    },
+    {
+      "id": "gnc",
+      "name": "Indigenous Canarian (La Palma; disputed report)",
+      "word": "tener?",
+      "romanization": "",
+      "root": "unknown-canarian",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Indigenous Canarian",
+      "group": "uncertain",
+      "attestationStatus": "historical report, disputed gloss",
+      "notes": "Espinosa (1594), book I chapter1, fol.9v, says he was informed that the people of La Palma called Tenerife using tener ‘snow’ and fe ‘mountain’. Later Abreu Galindo instead assigns tener ‘mountain’ and ife ‘white’. Modern philological work rejects these snow/white component etymologies for lacking adequate linguistic support. If included to satisfy the user's request, show tener? and explain the uncertainty in the inspector, source notes, and README. Attribute to La Palma, not securely to every island. No reconstructed pronunciation or Tifinagh spelling should be invented. The question mark is essential: this is not a secure reconstruction. The small La Palma fill is an island reference to the reported language, not a mapped surviving speech community.",
+      "chain": [
+        {
+          "form": "tener",
+          "label": "Espinosa 1594: reported La Palma term, glossed snow"
+        },
+        {
+          "form": "tener?",
+          "label": "Historical gloss disputed by later philology; origin unresolved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alonso de Espinosa, Del origen y milagros de la Santa Imagen de Nuestra Señora de Candelaria (1594), book I chapter1, fol.9v",
+          "url": "https://archive.org/details/delorigenymilagr00espi"
+        },
+        {
+          "title": "Carmen Díaz Alayón and Francisco Javier Castillo, Estudio de la lista de voces prehispánicas de Juan Bautista Lorenzo Rodríguez, Almogaren 44–45 (2013–2014), pp.7–56, especially p.35",
+          "url": "https://www.almogaren.org/ic-digital/ICDigital_Almogaren_44-45_1_%282014%29.pdf"
+        },
+        {
+          "title": "Juan Álvarez Delgado, Miscelánea guanche (1941), printed pp.46–48",
+          "url": "https://hdiecan.org/wp-content/uploads/tainacan-items/5/6717/ALVAREZ-1941-Miscelanea-guanche.pdf#page=50"
+        },
+        {
+          "title": "Maximiano Trapero, Los Guanchismos, entry Tenerife / Tinefe / Tenerista (ULPGC)",
+          "url": "https://guanchismos.ulpgc.es/item/14417"
+        }
+      ]
     }
   ],
   "methodology": {
     "title": "Lexical and etymological method",
     "asOf": "2026-10-14",
-    "scope": "101 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
+    "scope": "106 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
     "comparison": "Colors encode etymological word sets using root, not national borders or general language families. Family and branch remain separate metadata. Membership in Indo-European does not make every word for snow a descendant of *sneygʷʰ-.",
     "chains": "Chains are schematic selections of attested or reconstructed stages, not complete sound histories, exact dates, or claims that all forms coexisted. Intermediate stages may be omitted. Asterisked forms are reconstructed and unattested. Arrows include derivation and, where stated, borrowing; they do not always mean direct inheritance.",
-    "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative. Avar, Dargwa, Lak and Lezgian are separate attested word sets without a claimed common deep ancestor. Circassian is shown as a local comparison without an invented proto-form. Luri and Bakhtiari membership in the Iranian snow set does not resolve direct inheritance versus Persian contact.",
+    "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative. Avar, Dargwa, Lak and Lezgian are separate attested word sets without a claimed common deep ancestor. Circassian is shown as a local comparison without an invented proto-form. Luri and Bakhtiari membership in the Iranian snow set does not resolve direct inheritance versus Persian contact. Canarian tener? is a disputed historical La Palma report, not a reconstruction; ? marks this uncertainty. Western Neo-Aramaic uses an attested scholarly Latin transcription rather than an unverified native-script spelling. Mandaic is explicitly a literary/liturgical reference.",
     "standards": "Some ISO entries are macrolanguages or combined mapping units. A citation form may belong to one variety; notes state material variation. Orthography and romanization are reading aids, not a substitute for IPA. Arabic, Hebrew, Georgian, Armenian and Cyrillic scripts are retained. On the poster, parentheses under non-Latin words give a single romanized reading aid; these are transliterations, not IPA or English phonetic respellings. Scholarly Latin letters and diacritics (for example ə, ɛ, ḥ and ž) are retained where used by the checked source. Arabic th and Hebrew sh are reader-friendly equivalents of scholarly ṯ and š. Dargwa follows the checked Gippert / TITUS table; Lak follows ALA-LC; Avar ghazu is the source dictionary’s plain-keyboard spelling. The mixed Serbo-Croatian label retains both snijeg and sneg rather than implying one uniform pronunciation.",
     "sources": "Lexical entries are primarily cross-checked against Wiktionary lemma and reconstruction pages, which in turn cite dictionaries and etymological reference works. These are accessible secondary lexical sources, not independent fieldwork or a peer-reviewed atlas. Kabyle uses an online Dallet dictionary transcription. Every entry links its lexical source; root descriptions link supporting reconstruction sources. Ambiguous or missing etymologies are not filled by visual similarity. Spanish nieve was additionally checked directly in the RAE dictionary, Catalan neu in the IEC Catalan-Valencian-Balearic dictionary, and Basque elur in an Euskaltzaindia dictionary PDF.",
     "license": "Original explanatory prose and data organization; brief lexical facts and forms compiled with attribution to linked sources. Wiktionary is licensed CC BY-SA 4.0; consult each page for revision history and third-party references."
