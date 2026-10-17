@@ -3100,7 +3100,7 @@
           "label": "Northern Kurdish"
         }
       ],
-      "notes": "The atlas uses Northern Kurdish (Kurmanji); Kurdish varieties are not identical.",
+      "notes": "The atlas uses Northern Kurdish (Kurmanji); Kurdish varieties are not identical. The broad mapped atlas area combines Kurdish varieties; this Northern Kurdish form is a selected reference, with Central Kurdish befr separately labelled.",
       "sources": [
         {
           "title": "Wiktionary: berf (Northern Kurdish)",
@@ -4813,7 +4813,7 @@
   "methodology": {
     "title": "Lexical and etymological method",
     "asOf": "2026-10-14",
-    "scope": "99 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
+    "scope": "101 selected language entries for Europe and its surrounding regions. Each entry gives a representative noun meaning snow; the selection is not an exhaustive inventory of every dialect, snow condition or synonym.",
     "comparison": "Colors encode etymological word sets using root, not national borders or general language families. Family and branch remain separate metadata. Membership in Indo-European does not make every word for snow a descendant of *sneygʷʰ-.",
     "chains": "Chains are schematic selections of attested or reconstructed stages, not complete sound histories, exact dates, or claims that all forms coexisted. Intermediate stages may be omitted. Asterisked forms are reconstructed and unattested. Arrows include derivation and, where stated, borrowing; they do not always mean direct inheritance.",
     "uncertainty": "Reconstruction spelling varies by source. The Brythonic deeper origin, Ossetian deeper chain and exact Proto-Berber snow form are deliberately left unresolved. A modern word used as a root label marks a comparative set, not a newly invented proto-form. Faroese kavi is shown separately from poetic / archaic snjógvur, whose PIE snow etymology is retained as an alternative. Avar, Dargwa, Lak and Lezgian are separate attested word sets without a claimed common deep ancestor. Circassian is shown as a local comparison without an invented proto-form. Luri and Bakhtiari membership in the Iranian snow set does not resolve direct inheritance versus Persian contact.",

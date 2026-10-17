@@ -7,7 +7,7 @@
   const textMeasure=document.createElement('canvas').getContext('2d');
   function textWidth(text,size,weight=400,family='Georgia'){if(!textMeasure)return [...text].length*size*.57;textMeasure.font=`${weight} ${size}px ${family}`;return textMeasure.measureText(text).width;}
   function reading(l){return [...l.word].some(c=>/\p{L}/u.test(c)&&!/\p{Script=Latin}/u.test(c))?(l.mapRomanization||l.romanization||'').split(' · ')[0]:'';}
-  const aliases={turk1304:'tuk',komi1268:'kpv',nene1249:'yrk',avar1256:'ava',darg1241:'dar',lezg1247:'lez',lakk1252:'lbe',ingu1240:'inh',kaba1278:'kbd',adyg1241:'ady',kara1465:'krc',kumy1244:'kum',kalm1243:'xal',east2304:'bal',nort2645:'lrc',sout2647:'luz',bakh1245:'bqi'};
+  const aliases={kurd1259:'kmr',turk1304:'tuk',komi1268:'kpv',nene1249:'yrk',avar1256:'ava',darg1241:'dar',lezg1247:'lez',lakk1252:'lbe',ingu1240:'inh',kaba1278:'kbd',adyg1241:'ady',kara1465:'krc',kumy1244:'kum',kalm1243:'xal',east2304:'bal',nort2645:'lrc',sout2647:'luz',bakh1245:'bqi'};
   const anchors={
     eng:[-1.2,52.4],sco:[-2.8,56.4],deu:[10.4,51.2],nld:[5.2,52.1],fry:[5.5,53.25],ltz:[6.1,49.8],dan:[10,56.1],swe:[16,62],nor:[8,63],isl:[-19,65],fao:[-6.9,62.1],
     spa:[-3.7,39.2],por:[-8,39.4],glg:[-7.6,42.8],cat:[1.4,41.6],oci:[2.8,44.3],fra:[2.1,47.7],ita:[12.5,42.4],ron:[25,45.7],scn:[14.2,37.5],srd:[9,40.1],vec:[12.1,45.6],fur:[13.1,46.2],roh:[9.5,46.7],ast:[-5.8,43.3],arg:[-.1,42.6],

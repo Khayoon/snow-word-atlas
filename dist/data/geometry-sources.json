@@ -21,7 +21,9 @@
     "Clipped to [-25,26,68,72.5] longitude/latitude; repaired invalid geometries.",
     "Aggregated by source Glottocode and explicit lexical joins, retaining disjoint polygons.",
     "Simplified at 0.008 degrees with topology preserved within each area; coordinates rounded to four decimals.",
-    "Joined North Syrian Dialects (4453) and Central Syrian Dialects (1028) to the selected Syrian Arabic lexical reference, apc."
+    "Joined North Syrian Dialects (4453) and Central Syrian Dialects (1028) to the selected Syrian Arabic lexical reference, apc.",
+    "Joined the atlas Kurdish macrolanguage area kurd1259 (source 3004) to the Northern Kurdish lexical reference kmr; variety distinctions are retained in lexical notes, without inferring internal boundaries.",
+    "Added separate Northern Kurdish and Central Kurdish DiACL/TITUS traditional areas (source 98 and 99, reference year 1750), clipped to the poster window, simplified at 0.008 degrees, coordinates rounded to four decimals with validity repair. Original 2007 atlas features remain separate."
   ],
   "limitations": [
     "Speaker areas reflect an atlas published in 2007, not a current census, majority-language estimate or official boundary.",
@@ -31,10 +33,11 @@
     "Small enclaves present in the source are retained, subject to source resolution and display simplification.",
     "Country borders, if displayed elsewhere, are context and are not used to construct these language areas.",
     "Occitan, Catalan, Cornish, Crimean Tatar, North Sami and Veps include explicitly marked traditional-area supplements. They must not be interpreted as contemporary majority-speaker distributions.",
-    "Mesopotamian Arabic has a selected Iraqi cartographic reference fill and label, without a separately asserted speaker-area polygon."
+    "Mesopotamian Arabic has a selected Iraqi cartographic reference fill and label, without a separately asserted speaker-area polygon.",
+    "The Kurdish supplements are historical/traditional language areas with reference year 1750, not contemporary prevalence estimates or newly inferred ethnic boundaries."
   ],
-  "featureCount": 178,
-  "lexicalJoinCount": 87,
+  "featureCount": 180,
+  "lexicalJoinCount": 88,
   "supplements": [
     {
       "id": "glottography-carling2025diacl",
@@ -48,9 +51,11 @@
       "inputSha256": "ca973888a535ab42ed5f64cdc1a69b4887346a075fdc1e9e890bd4fb2dc7d316",
       "features": [
         "cat",
-        "oci",
+        "ckb",
         "cor",
-        "crh"
+        "crh",
+        "kmr",
+        "oci"
       ],
       "epoch": "Traditional linguistic area; reference year 1750. Source timeframes usually 1750-2000."
     },

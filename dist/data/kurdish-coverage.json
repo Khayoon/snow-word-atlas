@@ -1,0 +1,172 @@
+{
+  "source": "glottography-carling2025diacl",
+  "sourceUrl": "https://github.com/Glottography/carling2025diacl",
+  "sourceCommit": "7a8588553d69799de95efe1787a3fc87d03aa1f2",
+  "inputSha256": "ca973888a535ab42ed5f64cdc1a69b4887346a075fdc1e9e890bd4fb2dc7d316",
+  "featuresToAddToExistingCatalog": [
+    "kmr",
+    "ckb"
+  ],
+  "transformation": "Added separate Northern Kurdish and Central Kurdish DiACL/TITUS traditional areas (source 98 and 99, reference year 1750), clipped to the poster window, simplified at 0.008 degrees, coordinates rounded to four decimals with validity repair. Original 2007 atlas features remain separate.",
+  "limitation": "The Kurdish supplements are historical/traditional language areas with reference year 1750, not contemporary prevalence estimates or newly inferred ethnic boundaries.",
+  "evidence": [
+    {
+      "lexicalId": "kmr",
+      "sourceId": "carling:98",
+      "sourceName": "Kurdish (Kurmanji)",
+      "sourceEpoch": "1750",
+      "valid": true,
+      "bbox": [
+        38.8779,
+        36.0399,
+        46.0333,
+        40.1109
+      ],
+      "areaDegrees": 16.209554,
+      "pointCoverage": [
+        {
+          "place": "Diyarbakir",
+          "country": "Turkey",
+          "coordinate": [
+            40.2,
+            37.9
+          ],
+          "covered": true
+        },
+        {
+          "place": "Nusaybin",
+          "country": "Turkey",
+          "coordinate": [
+            41.22,
+            37.07
+          ],
+          "covered": true
+        },
+        {
+          "place": "Qamishli",
+          "country": "Syria",
+          "coordinate": [
+            41.23,
+            37.05
+          ],
+          "covered": true
+        },
+        {
+          "place": "Al-Malikiyah",
+          "country": "Syria",
+          "coordinate": [
+            42.14,
+            37.18
+          ],
+          "covered": true
+        },
+        {
+          "place": "Erbil",
+          "country": "Iraq",
+          "coordinate": [
+            44.01,
+            36.19
+          ],
+          "covered": true
+        },
+        {
+          "place": "Sulaymaniyah",
+          "country": "Iraq",
+          "coordinate": [
+            45.43,
+            35.56
+          ],
+          "covered": false
+        },
+        {
+          "place": "Sanandaj",
+          "country": "Iran",
+          "coordinate": [
+            47.0,
+            35.3
+          ],
+          "covered": false
+        }
+      ]
+    },
+    {
+      "lexicalId": "ckb",
+      "sourceId": "carling:99",
+      "sourceName": "Kurdish (Sorani)",
+      "sourceEpoch": "1750",
+      "valid": true,
+      "bbox": [
+        43.7076,
+        34.511,
+        48.7844,
+        37.2513
+      ],
+      "areaDegrees": 6.776951,
+      "pointCoverage": [
+        {
+          "place": "Diyarbakir",
+          "country": "Turkey",
+          "coordinate": [
+            40.2,
+            37.9
+          ],
+          "covered": false
+        },
+        {
+          "place": "Nusaybin",
+          "country": "Turkey",
+          "coordinate": [
+            41.22,
+            37.07
+          ],
+          "covered": false
+        },
+        {
+          "place": "Qamishli",
+          "country": "Syria",
+          "coordinate": [
+            41.23,
+            37.05
+          ],
+          "covered": false
+        },
+        {
+          "place": "Al-Malikiyah",
+          "country": "Syria",
+          "coordinate": [
+            42.14,
+            37.18
+          ],
+          "covered": false
+        },
+        {
+          "place": "Erbil",
+          "country": "Iraq",
+          "coordinate": [
+            44.01,
+            36.19
+          ],
+          "covered": false
+        },
+        {
+          "place": "Sulaymaniyah",
+          "country": "Iraq",
+          "coordinate": [
+            45.43,
+            35.56
+          ],
+          "covered": true
+        },
+        {
+          "place": "Sanandaj",
+          "country": "Iran",
+          "coordinate": [
+            47.0,
+            35.3
+          ],
+          "covered": true
+        }
+      ]
+    }
+  ]
+}
